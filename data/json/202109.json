@@ -1,0 +1,187 @@
+﻿[
+  {
+    "problem_number": 1,
+    "problem": "$\\sqrt[3]{2} \\times 2^{\\frac{2}{3}}$ 의 값은?",
+    "score": 2,
+    "answer": "2",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 2,
+    "problem": "$\\lim _{n \\rightarrow \\infty} \\frac{(2 n+1)^{2}-(2 n-1)^{2}}{2 n+5}$ 의 값은?",
+    "score": 2,
+    "answer": "4",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 3,
+    "problem": "두 사건 $A, B$ 에 대하여 $\\mathrm{P}(A)=\\frac{2}{5}, \\quad \\mathrm{P}(B)=\\frac{4}{5}, \\quad \\mathrm{P}(A \\cup B)=\\frac{9}{10}$일 때, $\\mathrm{P}(B \\mid A)$ 의 값은?",
+    "score": 2,
+    "answer": "$\frac{3}{4}$",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 4,
+    "problem": "$\\sum_{n=1}^{\\infty} \\frac{2}{n(n+2)}$ 의 값은?",
+    "score": 3,
+    "answer": "$\frac{3}{2}$",
+    "category": "미적분"
+  },
+  {
+    "problem_number": 5,
+    "problem": "연속확률변수 $X$ 가 갖는 값의 범위는 $0 \\leq X \\leq 8$ 이고, $X$ 의 확률밀도함수 $f(x)$ 의 그래프는 직선 $x=4$ 에 대하여 대칭이다. $3 \\mathrm{P}(2 \\leq X \\leq 4)=4 \\mathrm{P}(6 \\leq X \\leq 8)$일 때, $\\mathrm{P}(2 \\leq X \\leq 6)$ 의 값은?",
+    "score": 3,
+    "answer": "$\frac{4}{7}$",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 6,
+    "problem": "$\\int_{1}^{2}(x-1) e^{-x} d x$ 의 값은?",
+    "score": 3,
+    "answer": "$\frac{1}{e}-\frac{2}{e^{2}}$",
+    "category": "미적분"
+  },
+  {
+    "problem_number": 7,
+    "problem": "매개변수 $t(t>0)$ 으로 나타내어진 함수 $x=\\ln t+t, \\quad y=-t^{3}+3 t$에 대하여 $\\frac{d y}{d x}$ 가 $t=a$ 에서 최댓값을 가질 때, $a$ 의 값은?",
+    "score": 3,
+    "answer": "$\frac{1}{2}$",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 8,
+    "problem": "등비수열 $\\left\\{a_{n}\\right\\}$ 에 대하여 $\\lim _{n \\rightarrow \\infty} \\frac{3^{n}}{a_{n}+2^{n}}=6$ 일 때, $\\sum_{n=1}^{\\infty} \\frac{1}{a_{n}}$ 의 값은?",
+    "score": 3,
+    "answer": "3",
+    "category": "미적분"
+  },
+  {
+    "problem_number": 9,
+    "problem": "다섯 명이 둘러앉을 수 있는 원 모양의 탁자와 두 학생 $\\mathrm{A}, \\mathrm{B}$ 를 포함한 8 명의 학생이 있다. 이 8 명의 학생 중에서 $\\mathrm{A}, \\mathrm{B}$ 를 포함하여 5 명을 선택하고 이 5 명의 학생 모두를 일정한 간격으로 탁자에 둘러앉게 할 때, A 와 B 가 이웃하게 되는 경우의 수는? (단, 회전하여 일치하는 것은 같은 것으로 본다.)",
+    "score": 3,
+    "answer": "240",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 10,
+    "problem": "수열 $\\left\\{a_{n}\\right\\}$ 은 $a_{1}=12$ 이고, 모든 자연수 $n$ 에 대하여$a_{n+1}+a_{n}=(-1)^{n+1} \\times n$을 만족시킨다. $a_{k}>a_{1}$ 인 자연수 $k$ 의 최솟값은?",
+    "score": 3,
+    "answer": "8",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 11,
+    "problem": "1 보다 큰 세 실수 $a, b, c$ 가 $\\log _{a} b=\\frac{\\log _{b} c}{2}=\\frac{\\log _{c} a}{4}$를 만족시킬 때, $\\log _{a} b+\\log _{b} c+\\log _{c} a$ 의 값은?",
+    "score": 3,
+    "answer": "$\frac{7}{2}$",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 12,
+    "problem": "$\\overline{\\mathrm{AB}}=6, \\overline{\\mathrm{AC}}=10$ 인 삼각형 ABC 가 있다. 선분 AC 위에 점 D 를 $\\overline{\\mathrm{AB}}=\\overline{\\mathrm{AD}}$ 가 되도록 잡는다. $\\overline{\\mathrm{BD}}=\\sqrt{15}$ 일 때, 선분 BC 의 길이는?",
+    "score": 3,
+    "answer": "$\\sqrt{41}$",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 13,
+    "problem": "곡선 $y=2^{a x+b}$ 과 직선 $y=x$ 가 서로 다른 두 점 $\\mathrm{A}, \\mathrm{B}$ 에서 만날 때, 두 점 $\\mathrm{A}, \\mathrm{B}$ 에서 $x$ 축에 내린 수선의 발을 각각 $\\mathrm{C}, \\mathrm{D}$ 라 하자. $\\overline{\\mathrm{AB}}=6 \\sqrt{2}$ 이고 사각형 ACDB 의 넓이가 30 일 때, $a+b$ 의 값은? (단, $a, b$ 는 상수이다.)",
+    "score": 3,
+    "answer": "$\frac{2}{3}$",
+    "category": "미적분"
+  },
+  {
+    "problem_number": 15,
+    "problem": "열린구간 $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ 에서 정의된 함수 $f(x)=\\ln \\left(\\frac{\\sec x+\\tan x}{a}\\right)$의 역함수를 $g(x)$ 라 하자. $\\lim _{x \\rightarrow-2} \\frac{g(x)}{x+2}=b$ 일 때, 두 상수 $a, b$ 의 곱 $a b$ 의 값은? (단, $a>0$ )",
+    "score": 4,
+    "answer": "$e^{2}$",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 17,
+    "problem": "어느 고등학교에는 5 개의 과학 동아리와 2 개의 수학 동아리 $\\mathrm{A}, \\mathrm{B}$ 가 있다. 동아리 학술 발표회에서 이 7 개 동아리가 모두 발표하도록 발표 순서를 임의로 정할 때, 수학 동아리 A가 수학 동아리 B 보다 먼저 발표하는 순서로 정해지거나 두 수학 동아리의 발표 사이에는 2 개의 과학 동아리만이 발표하는 순서로 정해질 확률은? (단, 발표는 한 동아리씩 하고, 각 동아리는 1 회만 발표한다.)",
+    "score": 4,
+    "answer": "$\frac{25}{42}$",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 18,
+    "problem": "함수 $f(x)= \\begin{cases}0 & (x \\leq 0) \\\\ \\left\\{\\ln \\left(1+x^{4}\\right)\\right\\}^{10} & (x>0)\\end{cases}$에 대하여 실수 전체의 집합에서 정의된 함수 $g(x)$ 를 $g(x)=\\int_{0}^{x} f(t) f(1-t) d t$라 하자. <보기>에서 옳은 것만을 있는 대로 고른 것은? \\section*{<보 기>} ㄱ. $x \\leq 0$ 인 모든 실수 $x$ 에 대하여 $g(x)=0$ 이다. ㄴ. $g(1)=2 g\\left(\\frac{1}{2}\\right)$ ㄷ. $g(a) \\geq 1$ 인 실수 $a$ 가 존재한다.",
+    "score": 4,
+    "answer": "ᄀ, ᄂ",
+    "category": "미적분"
+  },
+  {
+    "problem_number": 19,
+    "problem": "집합 $X=\\{1,2,3,4\\}$ 의 공집합이 아닌 모든 부분집합 15 개 중에서 임의로 서로 다른 세 부분집합을 뽑아 임의로 일렬로 나열하고, 나열된 순서대로 $A, B, C$ 라 할 때, $A \\subset B \\subset C$ 일 확률은?",
+    "score": 4,
+    "answer": "$\frac{2}{91}$",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 20,
+    "problem": "함수 $f(x)=\\sin (\\pi \\sqrt{x})$ 에 대하여 함수 $g(x)=\\int_{0}^{x} t f(x-t) d t \\quad(x \\geq 0)$이 $x=a$ 에서 극대인 모든 $a$ 를 작은 수부터 크기순으로 나열할 때, $n$ 번째 수를 $a_{n}$ 이라 하자. $k^{2}<a_{6}<(k+1)^{2}$ 인 자연수 $k$ 의 값은? ",
+    "score": 4,
+    "answer": "11",
+    "category": "미적분"
+  },
+  {
+    "problem_number": 21,
+    "problem": "닫힌구간 $[-2 \\pi, 2 \\pi]$ 에서 정의된 두 함수 $f(x)=\\sin k x+2, \\quad g(x)=3 \\cos 12 x$에 대하여 다음 조건을 만족시키는 자연수 $k$ 의 개수는? $\\begin{aligned} & \\text { 실수 } a \\text { 가 두 곡선 } y=f(x), y=g(x) \\text { 의 교점의 } y \\text { 좌표이면 } \\\\ & \\quad\\{x \\mid f(x)=a\\} \\subset\\{x \\mid g(x)=a\\} \\\\ & \\text { 이다. } \\end{aligned}$",
+    "score": 4,
+    "answer": "4",
+    "category": "미적분"
+  },
+  {
+    "problem_number": 22,
+    "problem": "$\\left(x+\\frac{4}{x^{2}}\\right)^{6}$ 의 전개식에서 $x^{3}$ 의 계수를 구하시오.",
+    "score": 3,
+    "answer": "24",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 23,
+    "problem": "함수 $f(x)=x \\ln (2 x-1)$ 에 대하여 $f^{\\prime}(1)$ 의 값을 구하시오.",
+    "score": 3,
+    "answer": "2",
+    "category": "미적분"
+  },
+  {
+    "problem_number": 24,
+    "problem": "방정식 $\\log _{2} x=1+\\log _{4}(2 x-3)$을 만족시키는 모든 실수 $x$ 의 값의 곱을 구하시오. ",
+    "score": 3,
+    "answer": "12",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 25,
+    "problem": "$\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n} \\frac{2}{n}\\left(1+\\frac{2 k}{n}\\right)^{4}=a$ 일 때, $5 a$ 의 값을 구하시오. ",
+    "score": 3,
+    "answer": "242",
+    "category": "미적분"
+  },
+  {
+    "problem_number": 27,
+    "problem": "등비수열 $\\left\\{a_n\\right\\}$ 의 첫쪄항부터 제 $n$ 항까지의 합을 $S_n$ 이라 하자. 모든 자연수 $n$ 에 대하여 $S_{n+3}-S_n=13 \\times 3^{n-1}$일 때, $a_4$ 의 값을 구하시오.",
+    "score": 4,
+    "answer": "9",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 29,
+    "problem": "흰 공 4개와 검은 공 6개를 세 상자 A, B, C에 남김없이 나누어 넣을 때, 각 상자에 공이 2개 이상씩 들어가도록 나누어 넣는 경우의 수를 구하시오. (단, 같은 색 공끼리는 서로 구별하지 않는다.)",
+    "score": 4,
+    "answer": "168",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 30,
+    "problem": "다음 조건을 만족시키는 실수 $a, b$ 에 대하여 $a b$ 의 최댓값을 $M$, 최솟값을 $m$ 이라 하자. 모든 실수 $x$ 에 대하여 부등식 $-e^{-x+1} \\leq a x+b \\leq e^{x-2}$이 성립한다. $\\left|M \\times m^3\\right|=\\frac{q}{p}$ 일 때, $p+q$ 의 값을 구하시오. (단, $p$ 와 $q$ 는 서로소인 자연수이다.)",
+    "score": 4,
+    "answer": "43",
+    "category": "미적분"
+  }
+]
+
+
+

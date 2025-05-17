@@ -1,0 +1,184 @@
+[
+  {
+    "problem_number": 1,
+    "problem": "$\\sqrt[3]{2} \\times 2^{\\frac{2}{3}}$ 의 값은?",
+    "score": 2,
+    "answer": "$\frac{9}{4}$",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 2,
+    "problem": "함수 $f(x)=x^3-2 x-7$ 에 대하여 $f^{\\prime}(1)$ 의 값은?",
+    "score": 2,
+    "answer": "1",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 3,
+    "problem": "$\\cos ^2\\left(\\frac{\\pi}{6}\\right)+\\tan ^2\\left(\\frac{2 \\pi}{3}\\right)$ 의 값은?",
+    "score": 2,
+    "answer": "$\frac{9}{4}$",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 4,
+    "problem": "$\\lim _{x \\rightarrow-1} \\frac{x^2+9 x+8}{x+1}$ 의 값은?",
+    "score": 3,
+    "answer": "7",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 5,
+    "problem": "두 사건 $A, B$ 에 대하여 $\\mathrm{P}(A)=\\frac{2}{5}, \\quad \\mathrm{P}(B)=\\frac{4}{5}, \\quad \\mathrm{P}(A \\cup B)=\\frac{9}{10}$일 때, $\\mathrm{P}(B \\mid A)$ 의 값은?",
+    "score": 3,
+    "answer": "$\frac{3}{4}$",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 7,
+    "problem": "공차가 -3 인 등차수열 $\\left\\{a_n\\right\\}$ 에 대하여 $a_3 a_7=64, \\quad a_8>0$일 때, $a_2$ 의 값은?",
+    "score": 3,
+    "answer": "19",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 8,
+    "problem": "네 개의 수 $1,3,5,7$ 중에서 임의로 선택한 한 개의 수를 $a$ 라 하고, 네 개의 수 $4,6,8,10$ 중에서 임의로 선택한 한 개의 수를 $b$ 라 하자. $1<\frac{b}{a}<4$ 일 확률은?",
+    "score": 3,
+    "answer": "$\frac{9}{16}$",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 9,
+    "problem": "$\\overline{\\mathrm{AB}}=8$ 이고 $\\angle \\mathrm{A}=45^{\\circ}, \\angle \\mathrm{B}=15^{\\circ}$ 인 삼각형 ABC 에서 선분 BC 의 길이는?",
+    "score": 3,
+    "answer": "$\\frac{8 \\sqrt{6}}{3}$",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 10,
+    "problem": "함수 $f(x)= \\begin{cases}x^3+a x+b & (x<1) \\\\ b x+4 & (x \\geq 1)\\end{cases}$ 이 실수 전체의 집합에서 미분가능할 때, $a+b$ 의 값은? (단, $a, b$ 는 상수이다.)",
+    "score": 3,
+    "answer": "9",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 11,
+    "problem": "$n$ 이 자연수일 때, $x$ 에 대한 이차방정식 $\\left(n^2+6 n+5\\right) x^2-(n+5) x-1=0$의 두 근의 합을 $a_n$ 이라 하자. $\\sum_{k=1}^{10} \\frac{1}{a_k}$ 의 값은?",
+    "score": 3,
+    "answer": "65",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 13,
+    "problem": "수직선 위를 움직이는 점 P 의 시각 $t(t \\geq 0)$ 에서의 속도 $v(t)$ 가 $v(t)=t^2-a t \\quad(a>0)$이다. 점 P 가 시각 $t=0$ 일 때부터 움직이는 방향이 바풜 때까지 움직인 거리가 $\\frac{9}{2}$ 이다. 상수 $a$ 의 값은?",
+    "score": 3,
+    "answer": "3",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 14,
+    "problem": "다섯 명이 둘러앉을 수 있는 원 모양의 탁자와 두 학생 $\\mathrm{A}, \\mathrm{B}$ 를 포함한 8 명의 학생이 있다. 이 8 명의 학생 중에서 $\\mathrm{A}, \\mathrm{B}$ 를 포함하여 5 명을 선택하고 이 5 명의 학생 모두를 일정한 간격으로 탁자에 둘러앉게 할 때, A 와 B 가 이웃하게 되는 경우의 수는? (단, 회전하여 일치하는 것은 같은 것으로 본다.)",
+    "score": 4,
+    "answer": "240",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 15,
+    "problem": "곡선 $y=2^{a x+b}$ 과 직선 $y=x$ 가 서로 다른 두 점 $\\mathrm{A}, \\mathrm{B}$ 에서 만날 때, 두 점 $\\mathrm{A}, \\mathrm{B}$ 에서 $x$ 축에 내린 수선의 발을 각각 $\\mathrm{C}, \\mathrm{D}$ 라 하자. $\\overline{\\mathrm{AB}}=6 \\sqrt{2}$ 이고 사각형 ACDB 의 넓이가 30 일 때, $a+b$ 의 값은? (단, $a, b$ 는 상수이다.)",
+    "score": 4,
+    "answer": "$\frac{2}{3}$",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 17,
+    "problem": "$\\angle \\mathrm{A}=90^{\\circ}$ 이고 $\\overline{\\mathrm{AB}}=2 \\log _2 x, \\overline{\\mathrm{AC}}=\\log _4 \\frac{16}{x}$ 인 삼각형 ABC 의 넓이를 $S(x)$ 라 하자. $S(x)$ 가 $x=a$ 에서 최댓값 $M$ 을 가질 때, $a+M$ 의 값은? (단, $1<x<16$ )",
+    "score": 4,
+    "answer": "6",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 18,
+    "problem": "최고차항의 계수가 $a$ 인 이차함수 $f(x)$ 가 모든 실수 $x$ 에 대하여 $\\left|f^{\\prime}(x)\\right| \\leq 4 x^2+5$를 만족시킨다. 함수 $y=f(x)$ 의 그래프의 대칭축이 직선 $x=1$ 일 때, 실수 $a$ 의 최댓값은?",
+    "score": 4,
+    "answer": "2",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 19,
+    "problem": "1 부터 6 까지의 자연수가 하나씩 적혀 있는 6 장의 카드가 들어 있는 주머니가 있다. 이 주머니에서 임의로 두 장의 카드를 동시에 꺼내어 적혀 있는 수를 확인한 후 다시 넣는 시행을 두 번 반복한다. 첫 번째 시행에서 확인한 두 수 중 작은 수를 $a_1$, 큰 수를 $a_2$ 라 하고, 두 번째 시행에서 확인한 두 수 중 작은 수를 $b_1$, 큰 수를 $b_2$ 라 하자. 두 집합 $A, B$ 를 $A=\\left\\{x \\mid a_1 \\leq x \\leq a_2\\right\\}, \\quad B=\\left\\{x \\mid b_1 \\leq x \\leq b_2\\right\\}$라 할 때, $A \\cap B \\neq \\varnothing$ 일 확률은?",
+    "score": 4,
+    "answer": "$\frac{13}{15}$",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 20,
+    "problem": "실수 전체의 집합에서 연속인 두 함수 $f(x)$ 와 $g(x)$ 가 모든 실수 $x$ 에 대하여 다음 조건을 만족시킨다. (가) $f(x) \\geq g(x)$ (나) $f(x)+g(x)=x^2+3 x$ (다) $f(x) g(x)=\\left(x^2+1\\right)(3 x-1)$ 이 조건들을 만족하는 $\\int_0^2 f(x) d x$ 의 값은?",
+    "score": 4,
+    "answer": "$\frac{29}{6}$",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 21,
+    "problem": "수열 $\\left\\{a_n\\right\\}$ 은 모든 자연수 $n$ 에 대하여 $a_{n+2}= \\begin{cases}2 a_n+a_{n+1} & \\left(a_n \\leq a_{n+1}\\right) \\\\ a_n+a_{n+1} & \\left(a_n>a_{n+1}\\right)\\end{cases}$을 만족시킨다. $a_3=2, a_6=19$ 가 되도록 하는 모든 $a_1$ 의 값의 합은?",
+    "score": 4,
+    "answer": "$-\frac{1}{4}$",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 22,
+    "problem": "다항식 $(x+3)^8$ 의 전개식에서 $x^7$ 의 계수를 구하시오",
+    "score": 3,
+    "answer": "24",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 23,
+    "problem": " 함수 $f(x)$ 가 $f^{\\prime}(x)=-x^3+3, \\quad f(2)=10$을 만족시킬 때, $f(0)$ 의 값을 구하시오. ",
+    "score": 3,
+    "answer": "8",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 24,
+    "problem": "$\\log _5 40+\\log _5 \\frac{5}{8}$ 의 값을 구하시오.",
+    "score": 3,
+    "answer": "2",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 25,
+    "problem": "$\\overline{\\mathrm{AB}}=6, \\overline{\\mathrm{AC}}=10$ 인 삼각형 ABC 가 있다. 선분 AC 위에 점 D 를 $\\overline{\\mathrm{AB}}=\\overline{\\mathrm{AD}}$ 가 되도록 잡는다. $\\overline{\\mathrm{BD}}=\\sqrt{15}$ 일 때, 선분 BC 의 길이를 $k$ 라 하자. $k^2$ 의 값을 구하시오.",
+    "score": 3,
+    "answer": "41",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 26,
+    "problem": "방정식 $x^3-x^2-8 x+k=0$ 의 서로 다른 실근의 개수가 2 일 때, 양수 $k$ 의 값을 구하시오.",
+    "score": 4,
+    "answer": "12",
+    "category": "수학1"
+  },
+  {
+    "problem_number": 28,
+    "problem": "함수 $f(x)=-x^2-4 x+a$ 에 대하여 함수 $g(x)=\\int_0^x f(t) d t$가 닫힌구간 $[0,1]$ 에서 증가하도록 하는 실수 $a$ 의 최솟값을 구하시오",
+    "score": 4,
+    "answer": "5",
+    "category": "수학2"
+  },
+  {
+    "problem_number": 29,
+    "problem": "흰 공 4 개와 검은 공 6 개를 세 상자 $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ 에 남김없이 나누어 넣을 때, 각 상자에 공이 2 개 이상씩 들어가도록 나누어 넣는 경우의 수를 구하시오. (단, 같은 색 공끼리는 서로 구별하지 않는다.)",
+    "score": 4,
+    "answer": "168",
+    "category": "확률과 통계"
+  },
+  {
+    "problem_number": 30,
+    "problem": "삼차함수 $f(x)$ 가 다음 조건을 만족시킨다. $\\text { (가) } f(1)=f(3)=0$ (나) 집합 $\\left\\{x \\mid x \\geq 1\\right.$ 이고 $\\left.f^{\\prime}(x)=0\\right\\}$ 의 원소의 개수는 1 이다. 상수 $a$ 에 대하여 함수 $g(x)=|f(x) f(a-x)|$ 가 실수 전체의 집합에서 미분가능할 때, $\\frac{g(4 a)}{f(0) \\times f(4 a)}$ 의 값을 구하시오.",
+    "score": 4,
+    "answer": "105",
+    "category": "수학2"
+  }
+]
