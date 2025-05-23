@@ -1,199 +1,198 @@
 [
   {
     "problem_number": 1,
-    "problem": "$3^{0} \times 8^{\frac{2}{3}}$ ÀÇ °ªÀº?",
+    "problem": "$3^{0} \times 8^{\frac{2}{3}}$ ì˜ ê°’ì€?",
     "score": 2,
     "answer": "4",
-    "category": "¼öÇÐ1"
+    "category": "ìˆ˜í•™1"
   },
   {
     "problem_number": 2,
-    "problem": "Ã¹Â°Ç×ÀÌ $\\frac{1}{8}$ ÀÎ µîºñ¼ö¿­ $\\left\\{a_{n}\\right\\}$ ¿¡ ´ëÇÏ¿© $\\frac{a_{3}}{a_{2}}=2$ ÀÏ ¶§, $a_{5}$ ÀÇ °ªÀº?",
+    "problem": "ì²«ì§¸í•­ì´ $\\frac{1}{8}$ ì¸ ë“±ë¹„ìˆ˜ì—´ $\\left\\{a_{n}\\right\\}$ ì— ëŒ€í•˜ì—¬ $\\frac{a_{3}}{a_{2}}=2$ ì¼ ë•Œ, $a_{5}$ ì˜ ê°’ì€?",
     "score": 2,
     "answer": "2",
-    "category": "¼öÇÐ1"
+    "category": "ìˆ˜í•™1"
   },
   {
     "problem_number": 3,
-    "problem": "$\\lim _{x \\rightarrow 2} \\frac{x^{2}+2 x-8}{x-2}$ ÀÇ °ªÀº?",
+    "problem": "$\\lim _{x \\rightarrow 2} \\frac{x^{2}+2 x-8}{x-2}$ ì˜ ê°’ì€?",
     "score": 2,
     "answer": "6",
-    "category": "¼öÇÐ2"
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 4,
-    "problem": "ÇÔ¼ö $f(x)=4 \\cos x+3$ ÀÇ ÃÖ´ñ°ªÀº?",
+    "problem": "í•¨ìˆ˜ $f(x)=4 \\cos x+3$ ì˜ ìµœëŒ“ê°’ì€?",
     "score": 3,
     "answer": "7",
-    "category": "¼öÇÐ1"
+    "category": "ìˆ˜í•™1"
   },
   {
     "problem_number": 5,
-    "problem": "µÎ »ç°Ç $A$ ¿Í $B$ ´Â ¼­·Î µ¶¸³ÀÌ°í $\\mathrm{P}(A \\mid B)=\\mathrm{P}(B), \\quad \\mathrm{P}(A \\cap B)=\\frac{1}{9}$ÀÏ ¶§, $\\mathrm{P}(A)$ ÀÇ °ªÀº?",
+    "problem": "ë‘ ì‚¬ê±´ $A$ ì™€ $B$ ëŠ” ì„œë¡œ ë…ë¦½ì´ê³  $\\mathrm{P}(A \\mid B)=\\mathrm{P}(B), \\quad \\mathrm{P}(A \\cap B)=\\frac{1}{9}$ì¼ ë•Œ, $\\mathrm{P}(A)$ ì˜ ê°’ì€?",
     "score": 3,
     "answer": "$\frac{1}{3}$",
-    "category": "È®·ü°ú Åë°è",
+    "category": "í™•ë¥ ê³¼ í†µê³„"
   },
   {
     "problem_number": 6,
-    "problem": "ÇÔ¼ö $f(x)=x^{4}+3 x-2$ ¿¡ ´ëÇÏ¿© $f^{\\prime}(2)$ ÀÇ °ªÀº?",
+    "problem": "í•¨ìˆ˜ $f(x)=x^{4}+3 x-2$ ì— ëŒ€í•˜ì—¬ $f^{\\prime}(2)$ ì˜ ê°’ì€?",
     "score": 3,
     "answer": "35",
-    "category": "¼öÇÐ2",
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 7,
-    "problem": "ºÎµî½Ä $\\left(\\frac{1}{9}\\right)^{x}<3^{21-4 x}$ À» ¸¸Á·½ÃÅ°´Â ÀÚ¿¬¼ö $x$ ÀÇ °³¼ö´Â?",
+    "problem": "ë¶€ë“±ì‹ $\\left(\\frac{1}{9}\\right)^{x}<3^{21-4 x}$ ì„ ë§Œì¡±ì‹œí‚¤ëŠ” ìžì—°ìˆ˜ $x$ ì˜ ê°œìˆ˜ëŠ”?",
     "score": 3,
     "answer": "10",
-    "category": "¼öÇÐ1",
+    "category": "ìˆ˜í•™1"
   },
   {
     "problem_number": 8,
-    "problem": "ÇÑ °³ÀÇ ÁÖ»çÀ§¸¦ ¼¼ ¹ø ´øÁ®¼­ ³ª¿À´Â ´«ÀÇ ¼ö¸¦ Â÷·Ê·Î $a, b, c$ ¶ó ÇÒ ¶§, $a \times b \times c=4$ ÀÏ È®·üÀº?",
+    "problem": "í•œ ê°œì˜ ì£¼ì‚¬ìœ„ë¥¼ ì„¸ ë²ˆ ë˜ì ¸ì„œ ë‚˜ì˜¤ëŠ” ëˆˆì˜ ìˆ˜ë¥¼ ì°¨ë¡€ë¡œ $a, b, c$ ë¼ í•  ë•Œ, $a \times b \times c=4$ ì¼ í™•ë¥ ì€?",
     "score": 3,
     "answer": "$\frac{1}{36}$",
-    "category": "È®·ü°ú Åë°è",
+    "category": "í™•ë¥ ê³¼ í†µê³„"
   },
   {
     "problem_number": 9,
-    "problem": "°î¼± $y=x^{3}-3 x^{2}+2 x+2$ À§ÀÇ Á¡ $\\mathrm{A}(0,2)$ ¿¡¼­ÀÇ Á¢¼±°ú ¼öÁ÷ÀÌ°í Á¡ A ¸¦ Áö³ª´Â Á÷¼±ÀÇ $x$ ÀýÆíÀº?",
+    "problem": "ê³¡ì„  $y=x^{3}-3 x^{2}+2 x+2$ ìœ„ì˜ ì  $\\mathrm{A}(0,2)$ ì—ì„œì˜ ì ‘ì„ ê³¼ ìˆ˜ì§ì´ê³  ì  A ë¥¼ ì§€ë‚˜ëŠ” ì§ì„ ì˜ $x$ ì ˆíŽ¸ì€?",
     "score": 3,
     "answer": "4",
-    "category": "¼öÇÐ2",
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 10,
-    "problem": "µÎ ¼ö¿­ $\\left\\{a_{n}\\right\\},\\left\\{b_{n}\\right\\}$ ¿¡ ´ëÇÏ¿© $\\sum_{k=1}^{5} a_{k}=8, \\quad \\sum_{k=1}^{5} b_{k}=9$ÀÏ ¶§, $\\sum_{k=1}^{5}\\left(2 a_{k}-b_{k}+4\\right)$ ÀÇ °ªÀº?",
+    "problem": "ë‘ ìˆ˜ì—´ $\\left\\{a_{n}\\right\\},\\left\\{b_{n}\\right\\}$ ì— ëŒ€í•˜ì—¬ $\\sum_{k=1}^{5} a_{k}=8, \\quad \\sum_{k=1}^{5} b_{k}=9$ì¼ ë•Œ, $\\sum_{k=1}^{5}\\left(2 a_{k}-b_{k}+4\\right)$ ì˜ ê°’ì€?",
     "score": 3,
     "answer": "27",
-    "category": "¼öÇÐ1",
+    "category": "ìˆ˜í•™1"
   },
   {
     "problem_number": 11,
-    "problem": "Á¤±ÔºÐÆ÷ $\\mathrm{N}\\left(20,5^{2}\\right)$ À» µû¸£´Â ¸ðÁý´Ü¿¡¼­ Å©±â°¡ 16 ÀÎ Ç¥º»À» ÀÓÀÇÃßÃâÇÏ¿© ±¸ÇÑ Ç¥º»Æò±ÕÀ» $\\bar{X}$ ¶ó ÇÒ ¶§, $\\mathrm{E}(\\bar{X})+\\sigma(\\bar{X})$ ÀÇ °ªÀº?",
+    "problem": "ì •ê·œë¶„í¬ $\\mathrm{N}\\left(20,5^{2}\\right)$ ì„ ë”°ë¥´ëŠ” ëª¨ì§‘ë‹¨ì—ì„œ í¬ê¸°ê°€ 16 ì¸ í‘œë³¸ì„ ìž„ì˜ì¶”ì¶œí•˜ì—¬ êµ¬í•œ í‘œë³¸í‰ê· ì„ $\\bar{X}$ ë¼ í•  ë•Œ, $\\mathrm{E}(\\bar{X})+\\sigma(\\bar{X})$ ì˜ ê°’ì€?",
     "score": 3,
     "answer": "$\frac{85}{4}$",
-    "category": "È®·ü°ú Åë°è",
+    "category": "í™•ë¥ ê³¼ í†µê³„"
   },
   {
     "problem_number": 12,
-    "problem": "¼ö¿­ $\\left\\{a_{n}\\right\\}$ Àº $a_{1}=1$ ÀÌ°í, ¸ðµç ÀÚ¿¬¼ö $n$ ¿¡ ´ëÇÏ¿© $\\sum_{k=1}^{n}\\left(a_{k}-a_{k+1}\\right)=-n^{2}+n$À» ¸¸Á·½ÃÅ²´Ù. $a_{11}$ ÀÇ °ªÀº?",
+    "problem": "ìˆ˜ì—´ $\\left\\{a_{n}\\right\\}$ ì€ $a_{1}=1$ ì´ê³ , ëª¨ë“  ìžì—°ìˆ˜ $n$ ì— ëŒ€í•˜ì—¬ $\\sum_{k=1}^{n}\\left(a_{k}-a_{k+1}\\right)=-n^{2}+n$ì„ ë§Œì¡±ì‹œí‚¨ë‹¤. $a_{11}$ ì˜ ê°’ì€?",
     "score": 3,
     "answer": "91",
-    "category": "¼öÇÐ1",
+    "category": "ìˆ˜í•™1"
   },
   {
     "problem_number": 13,
-    "problem": "ÁýÇÕ $X=\\{1,2,3,4\\}$ ¿¡ ´ëÇÏ¿© ´ÙÀ½ Á¶°ÇÀ» ¸¸Á·½ÃÅ°´Â ÇÔ¼ö $f: X \\rightarrow X$ ÀÇ °³¼ö´Â? $f(2) \\leq f(3) \\leq f(4)$",
+    "problem": "ì§‘í•© $X=\\{1,2,3,4\\}$ ì— ëŒ€í•˜ì—¬ ë‹¤ìŒ ì¡°ê±´ì„ ë§Œì¡±ì‹œí‚¤ëŠ” í•¨ìˆ˜ $f: X \\rightarrow X$ ì˜ ê°œìˆ˜ëŠ”? $f(2) \\leq f(3) \\leq f(4)$",
     "score": 3,
     "answer": "80",
-    "category": "¼öÇÐ2",
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 14,
-    "problem": "¼öÁ÷¼± À§¸¦ ¿òÁ÷ÀÌ´Â Á¡ P ÀÇ ½Ã°¢ $t(t \\geq 0)$ ¿¡¼­ÀÇ ¼Óµµ $v(t)$ °¡ $v(t)=2 t-6$ÀÌ´Ù. Á¡ P °¡ ½Ã°¢ $t=3$ ¿¡¼­ $t=k(k>3)$ ±îÁö ¿òÁ÷ÀÎ °Å¸®°¡ 25 ÀÏ ¶§, »ó¼ö $k$ ÀÇ °ªÀº?",
+    "problem": "ìˆ˜ì§ì„  ìœ„ë¥¼ ì›€ì§ì´ëŠ” ì  P ì˜ ì‹œê° $t(t \\geq 0)$ ì—ì„œì˜ ì†ë„ $v(t)$ ê°€ $v(t)=2 t-6$ì´ë‹¤. ì  P ê°€ ì‹œê° $t=3$ ì—ì„œ $t=k(k>3)$ ê¹Œì§€ ì›€ì§ì¸ ê±°ë¦¬ê°€ 25 ì¼ ë•Œ, ìƒìˆ˜ $k$ ì˜ ê°’ì€?",
     "score": 4,
     "answer": "3",
-    "category": "¼öÇÐ2",
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 15,
-    "problem": "¼¼ ÇÐ»ý $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ ¸¦ Æ÷ÇÔÇÑ 6 ¸íÀÇ ÇÐ»ýÀÌ ÀÖ´Ù. ÀÌ 6 ¸íÀÇ ÇÐ»ýÀÌ ÀÏÁ¤ÇÑ °£°ÝÀ» µÎ°í ¿ø ¸ð¾çÀÇ Å¹ÀÚ¿¡ ´ÙÀ½ Á¶°ÇÀ» ¸¸Á·½ÃÅ°µµ·Ï ¸ðµÎ µÑ·¯¾É´Â °æ¿ìÀÇ ¼ö¸¦ ±¸ÇÏ½Ã¿À. (´Ü, È¸ÀüÇÏ¿© ÀÏÄ¡ÇÏ´Â °ÍÀº °°Àº °ÍÀ¸·Î º»´Ù.) (°¡) A ¿Í B ´Â ÀÌ¿ôÇÑ´Ù. (³ª) B ¿Í C ´Â ÀÌ¿ôÇÏÁö ¾Ê´Â´Ù.",
+    "problem": "ì„¸ í•™ìƒ $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}$ ë¥¼ í¬í•¨í•œ 6 ëª…ì˜ í•™ìƒì´ ìžˆë‹¤. ì´ 6 ëª…ì˜ í•™ìƒì´ ì¼ì •í•œ ê°„ê²©ì„ ë‘ê³  ì› ëª¨ì–‘ì˜ íƒìžì— ë‹¤ìŒ ì¡°ê±´ì„ ë§Œì¡±ì‹œí‚¤ë„ë¡ ëª¨ë‘ ë‘˜ëŸ¬ì•‰ëŠ” ê²½ìš°ì˜ ìˆ˜ë¥¼ êµ¬í•˜ì‹œì˜¤. (ë‹¨, íšŒì „í•˜ì—¬ ì¼ì¹˜í•˜ëŠ” ê²ƒì€ ê°™ì€ ê²ƒìœ¼ë¡œ ë³¸ë‹¤.) (ê°€) A ì™€ B ëŠ” ì´ì›ƒí•œë‹¤. (ë‚˜) B ì™€ C ëŠ” ì´ì›ƒí•˜ì§€ ì•ŠëŠ”ë‹¤.",
     "score": 4,
     "answer": "36",
-    "category": "È®·ü°ú Åë°è"
+    "category": "í™•ë¥ ê³¼ í†µê³„"
   },
   {
     "problem_number": 16,
-    "problem": "$0 \\leq x<4 \\pi$ ÀÏ ¶§, ¹æÁ¤½Ä $4 \\sin ^{2} x-4 \\cos \\left(\\frac{\\pi}{2}+x\\right)-3=0$ÀÇ ¸ðµç ÇØÀÇ ÇÕÀº?",
+    "problem": "$0 \\leq x<4 \\pi$ ì¼ ë•Œ, ë°©ì •ì‹ $4 \\sin ^{2} x-4 \\cos \\left(\\frac{\\pi}{2}+x\\right)-3=0$ì˜ ëª¨ë“  í•´ì˜ í•©ì€?",
     "score": 4,
     "answer": "$6 \\pi$",
-    "category": "¼öÇÐ1",
+    "category": "ìˆ˜í•™1"
   },
   {
     "problem_number": 17,
-    "problem": "µÎ ´ÙÇ×ÇÔ¼ö $f(x), g(x)$ °¡ $\\lim _{x \\rightarrow 0} \\frac{f(x)+g(x)}{x}=3, \\quad \\lim _{x \\rightarrow 0} \\frac{f(x)+3}{x g(x)}=2$¸¦ ¸¸Á·½ÃÅ²´Ù. ÇÔ¼ö $h(x)=f(x) g(x)$ ¿¡ ´ëÇÏ¿© $h^{\\prime}(0)$ ÀÇ °ªÀº?",
+    "problem": "ë‘ ë‹¤í•­í•¨ìˆ˜ $f(x), g(x)$ ê°€ $\\lim _{x \\rightarrow 0} \\frac{f(x)+g(x)}{x}=3, \\quad \\lim _{x \\rightarrow 0} \\frac{f(x)+3}{x g(x)}=2$ë¥¼ ë§Œì¡±ì‹œí‚¨ë‹¤. í•¨ìˆ˜ $h(x)=f(x) g(x)$ ì— ëŒ€í•˜ì—¬ $h^{\\prime}(0)$ ì˜ ê°’ì€?",
     "score": 4,
     "answer": "27",
-    "category": "¼öÇÐ2",
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 18,
-    "problem": "$\\frac{1}{4}<a<1$ ÀÎ ½Ç¼ö $a$ ¿¡ ´ëÇÏ¿© Á÷¼± $y=1$ ÀÌ µÎ °î¼± $y=\\log _{a} x, y=\\log _{4 a} x$ ¿Í ¸¸³ª´Â Á¡À» °¢°¢ $\\mathrm{A}, \\mathrm{B}$ ¶ó ÇÏ°í, Á÷¼± $y=-1$ ÀÌ µÎ °î¼± $y=\\log _{a} x, y=\\log _{4 a} x$ ¿Í ¸¸³ª´Â Á¡À» °¢°¢ $\\mathrm{C}, \\mathrm{D}$ ¶ó ÇÏÀÚ. <º¸±â>¿¡¼­ ¿ÇÀº °Í¸¸À» ÀÖ´Â ´ë·Î °í¸¥ °ÍÀº? ¡´º¸ ±â¡µ¤¡. ¼±ºÐ AB ¸¦ $1: 4$ ·Î ¿ÜºÐÇÏ´Â Á¡ÀÇ ÁÂÇ¥´Â $(0,1)$ ÀÌ´Ù. ¤¤. »ç°¢Çü ABCD °¡ Á÷»ç°¢ÇüÀÌ¸é $a=\\frac{1}{2}$ ÀÌ´Ù. ¤§. $\\overline{\\mathrm{AB}}<\\overline{\\mathrm{CD}}$ ÀÌ¸é $\\frac{1}{2}<a<1$ ÀÌ´Ù.",
+    "problem": "$\\frac{1}{4}<a<1$ ì¸ ì‹¤ìˆ˜ $a$ ì— ëŒ€í•˜ì—¬ ì§ì„  $y=1$ ì´ ë‘ ê³¡ì„  $y=\\log _{a} x, y=\\log _{4 a} x$ ì™€ ë§Œë‚˜ëŠ” ì ì„ ê°ê° $\\mathrm{A}, \\mathrm{B}$ ë¼ í•˜ê³ , ì§ì„  $y=-1$ ì´ ë‘ ê³¡ì„  $y=\\log _{a} x, y=\\log _{4 a} x$ ì™€ ë§Œë‚˜ëŠ” ì ì„ ê°ê° $\\mathrm{C}, \\mathrm{D}$ ë¼ í•˜ìž. <ë³´ê¸°>ì—ì„œ ì˜³ì€ ê²ƒë§Œì„ ìžˆëŠ” ëŒ€ë¡œ ê³ ë¥¸ ê²ƒì€? ã€ˆë³´ ê¸°ã€‰ã„±. ì„ ë¶„ AB ë¥¼ $1: 4$ ë¡œ ì™¸ë¶„í•˜ëŠ” ì ì˜ ì¢Œí‘œëŠ” $(0,1)$ ì´ë‹¤. ã„´. ì‚¬ê°í˜• ABCD ê°€ ì§ì‚¬ê°í˜•ì´ë©´ $a=\\frac{1}{2}$ ì´ë‹¤. ã„·. $\\overline{\\mathrm{AB}}<\\overline{\\mathrm{CD}}$ ì´ë©´ $\\frac{1}{2}<a<1$ ì´ë‹¤.",
     "score": 4,
-    "answer": "¤¡, ¤¤",
-    "category": "¼öÇÐ1",
+    "answer": "ã„±, ã„´",
+    "category": "ìˆ˜í•™1",
   },
   {
     "problem_number": 20,
-    "problem": "½Ç¼ö $a(a>1)$ ¿¡ ´ëÇÏ¿© ÇÔ¼ö $f(x)$ ¸¦ $f(x)=(x+1)(x-1)(x-a)$¶ó ÇÏÀÚ. ÇÔ¼ö $g(x)=x^{2} \\int_{0}^{x} f(t) d t-\\int_{0}^{x} t^{2} f(t) d t$°¡ ¿ÀÁ÷ ÇÏ³ªÀÇ ±Ø°ªÀ» °®µµ·Ï ÇÏ´Â $a$ ÀÇ ÃÖ´ñ°ªÀº?",
+    "problem": "ì‹¤ìˆ˜ $a(a>1)$ ì— ëŒ€í•˜ì—¬ í•¨ìˆ˜ $f(x)$ ë¥¼ $f(x)=(x+1)(x-1)(x-a)$ë¼ í•˜ìž. í•¨ìˆ˜ $g(x)=x^{2} \\int_{0}^{x} f(t) d t-\\int_{0}^{x} t^{2} f(t) d t$ê°€ ì˜¤ì§ í•˜ë‚˜ì˜ ê·¹ê°’ì„ ê°–ë„ë¡ í•˜ëŠ” $a$ ì˜ ìµœëŒ“ê°’ì€?",
     "score": 4,
     "answer": "$\\sqrt{6}$",
-    "category": "¼öÇÐ2",
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 21,
-    "problem": "¼ö¿­ $\\left\\{a_{n}\\right\\}$ Àº $0<a_{1}<1$ ÀÌ°í, ¸ðµç ÀÚ¿¬¼ö $n$ ¿¡ ´ëÇÏ¿© ´ÙÀ½ Á¶°ÇÀ» ¸¸Á·½ÃÅ²´Ù. $\\begin{aligned} & \\text { (°¡) } a_{2 n}=a_{2} \\times a_{n}+1 \\\\ & \\text { (³ª) } a_{2 n+1}=a_{2} \\times a_{n}-2 \\end{aligned}$ $a_{7}=2$ ÀÏ ¶§, $a_{25}$ ÀÇ °ªÀº?",
+    "problem": "ìˆ˜ì—´ $\\left\\{a_{n}\\right\\}$ ì€ $0<a_{1}<1$ ì´ê³ , ëª¨ë“  ìžì—°ìˆ˜ $n$ ì— ëŒ€í•˜ì—¬ ë‹¤ìŒ ì¡°ê±´ì„ ë§Œì¡±ì‹œí‚¨ë‹¤. $\\begin{aligned} & \\text { (ê°€) } a_{2 n}=a_{2} \\times a_{n}+1 \\\\ & \\text { (ë‚˜) } a_{2 n+1}=a_{2} \\times a_{n}-2 \\end{aligned}$ $a_{7}=2$ ì¼ ë•Œ, $a_{25}$ ì˜ ê°’ì€?",
     "score": 4,
     "answer": "82",
-    "category": "¼öÇÐ1",
+    "category": "ìˆ˜í•™1"
   },
   {
     "problem_number": 22,
-    "problem": "´ÙÇ×½Ä $(3 x+1)^{8}$ ÀÇ Àü°³½Ä¿¡¼­ $x$ ÀÇ °è¼ö¸¦ ±¸ÇÏ½Ã¿À.",
+    "problem": "ë‹¤í•­ì‹ $(3 x+1)^{8}$ ì˜ ì „ê°œì‹ì—ì„œ $x$ ì˜ ê³„ìˆ˜ë¥¼ êµ¬í•˜ì‹œì˜¤.",
     "score": 3,
     "answer": "24",
-    "category": "¼öÇÐ1",
+    "category": "ìˆ˜í•™1"
   },
   {
     "problem_number": 23,
-    "problem": "ÇÔ¼ö $f(x)$ ¿¡ ´ëÇÏ¿© $f^{\\prime}(x)=3 x^{2}+4 x+5$ ÀÌ°í $f(0)=4$ ÀÏ ¶§, $f(1)$ ÀÇ °ªÀ» ±¸ÇÏ½Ã¿À.",
+    "problem": "í•¨ìˆ˜ $f(x)$ ì— ëŒ€í•˜ì—¬ $f^{\\prime}(x)=3 x^{2}+4 x+5$ ì´ê³  $f(0)=4$ ì¼ ë•Œ, $f(1)$ ì˜ ê°’ì„ êµ¬í•˜ì‹œì˜¤.",
     "score": 3,
     "answer": "12",
-    "category": "¼öÇÐ2",
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 24,
-    "problem": "$\\log _{3} 72-\\log _{3} 8$ ÀÇ °ªÀ» ±¸ÇÏ½Ã¿À.",
+    "problem": "$\\log _{3} 72-\\log _{3} 8$ ì˜ ê°’ì„ êµ¬í•˜ì‹œì˜¤.",
     "score": 3,
     "answer": "2",
-    "category": "¼öÇÐ1",
+    "category": "ìˆ˜í•™1"
   },
   {
     "problem_number": 25,
-    "problem": "°î¼± $y=4 x^{3}-12 x+7$ °ú Á÷¼± $y=k$ °¡ ¸¸³ª´Â Á¡ÀÇ °³¼ö°¡ 2 °¡ µÇµµ·Ï ÇÏ´Â ¾ç¼ö $k$ ÀÇ °ªÀ» ±¸ÇÏ½Ã¿À.",
+    "problem": "ê³¡ì„  $y=4 x^{3}-12 x+7$ ê³¼ ì§ì„  $y=k$ ê°€ ë§Œë‚˜ëŠ” ì ì˜ ê°œìˆ˜ê°€ 2 ê°€ ë˜ë„ë¡ í•˜ëŠ” ì–‘ìˆ˜ $k$ ì˜ ê°’ì„ êµ¬í•˜ì‹œì˜¤.",
     "score": 3,
     "answer": "15",
-    "category": "¼öÇÐ2",
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 26,
-    "problem": "ÇÔ¼ö $f(x)= \\begin{cases}-3 x+a & (x \\leq 1) \\\\ \\frac{x+b}{\\sqrt{x+3}-2} & (x>1)\\end{cases}$ ÀÌ ½Ç¼ö ÀüÃ¼ÀÇ ÁýÇÕ¿¡¼­ ¿¬¼ÓÀÏ ¶§, $a+b$ ÀÇ °ªÀ» ±¸ÇÏ½Ã¿À. (´Ü, $a$ ¿Í $b$ ´Â »ó¼öÀÌ´Ù.)",
+    "problem": "í•¨ìˆ˜ $f(x)= \\begin{cases}-3 x+a & (x \\leq 1) \\\\ \\frac{x+b}{\\sqrt{x+3}-2} & (x>1)\\end{cases}$ ì´ ì‹¤ìˆ˜ ì „ì²´ì˜ ì§‘í•©ì—ì„œ ì—°ì†ì¼ ë•Œ, $a+b$ ì˜ ê°’ì„ êµ¬í•˜ì‹œì˜¤. (ë‹¨, $a$ ì™€ $b$ ëŠ” ìƒìˆ˜ì´ë‹¤.)",
     "score": 4,
     "answer": "6",
-    "category": "¼öÇÐ2",
-
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 27,
-    "problem": "°î¼± $y=x^2-7 x+10$ °ú Á÷¼± $y=-x+10$ À¸·Î µÑ·¯½ÎÀÎ ºÎºÐÀÇ ³ÐÀÌ¸¦ ±¸ÇÏ½Ã¿À.",
+    "problem": "ê³¡ì„  $y=x^2-7 x+10$ ê³¼ ì§ì„  $y=-x+10$ ìœ¼ë¡œ ë‘˜ëŸ¬ì‹¸ì¸ ë¶€ë¶„ì˜ ë„“ì´ë¥¼ êµ¬í•˜ì‹œì˜¤.",
     "score": 4,
     "answer": "36",
-    "category": "¼öÇÐ2",
+    "category": "ìˆ˜í•™2"
   },
   {
     "problem_number": 29,
-    "problem": "¼ýÀÚ $3,3,4,4,4$ °¡ ÇÏ³ª¾¿ ÀûÈù 5 °³ÀÇ °øÀÌ µé¾î ÀÖ´Â ÁÖ¸Ó´Ï°¡ ÀÖ´Ù. ÀÌ ÁÖ¸Ó´Ï¿Í ÇÑ °³ÀÇ ÁÖ»çÀ§¸¦ »ç¿ëÇÏ¿© ´ÙÀ½ ±ÔÄ¢¿¡ µû¶ó Á¡¼ö¸¦ ¾ò´Â ½ÃÇàÀ» ÇÑ´Ù. ÁÖ¸Ó´Ï¿¡¼­ ÀÓÀÇ·Î ÇÑ °³ÀÇ °øÀ» ²¨³»¾î ²¨³½ °ø¿¡ ÀûÈù ¼ö°¡ 3 ÀÌ¸é ÁÖ»çÀ§¸¦ 3 ¹ø ´øÁ®¼­ ³ª¿À´Â ¼¼ ´«ÀÇ ¼öÀÇ ÇÕÀ» Á¡¼ö·Î ÇÏ°í, ²¨³½ °ø¿¡ ÀûÈù ¼ö°¡ 4 ÀÌ¸é ÁÖ»çÀ§¸¦ 4 ¹ø ´øÁ®¼­ ³ª¿À´Â ³× ´«ÀÇ ¼öÀÇ ÇÕÀ» Á¡¼ö·Î ÇÑ´Ù. ÀÌ ½ÃÇàÀ» ÇÑ ¹ø ÇÏ¿© ¾òÀº Á¡¼ö°¡ 10 Á¡ÀÏ È®·üÀº $\frac{q}{p}$ ÀÌ´Ù. $p+q$ ÀÇ °ªÀ» ±¸ÇÏ½Ã¿À. (´Ü, $p$ ¿Í $q$ ´Â ¼­·Î¼ÒÀÎ ÀÚ¿¬¼öÀÌ´Ù.)",
+    "problem": "ìˆ«ìž $3,3,4,4,4$ ê°€ í•˜ë‚˜ì”© ì ížŒ 5 ê°œì˜ ê³µì´ ë“¤ì–´ ìžˆëŠ” ì£¼ë¨¸ë‹ˆê°€ ìžˆë‹¤. ì´ ì£¼ë¨¸ë‹ˆì™€ í•œ ê°œì˜ ì£¼ì‚¬ìœ„ë¥¼ ì‚¬ìš©í•˜ì—¬ ë‹¤ìŒ ê·œì¹™ì— ë”°ë¼ ì ìˆ˜ë¥¼ ì–»ëŠ” ì‹œí–‰ì„ í•œë‹¤. ì£¼ë¨¸ë‹ˆì—ì„œ ìž„ì˜ë¡œ í•œ ê°œì˜ ê³µì„ êº¼ë‚´ì–´ êº¼ë‚¸ ê³µì— ì ížŒ ìˆ˜ê°€ 3 ì´ë©´ ì£¼ì‚¬ìœ„ë¥¼ 3 ë²ˆ ë˜ì ¸ì„œ ë‚˜ì˜¤ëŠ” ì„¸ ëˆˆì˜ ìˆ˜ì˜ í•©ì„ ì ìˆ˜ë¡œ í•˜ê³ , êº¼ë‚¸ ê³µì— ì ížŒ ìˆ˜ê°€ 4 ì´ë©´ ì£¼ì‚¬ìœ„ë¥¼ 4 ë²ˆ ë˜ì ¸ì„œ ë‚˜ì˜¤ëŠ” ë„¤ ëˆˆì˜ ìˆ˜ì˜ í•©ì„ ì ìˆ˜ë¡œ í•œë‹¤. ì´ ì‹œí–‰ì„ í•œ ë²ˆ í•˜ì—¬ ì–»ì€ ì ìˆ˜ê°€ 10 ì ì¼ í™•ë¥ ì€ $\frac{q}{p}$ ì´ë‹¤. $p+q$ ì˜ ê°’ì„ êµ¬í•˜ì‹œì˜¤. (ë‹¨, $p$ ì™€ $q$ ëŠ” ì„œë¡œì†Œì¸ ìžì—°ìˆ˜ì´ë‹¤.)",
     "score": 4,
     "answer": "587",
-    "category": "È®·ü°ú Åë°è",
+    "category": "í™•ë¥ ê³¼ í†µê³„"
   },
   {
     "problem_number": 30,
-    "problem": "ÇÔ¼ö $f(x)$ ´Â ÃÖ°íÂ÷Ç×ÀÇ °è¼ö°¡ 1 ÀÎ »ïÂ÷ÇÔ¼öÀÌ°í, ÇÔ¼ö $g(x)$ ´Â ÀÏÂ÷ÇÔ¼öÀÌ´Ù. ÇÔ¼ö $h(x)$ ¸¦ $h(x)= \\begin{cases}|f(x)-g(x)| & (x<1) \\\\ f(x)+g(x) & (x \\geq 1)\\end{cases}$ÀÌ¶ó ÇÏÀÚ. ÇÔ¼ö $h(x)$ °¡ ½Ç¼ö ÀüÃ¼ÀÇ ÁýÇÕ¿¡¼­ ¹ÌºÐ°¡´ÉÇÏ°í, $h(0)=0, h(2)=5$ ÀÏ ¶§, $h(4)$ ÀÇ °ªÀ» ±¸ÇÏ½Ã¿À.",
+    "problem": "í•¨ìˆ˜ $f(x)$ ëŠ” ìµœê³ ì°¨í•­ì˜ ê³„ìˆ˜ê°€ 1 ì¸ ì‚¼ì°¨í•¨ìˆ˜ì´ê³ , í•¨ìˆ˜ $g(x)$ ëŠ” ì¼ì°¨í•¨ìˆ˜ì´ë‹¤. í•¨ìˆ˜ $h(x)$ ë¥¼ $h(x)= \\begin{cases}|f(x)-g(x)| & (x<1) \\\\ f(x)+g(x) & (x \\geq 1)\\end{cases}$ì´ë¼ í•˜ìž. í•¨ìˆ˜ $h(x)$ ê°€ ì‹¤ìˆ˜ ì „ì²´ì˜ ì§‘í•©ì—ì„œ ë¯¸ë¶„ê°€ëŠ¥í•˜ê³ , $h(0)=0, h(2)=5$ ì¼ ë•Œ, $h(4)$ ì˜ ê°’ì„ êµ¬í•˜ì‹œì˜¤.",
     "score": 4,
     "answer": "39",
-    "category": "¼öÇÐ2",
-  },
+    "category": "ìˆ˜í•™2"
+  }
 ]
