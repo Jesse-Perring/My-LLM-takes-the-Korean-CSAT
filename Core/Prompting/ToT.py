@@ -54,20 +54,23 @@ def run_tot(problem: dict, model_func: Callable, answer_sheet_template=ANSWER_SH
             break  # 더 이상 확장 불가
     # 가장 유망한 사고 흐름 선택 (여기서는 첫 번째, 추후 scoring/pruning 가능)
     best_path = frontier[0] if frontier else []
-    # 최종 풀이 요청
     solution_prompt = (
         f"Problem: {problem['problem']}\n"
         f"Best reasoning path: {best_path}\n"
         "Write a complete and detailed solution."
     )
-    solution = model_func(solution_prompt)  # .format() 없이 그대로 전달
-    # 답 추출 (간단히 마지막 줄이 Answer: ... 라고 가정)
+    solution = model_func(solution_prompt)
     answer = ""
     for line in solution.split('\n'):
-        if line.strip().lower().startswith("answer:"):
-            answer = line.strip().split(":", 1)[-1].strip()
+        line_strip = line.strip()
+        # 'Answer:' 또는 '정답:'으로 시작하는 줄에서 접두어 제거
+        if line_strip.lower().startswith("answer:"):
+            answer = line_strip[7:].strip()
             break
-    # 템플릿에 맞춰 출력
+        elif line_strip.startswith("정답:"):
+            answer = line_strip[4:].strip()
+            break
+    # 템플릿에 맞춰 출력 (answer에 접두어 없이)
     output = answer_sheet_template.format(
         problem_number=problem.get('problem_number', ''),
         solution=solution.strip(),
