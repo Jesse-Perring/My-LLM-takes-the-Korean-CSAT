@@ -41,7 +41,6 @@ DATA_FILENAME = "202511.json"
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../data/json'))
 JSON_PATH = os.path.join(DATA_DIR, DATA_FILENAME)
 
-# 답안지 템플릿 복구
 ANSWER_SHEET_TEMPLATE = (
     "Problem {problem_number}:\n"
     "Solution: {solution}\n"

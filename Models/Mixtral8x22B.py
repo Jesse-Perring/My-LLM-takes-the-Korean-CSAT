@@ -51,13 +51,3 @@ def call_model(prompt):
     except Exception as e:
         _log_error(f"Request failed: {e}")
         return "[API ERROR] Request failed"
-
-# 오류 원인: together 패키지가 설치되어 있지 않음
-
-# 해결 방법:
-# 터미널에서 아래 명령어로 together 패키지를 설치하세요.
-# (가상환경이 활성화된 상태에서 실행)
-# 
-# pip install together
-
-# 설치 후 다시 실행하면 ModuleNotFoundError: No module named 'together' 에러가 해결됩니다.
