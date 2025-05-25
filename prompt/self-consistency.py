@@ -12,7 +12,7 @@ def generate_solutions(problem, n=2):    # n을 5에서 2로 줄임 (API 호출 
         try:
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",  # 또는 "gpt-4o-mini", "gpt-4o" 사용 가능
-                temperature=0.7,
+                temperature=0.0,
                 messages=[
                     # CoT 적용(필수) - self-consistency는 CoT 위에서 작용하는 기법
                     # zero-shot을 적용함(few-shot 적용 시 정밀도 증가)
