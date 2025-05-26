@@ -1,17 +1,12 @@
 from typing import Callable, List, Dict, Any
 
-ANSWER_SHEET_TEMPLATE = (
-    "Problem {problem_number}:\n"
-    "Solution: {solution}\n"
-    "Answer: {answer}\n"
-)
-
 def generate_thoughts(problem: dict, path_so_far: List[str], model_func: Callable, B: int) -> List[str]:
     """
     현재까지의 사고 경로(path_so_far)를 바탕으로, 다음 단계의 B개 사고 후보를 LLM으로부터 생성
     """
     prompt = (
-        f"Problem: {problem['problem']}\n"
+        f"Problem Number: {problem.get('problem_number', '')}\n"
+        f"Problem: {problem.get('problem', '')}\n"
         f"Current reasoning path: {path_so_far}\n"
         f"Think of {B} possible next steps to solve this problem."
     )
@@ -25,7 +20,8 @@ def evaluate_thought(problem: dict, thought: str, model_func: Callable) -> bool:
     LLM을 이용해 해당 사고(thought)가 좋은 다음 단계인지 평가 (Yes/No)
     """
     prompt = (
-        f"Problem: {problem['problem']}\n"
+        f"Problem Number: {problem.get('problem_number', '')}\n"
+        f"Problem: {problem.get('problem', '')}\n"
         f"Thought: {thought}\n"
         "Is this a good next step? Answer Yes or No and explain briefly. Answer only with 'Yes' or 'No'.\n"
         "If you think this thought is relevant and useful for solving the problem, answer 'Yes'. Otherwise, answer 'No'."
@@ -34,10 +30,10 @@ def evaluate_thought(problem: dict, thought: str, model_func: Callable) -> bool:
     # 'Yes'가 포함되어 있으면 True, 아니면 False (간단한 파싱)
     return response.strip().lower().startswith('yes')
 
-def run_tot(problem: dict, model_func: Callable, answer_sheet_template=ANSWER_SHEET_TEMPLATE, B=3, D=3) -> str:
+def run_tot(problem: dict, model_func: Callable, B=3, D=3) -> str:
     """
-    ToT 방식으로 문제 해결 경로 탐색 → 최종 솔루션 반환
-    answer_sheet_template: 답안지 출력 포맷(str.format)
+    ToT 방식으로 문제 해결 경로 탐색 → 최종 풀이 및 정답만 반환 (템플릿 없이)
+    problem: 문제 정보를 담은 dict (예: {'problem': '문제 내용', ...})
     """
     # 초기 상태: 빈 사고 경로
     frontier = [ [] ]  # 각 원소는 사고 경로(list of thoughts)
@@ -54,26 +50,12 @@ def run_tot(problem: dict, model_func: Callable, answer_sheet_template=ANSWER_SH
             break  # 더 이상 확장 불가
     # 가장 유망한 사고 흐름 선택 (여기서는 첫 번째, 추후 scoring/pruning 가능)
     best_path = frontier[0] if frontier else []
+    # LLM에게 문제 번호와 문제 내용만 전달
     solution_prompt = (
-        f"Problem: {problem['problem']}\n"
-        f"Best reasoning path: {best_path}\n"
-        "Write a complete and detailed solution."
+        f"Problem Number: {problem.get('problem_number', '')}\n"
+        f"Problem: {problem.get('problem', '')}\n"
+        f"Reasoning path: {best_path}\n"
+        "Based on the above reasoning path, write a detailed and natural solution in English. On the last line, clearly state the final answer in the format 'Answer: ...'."
     )
     solution = model_func(solution_prompt)
-    answer = ""
-    for line in solution.split('\n'):
-        line_strip = line.strip()
-        # 'Answer:' 또는 '정답:'으로 시작하는 줄에서 접두어 제거
-        if line_strip.lower().startswith("answer:"):
-            answer = line_strip[7:].strip()
-            break
-        elif line_strip.startswith("정답:"):
-            answer = line_strip[4:].strip()
-            break
-    # 템플릿에 맞춰 출력 (answer에 접두어 없이)
-    output = answer_sheet_template.format(
-        problem_number=problem.get('problem_number', ''),
-        solution=solution.strip(),
-        answer=answer
-    )
-    return output
+    return solution.strip()

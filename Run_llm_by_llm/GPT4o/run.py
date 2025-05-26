@@ -26,67 +26,62 @@ import os
 # ActivePrompt     : 문제 관련 지식 능동 요구 ("어떤 개념이 필요?" 등)
 # ============================================================
 
-# ===== 모델 옵션 (아래 이름을 MODEL_NAME에 사용) =====
-# OpenAI      : GPT-4o
-# Anthropic   : Claude 3 Opus
-# Google      : Gemini 1.5 Pro
-# Mistral     : Mixtral 8x7B
-# Meta        : LLaMA 3 70B
+# ===== 모델 옵션 (아래 이름을 MODEL_NAME에 사용 띄어쓰기 금지**) =====
+# OpenAI      : GPT-4o          ---> GPT4o
+# Anthropic   : Claude 3 Opus   ---> Claude3Opus
+# Google      : Gemini 1.5 Pro  ---> Gemini1_5Pro
+# Mistral     : Mixtral 8x22B   ---> Mixtral8x22B
+# Meta        : LLaMA 3 70B     ---> LLaMA3_70B
 # ===================================================
 
-MODEL_NAME = "Mixtral8x22B"
-PROMPTING_METHOD = "ToT"
-DATA_FILENAME = "202511.json"
+MODEL_NAME = "GPT4o"
+PROMPTING_METHOD = "ZeroShot"
+DATA_FILENAME = "202511_en.json"
 
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../data/json'))
 JSON_PATH = os.path.join(DATA_DIR, DATA_FILENAME)
-
-ANSWER_SHEET_TEMPLATE = (
-    "Problem {problem_number}:\n"
-    "Solution: {solution}\n"
-    "Answer: {answer}\n"
-)
 
 def dynamic_import(module_path: str, func_name: str):
     module = importlib.import_module(module_path)
     return getattr(module, func_name)
 
 def main() -> None:
-    # 1. 데이터셋 로드
+    # 문제 리스트 로드
     problems = problem_loader.load_problems(JSON_PATH)
-    text_lines = []
-    results = []
 
-    # 2. 동적으로 모델 함수와 프롬프트 기법 함수 import
+    # per_problem_results: [(문제번호, 정오, 배점, 과목)]
+    # results: [{'is_correct': bool, 'score': int, 'category': str}]
+    # model_outputs: [str]
+    per_problem_results = []
+    results = []
+    model_outputs = []
+
+    # 모델 함수: call_model(prompt:str) -> str
     model_func = dynamic_import(f"Models.{MODEL_NAME}", "call_model")
+    # 프롬프트 기법 함수: run_tot(problem:dict, model_func:Callable, ...) -> str
     prompt_func = dynamic_import(f"Core.Prompting.{PROMPTING_METHOD}", f"run_{PROMPTING_METHOD.lower()}")
 
-    # 3. 문제별 처리 (한 문제만 테스트)
-    if problems:
-        problem = problems[0]  # 첫 번째 문제만 사용
-        answer_sheet = prompt_func(problem, model_func, ANSWER_SHEET_TEMPLATE)
-        answer_norm = scoring.extract_answer(answer_sheet)
-        is_correct = scoring.evaluate_answer(answer_norm, problem['answer'])
-        results.append({'is_correct': is_correct, 'score': problem['score']})
-        text_lines.append(
-            f"{answer_sheet}\n정답: {problem['answer']} | {'O' if is_correct else 'X'}\n"
-        )
+    for problem in problem_loader.crop_problems(problems):
+        # prompt_func: (problem:dict, model_func:Callable) -> str (풀이+정답)
+        # 의미: 문제와 모델을 받아 LLM이 실제로 답변을 생성하는  함수
+        model_output = prompt_func(problem, model_func)
 
-    # 4. 점수 통계
-    max_score = sum(p['score'] for p in problems[:1])  # 한 문제만
-    stats_tuple = scoring.calc_score_stats(results, max_score)
-    stats_text = result_writer.stats_tuple_to_text(stats_tuple)
-    text_lines.append("\n" + stats_text)
+        # 문제별 채점 결과를 누적
+        model_outputs.append(model_output)
 
-    # 결과 파일 저장
+        # LLM에게 다시 채점 요청
+        is_correct = scoring.judge_by_llm(model_func, problem, model_output)
+
+        # 문제별 채점 결과를 표준화된 구조로 누적
+        result_writer.append_result(results, per_problem_results, problem, is_correct)
+
+    # 모든 결과를 읽기 편한 텍스트 라인으로 변환
+    text_lines = result_writer.write_result_lines(per_problem_results, results, problems, model_outputs)
+    
+    # 결과 텍스트 파일 저장
     result_writer.save_results(
         text_lines, MODEL_NAME, PROMPTING_METHOD, DATA_FILENAME
     )
 
-    # 결과를 터미널에 출력
-    for line in text_lines:
-        print(line)
-
 if __name__ == "__main__":
     main()
-
