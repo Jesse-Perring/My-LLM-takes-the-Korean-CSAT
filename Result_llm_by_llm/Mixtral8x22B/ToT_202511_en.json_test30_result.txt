@@ -1,0 +1,39 @@
+[모델 답변]
+문제 30:
+To solve this problem, we follow the given reasoning path and break it down into detailed steps.
+
+1. **Finding the values of $a$ and $b$:**
+
+Given that $f(0) = 0$, we have $\sin(b) = 0$. This implies that $b = k\pi$ for some integer $k$. Since $1 \leq a \leq 2$, we can find the possible values of $a$ and $b$ by considering the given condition $f(2\pi) = 2\pi a + b$.
+
+- For $k = 0$, we have $b = 0$. Substituting $b = 0$ into $f(2\pi) = 2\pi a + b$, we get $f(2\pi) = 2\pi a$. Given that $1 \leq a \leq 2$, the only value of $a$ that satisfies this condition is $a = 1$.
+- For $k = 1$, we have $b = \pi$. Substituting $b = \pi$ into $f(2\pi) = 2\pi a + b$, we get $f(2\pi) = 2\pi a + \pi$. Given that $1 \leq a \leq 2$, the only value of $a$ that satisfies this condition is $a = \frac{3}{2}$.
+
+Therefore, we have two possible pairs of $(a, b)$: $(1, 0)$ and $\left(\frac{3}{2}, \pi\right)$.
+
+2. **Using the condition for $f'(0) = f'(t)$:**
+
+Given that the smallest positive $t$ such that $f'(0) = f'(t)$ is $4\pi$, we can infer that the period of $f'(x)$ is $4\pi$. Let's calculate the derivative of $f(x)$ to verify this condition:
+
+\[
+f'(x) = a\cos(ax + b + \sin x) + \cos(ax + b + \sin x)\cos x
+\]
+
+For $f'(0) = f'(4\pi)$, we have:
+
+\[
+a\cos(b) + \cos(b) = a\cos(4\
+
+문제번호	정오	배점	과목
+30	False	4	미적분
+
+[전체 통계]
+정답 개수: 0/1
+총점: 0 / 4
+정답률: 0.00%
+
+[과목별 통계]
+(미적분)
+정답 개수: 0/1
+총점: 0 / 4
+정답률: 0.00%
