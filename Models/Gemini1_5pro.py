@@ -42,7 +42,8 @@ def call_model(prompt: str) -> str:
             return "".join(part.text for part in parts)
         # dict 형태 응답을 받았을 때
         elif isinstance(response, dict) and "candidates" in response and response.candidates:
-            return "".join(part.text for part in parts)
+            parts = response["candidates"][0]["content"]["parts"]
+            return "".join(part["text"] for part in parts)
         else:
             _log_error(f"No result in response: {response}")
             return ""
