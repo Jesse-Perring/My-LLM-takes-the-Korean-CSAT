@@ -1,3 +1,7 @@
+import re
+from collections import Counter
+from typing import Callable, List, Dict, Any
+
 # n: API 호출 횟수 (Self-Consistency가 생성할 답변의 수)
 def self_consistency(problem: dict, model_func: Callable, n: int) -> List[str]:
     """
