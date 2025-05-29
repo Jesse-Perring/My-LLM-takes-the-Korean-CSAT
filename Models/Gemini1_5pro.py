@@ -19,8 +19,7 @@ def call_model(prompt: str) -> str:
     Gemini API를 호출하여 답변을 받아오는 함수.
     파라미터는 prompt(텍스트)만 받음.
     """
-    # api_key = os.environ.get("AIzaSyACzxAg04Vgu_R-W92KnXb0I7aNIu9_QfE")
-    api_key = "AIzaSyACzxAg04Vgu_R-W92KnXb0I7aNIu9_QfE"
+    api_key = os.environ.get("API_KEY")
     if not api_key:
         _log_error("API key not found in environment variables.")
         return "[API ERROR] No API key"
