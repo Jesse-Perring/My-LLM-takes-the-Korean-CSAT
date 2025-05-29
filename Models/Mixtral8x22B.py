@@ -34,10 +34,9 @@ def call_model(prompt):
                     "content": prompt
                 }
             ],
-            max_tokens=512,
+            max_tokens=1024,
             temperature=0.2,
             top_p=0.95,
-            stop=["</s>", "[/INST]"],
             n=1
         )
         # together SDK chat 응답 구조: choices[0].message.content
