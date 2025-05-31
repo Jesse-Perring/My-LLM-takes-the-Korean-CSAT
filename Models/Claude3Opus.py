@@ -1,6 +1,7 @@
 import anthropic
 
 API_KEY = os.environ.get("CLAUDE_API_KEY")  
+client = anthropic.Anthropic(api_key=API_KEY)
 
 def call_model(prompt: str) -> str:
     try:
