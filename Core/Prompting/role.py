@@ -1,3 +1,6 @@
+from typing import Callable
+
+
 def run_role(problem: dict, model_func: Callable[[str], str]) -> str:
     prompt = (
         f"Problem Number: {problem.get('problem_number', '')}\n"
