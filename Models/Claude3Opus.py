@@ -1,7 +1,6 @@
 import anthropic
 
-API_KEY = "YOUR-ANTHROPIC-API-KEY"  # Anthropic Claude API Key를 여기에 직접 입력
-client = anthropic.Anthropic(api_key=API_KEY)
+API_KEY = os.environ.get("CLAUDE_API_KEY")  
 
 def call_model(prompt: str) -> str:
     try:
