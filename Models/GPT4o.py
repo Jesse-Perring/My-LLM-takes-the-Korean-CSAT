@@ -6,7 +6,7 @@ import logging
 
 logging.basicConfig(level=logging.ERROR)
 
-# È¯°æ º¯¼ö¿¡¼­ API Å° °¡Á®¿À±â (.env¿¡ ÀúÀåµÈ °ª)
+# í™˜ê²½ ë³€ìˆ˜ì—ì„œ API í‚¤ ê°€ì ¸ì˜¤ê¸° (.envì— ì €ìž¥ëœ ê°’)
 api_key = os.getenv("API_KEY")
 if not api_key:
     logging.error("[OpenAI API] API key not found in environment variables.")
@@ -14,9 +14,9 @@ openai.api_key = api_key
 
 def call_model(prompt: str) -> str:
     """
-    GPT-4o API¸¦ È£ÃâÇÏ¿© ´äº¯À» ¹Þ¾Æ¿À´Â ÇÔ¼ö.
-    prompt: »ç¿ëÀÚÀÇ ÀÔ·Â ÇÁ·ÒÇÁÆ® ¹®ÀÚ¿­
-    return: ¸ðµ¨ÀÇ ÀÀ´ä ¹®ÀÚ¿­
+    GPT-4o APIë¥¼ í˜¸ì¶œí•˜ì—¬ ë‹µë³€ì„ ë°›ì•„ì˜¤ëŠ” í•¨ìˆ˜.
+    prompt: ì‚¬ìš©ìžì˜ ìž…ë ¥ í”„ë¡¬í”„íŠ¸ ë¬¸ìžì—´
+    return: ëª¨ë¸ì˜ ì‘ë‹µ ë¬¸ìžì—´
     """
     try:
         response = openai.ChatCompletion.create(
@@ -29,5 +29,5 @@ def call_model(prompt: str) -> str:
         )
         return response["choices"][0]["message"]["content"].strip()
     except Exception as e:
-        logging.error(f"[GPT-4o È£Ãâ ¿À·ù] {e}")
+        logging.error(f"[GPT-4o í˜¸ì¶œ ì˜¤ë¥˜] {e}")
         return "[API ERROR] Request failed"
