@@ -58,8 +58,7 @@ def generate_explanation(problem: str, solution: str, model_func: Callable) -> s
     해설 생성 (Prompt Chaining)
     - 최빈값이 포함된 풀이(선택된 풀이)에 대해 해설 생성
     """
-    with open("Core/Prompting/CoT.py", "r", encoding="utf-8") as f:
-        cot_prompt = f.read().strip()
+    cot_prompt = f"문제: {problem}\n아래의 풀이를 바탕으로 해설을 작성하세요:\n{solution}"
     
     response = model_func(cot_prompt)
     if response:
