@@ -1,11 +1,13 @@
 import os
 
-RESULT_BASE_DIR = os.path.join("Result_llm_by_llm")  # 상대경로로 통일
+# RESULT_BASE_DIR를 절대경로로 지정 (항상 프로젝트 루트의 Result_llm_by_llm에 저장)
+RESULT_BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../Result_llm_by_llm"))
 
 def get_result_path(model_name: str, prompting_method: str, data_filename: str) -> str:
     """
     모델명/프롬프팅기법별 폴더에 prompting_method_data_filename.txt 파일 경로 반환
     """
+    # dir_path는 RESULT_BASE_DIR(상대경로) + model_name
     dir_path = os.path.join(RESULT_BASE_DIR, model_name)
     os.makedirs(dir_path, exist_ok=True)
     filename = f"{prompting_method}_{data_filename}_result.txt"
@@ -99,3 +101,4 @@ def write_result_lines(per_problem_results, results, problems, model_outputs):
         text_lines.append(f"({category})")
         text_lines.append(cat_stats_text)
     return text_lines
+
