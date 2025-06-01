@@ -13,8 +13,7 @@ def self_consistency(problem: dict, model_func: Callable, n: int) -> List[str]:
     for i in range(n):
         # 각 호출마다 동일한 CoT 프롬프트로 풀이 요청
         # zero-shot
-        with open("Core/Prompting/CoT.py", "r", encoding="utf-8") as f:
-            cot_prompt = f.read().strip()
+        cot_prompt = "문제: {problem}\n풀이 과정을 자세히 작성해주세요."
         response = model_func(cot_prompt)
         if response:
             responses.append(response)
@@ -58,8 +57,7 @@ def generate_explanation(problem: str, solution: str, model_func: Callable) -> s
     해설 생성 (Prompt Chaining)
     - 최빈값이 포함된 풀이(선택된 풀이)에 대해 해설 생성
     """
-    with open("Core/Prompting/CoT.py", "r", encoding="utf-8") as f:
-        cot_prompt = f.read().strip()
+    cot_prompt = f"문제: {problem}\n아래의 풀이를 바탕으로 해설을 작성하세요:\n{solution}"
     
     response = model_func(cot_prompt)
     if response:
@@ -69,7 +67,7 @@ def generate_explanation(problem: str, solution: str, model_func: Callable) -> s
         return solution  # 실패시 원래 풀이를 반환
 
 # n: API 호출 횟수 (Self-Consistency가 생성할 답변의 수)
-def run_selfconsistency(problem: Dict[str, Any], model_func: Callable, n: int) -> str:
+def run_selfconsistency(problem: Dict[str, Any], model_func: Callable) -> str:
     """
     Self-Consistency 방식으로 문제 해결
     - 여러 번 풀이를 생성하고, 최빈값(가장 많이 나온 정답)을 선택
@@ -80,18 +78,48 @@ def run_selfconsistency(problem: Dict[str, Any], model_func: Callable, n: int) -
     score = problem["score"]
     
     # Self-Consistency 적용: n번 풀이 생성
-    solutions = self_consistency(problem_text, model_func, n=n)  
+    solutions = self_consistency(problem_text, model_func, n=3)  
     if not solutions:
         print(f"{problem_number}번 문제 풀이 실패")
         return ""
     
     # 각 풀이에서 정답만 추출
-    answers = [extract_answer(sol) for sol in solutions]
+    #answers = [extract_answer(sol) for sol in solutions]
     # 가장 많이 등장한 정답(최빈값) 선택
-    most_common_answer = Counter(answers).most_common(1)[0][0]
+    answers = []
+    print("\n---------- extract_answer 결과 ----------") # 구분선 추가
+    for i, sol in enumerate(solutions):  # solutions의 각 solution에 대해 반복
+        extracted_value = extract_answer(sol)  # extract_answer 함수 호출
+        print(f"Solution {i+1} -> 추출된 값: '{extracted_value}'")  # 각 결과를 출력
+        answers.append(extracted_value)  # 결과를 answers 리스트에 추가
+    print("------------------------------------")
     
+    # answers 리스트 최종 내용 확인 (디버깅용으로 추가하면 좋음)
+    print(f"\n최종 answers 리스트: {answers}")
+
+    #most_common_answer = Counter(answers).most_common(1)[0][0]
+    if not answers:
+        most_common_answer = "추출된 답변 없음"
+        print("Warning: answers 리스트가 비어 있어 most_common_answer를 설정할 수 없습니다.")
+    else:
+        answer_counts = Counter(answers)
+        if not answer_counts:
+            most_common_answer = "유효한 답변 카운트 없음"
+        else:
+            common_answers = answer_counts.most_common(1)
+            if common_answers:
+                most_common_answer = common_answers[0][0]
+            else:
+                most_common_answer = "최빈값 찾기 실패"
+
     # 최빈값이 포함된 첫 번째 풀이 선택 (관련성 높은 풀이)
-    selected_solution = next((sol for sol in solutions if most_common_answer in sol), solutions[0])
+    selected_solution = solutions[0]
+    for sol in solutions:
+      if extract_answer(sol) == most_common_answer:
+          true_selected_solution = sol
+          break # most_common_answer와 일치하는 첫 번째 풀이를 찾으면 중단
+
+    #selected_solution = next((sol for sol in solutions if most_common_answer in sol), solutions[0])
     
     # 선택된 풀이로 해설 생성
     explanation = generate_explanation(problem_text, selected_solution, model_func)
@@ -102,4 +130,6 @@ def run_selfconsistency(problem: Dict[str, Any], model_func: Callable, n: int) -
         f"Solution:\n{explanation.strip()}\n"
         f"Answer: {most_common_answer}\n"
     )
+    print(result)
+
     return result
