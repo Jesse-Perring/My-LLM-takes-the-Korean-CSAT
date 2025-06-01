@@ -41,6 +41,7 @@ DATA_FILENAME = "202511_en.json"
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../data/json'))
 JSON_PATH = os.path.join(DATA_DIR, DATA_FILENAME)
 
+
 def dynamic_import(module_path: str, func_name: str):
     module = importlib.import_module(module_path)
     return getattr(module, func_name)
