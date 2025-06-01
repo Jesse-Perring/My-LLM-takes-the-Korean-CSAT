@@ -1,0 +1,1199 @@
+[모델 답변]
+문제 1:
+Okay, let's approach this step-by-step:
+
+1) First, let's simplify $25^{\frac{1}{3}}$. We can do this by using the property of exponents: $(a^b)^c = a^{bc}$. Here, $a=25$, $b=1$, and $c=\frac{1}{3}$.
+
+   $25^{\frac{1}{3}} = (5^2)^{\frac{1}{3}} = 5^{2 \times \frac{1}{3}} = 5^{\frac{2}{3}}$
+
+2) Now, our problem has been simplified to: $\sqrt[3]{5} \times 5^{\frac{2}{3}}$
+
+3) We can further simplify this using another property of exponents: $a^b \times a^c = a^{b+c}$. Here, $a=5$, $b=\frac{1}{3}$, and $c=\frac{2}{3}$.
+
+   $\sqrt[3]{5} \times 5^{\frac{2}{3}} = 5^{\frac{1}{3}} \times 5^{\frac{2}{3}} = 5^{\frac{1}{3}+\frac{2}{3}} = 5^{\frac{3}{3}} = 5^1 = 5$
+
+Therefore, the value of $\sqrt[3]{5} \times 25^{\frac{1}{3}}$ is 5.
+
+문제 2:
+Okay, let's approach this step by step:
+
+1) The given function is $f(x)=x^3-8x+7$.
+
+2) We are asked to find the value of $\lim_{h \rightarrow 0} \frac{f(2+h)-f(2)}{h}$. This is actually the definition of the derivative of $f(x)$ at $x=2$. So, we can rewrite this as $f'(2)$.
+
+3) To find $f'(2)$, we can use the power rule, constant multiple rule, and sum rule for derivatives:
+
+   $f(x) = x^3-8x+7$
+   
+   $f'(x) = 3x^2-8$
+
+4) Now, we can evaluate $f'(2)$:
+
+   $f'(2) = 3(2)^2-8 = 3(4)-8 = 12-8 = 4$
+
+5) Therefore, $\lim_{h \rightarrow 0} \frac{f(2+h)-f(2)}{h} = f'(2) = 4$.
+
+문제 3:
+Okay, let's approach this step by step:
+
+1) In a geometric sequence, each term is a constant multiple of the previous term. This constant is called the common ratio. If we denote the first term as $a$ and the common ratio as $r$, then the sequence can be written as:
+
+   $a, ar, ar^2, ar^3, ...$
+
+2) In this problem, we are told that both the first term and the common ratio are equal to a positive number $k$. So, the sequence is:
+
+   $k, k^2, k^3, k^4, ...$
+
+3) Now, let's substitute these terms into the given equation:
+
+   $\frac{a_4}{a_2} + \frac{a_2}{a_1} = 30$
+   
+   $\frac{k^4}{k^2} + \frac{k^2}{k} = 30$
+
+4) Simplify:
+
+   $k^2 + k = 30$
+
+5) Subtract 30 from both sides:
+
+   $k^2 + k - 30 = 0$
+
+6) This is a quadratic equation. We can solve it using the quadratic formula:
+
+   $k = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+
+   where $a = 1$, $b = 1$, and $c = -30$.
+
+7) Substituting:
+
+   $k = \frac{-1 \pm \sqrt{1^2 - 4(1)(-30)}}{2(1)}$
+      = $\frac{-1 \pm \sqrt{121}}{2}$
+      = $\frac{-1 \pm 11}{2}$
+
+8) This gives us two possible values for $k$:
+
+   $k = \frac{-1 + 11}{2} = 5$ or $k = \frac{-1 - 11}{2} = -6$
+
+9) However, we are told that $k$ is a positive number. Therefore, $k = 5$.
+
+Therefore, the value of $k$ is 5.
+
+문제 4:
+Okay, let's approach this step by step:
+
+1) For a function to be continuous at a point, the function must exist at that point, and the limit of the function as we approach the point from both sides must be equal to the function value at that point.
+
+2) In this case, we want $f(x)$ to be continuous for all real numbers. The only point where we might have a problem is at $x=-2$, because this is where the definition of the function changes.
+
+3) For $f(x)$ to be continuous at $x=-2$, we need the limit of $f(x)$ as $x$ approaches -2 from the left to be equal to the limit of $f(x)$ as $x$ approaches -2 from the right, and this value must be equal to $f(-2)$.
+
+4) Let's find these three values:
+
+   - Limit from the left: $\lim_{x \to -2^-} f(x) = \lim_{x \to -2^-} (5x+a) = -10+a$
+   
+   - Limit from the right: $\lim_{x \to -2^+} f(x) = \lim_{x \to -2^+} (x^2-a) = 4-a$
+   
+   - Value at $x=-2$: $f(-2) = (-2)^2-a = 4-a$
+
+5) For continuity, we need these three values to be equal:
+
+   $-10+a = 4-a = f(-2)$
+
+6) Solving this equation:
+
+   $-10+a = 4-a$
+   
+   $2a = 14$
+   
+   $a = 7$
+
+Therefore, for $f(x)$ to be continuous for all real numbers, the value of the constant $a$ must be 7.
+
+문제 5:
+Okay, let's approach this step by step:
+
+1) First, let's find the derivative of $f(x)$ using the product rule. The product rule states that $(uv)' = u'v + uv'$.
+
+2) In this case, let $u = x^2 + 1$ and $v = 3x^2 - x$.
+
+3) Now, let's find $u'$ and $v'$:
+   
+   $u' = 2x$
+   
+   $v' = 6x - 1$
+
+4) Now, applying the product rule:
+
+   $f'(x) = (x^2 + 1)(6x - 1) + (2x)(3x^2 - x)$
+
+5) Simplify:
+
+   $f'(x) = 6x^3 - x^2 + 6x - 1 + 6x^3 - 2x^2$
+   
+   $f'(x) = 12x^3 - 3x^2 + 6x - 1$
+
+6) Now, we need to find $f'(1)$. This means we need to evaluate the derivative at $x = 1$:
+
+   $f'(1) = 12(1)^3 - 3(1)^2 + 6(1) - 1$
+   
+   $f'(1) = 12 - 3 + 6 - 1$
+   
+   $f'(1) = 14$
+
+Therefore, $f'(1) = 14$.
+
+문제 6:
+Okay, let's approach this step by step:
+
+1) First, let's recall the trigonometric identity for the cosine of a sum:
+
+   $\cos (A + B) = \cos A \cos B - \sin A \sin B$
+
+2) In this case, $A = \frac{\pi}{2}$ and $B = \theta$. We know that $\cos \frac{\pi}{2} = 0$ and $\sin \frac{\pi}{2} = 1$. So:
+
+   $\cos \left(\frac{\pi}{2} + \theta\right) = \cos \frac{\pi}{2} \cos \theta - \sin \frac{\pi}{2} \sin \theta$
+   $= 0 \cdot \cos \theta - 1 \cdot \sin \theta$
+   $= -\sin \theta$
+
+3) We're given that $\cos \left(\frac{\pi}{2} + \theta\right) = -\frac{1}{5}$, so:
+
+   $-\sin \theta = -\frac{1}{5}$
+   $\sin \theta = \frac{1}{5}$
+
+4) Now, let's consider the expression we're asked to evaluate:
+
+   $\frac{\sin \theta}{1-\cos^2 \theta}$
+
+5) We know $\sin \theta = \frac{1}{5}$. For the denominator, let's use the Pythagorean identity:
+
+   $\sin^2 \theta + \cos^2 \theta = 1$
+   $\cos^2 \theta = 1 - \sin^2 \theta$
+
+6) We can calculate $\sin^2 \theta$:
+
+   $\sin^2 \theta = \left(\frac{1}{5}\right)^2 = \frac{1}{25}$
+
+7) So:
+
+   $\cos^2 \theta = 1 - \frac{1}{25} = \frac{24}{25}$
+
+8) Now we can evaluate the original expression:
+
+   $\frac{\sin \theta}{1-\cos^2 \theta} = \frac{\frac{1}{5}}{1-\frac{24}{25}} = \frac{\frac{1}{5}}{\frac{1}{25}} = 5$
+
+Therefore, the value of $\frac{\sin \theta}{1-\cos^2 \theta}$ is 5.
+
+문제 7:
+Let's approach this step-by-step:
+
+1) We are given that for all real $x$,
+
+   $\int_0^x f(t) dt = 3x^3 + 2x$
+
+2) This means that the function $3x^3 + 2x$ is an antiderivative of $f(x)$.
+
+3) By the Fundamental Theorem of Calculus, if $F(x)$ is an antiderivative of $f(x)$, then:
+
+   $f(x) = \frac{d}{dx}F(x)$
+
+4) In this case, $F(x) = 3x^3 + 2x$. So,
+
+   $f(x) = \frac{d}{dx}(3x^3 + 2x)$
+
+5) Differentiating:
+
+   $f(x) = 9x^2 + 2$
+
+6) The question asks for $f(1)$. Substituting $x = 1$:
+
+   $f(1) = 9(1)^2 + 2 = 9 + 2 = 11$
+
+Therefore, the value of $f(1)$ is 11.
+
+문제 8:
+Okay, let's approach this step by step:
+
+1) First, let's simplify $a$. 
+
+   $a = 2 \log \frac{1}{\sqrt{10}} + \log_2 20$
+
+2) Using the change of base formula, we can write $\log_2 20$ as:
+
+   $\log_2 20 = \frac{\log 20}{\log 2}$
+
+3) So, $a$ becomes:
+
+   $a = 2 \log \frac{1}{\sqrt{10}} + \frac{\log 20}{\log 2}$
+
+4) Now, $\frac{1}{\sqrt{10}} = 10^{-1/2}$. Therefore,
+
+   $\log \frac{1}{\sqrt{10}} = \log 10^{-1/2} = -\frac{1}{2}$
+
+5) Substituting this in $a$:
+
+   $a = 2(-\frac{1}{2}) + \frac{\log 20}{\log 2} = -1 + \frac{\log 20}{\log 2}$
+
+6) Now, $20 = 2^{2} \cdot 5$. Therefore, $\log 20 = \log (2^{2} \cdot 5) = 2 \log 2 + \log 5$
+
+7) Substituting this in $a$:
+
+   $a = -1 + \frac{2 \log 2 + \log 5}{\log 2} = -1 + 2 + \frac{\log 5}{\log 2} = 1 + \frac{\log 5}{\log 2}$
+
+8) Now, let's look at $b$. $b = \log 2$
+
+9) Therefore, $a \times b$ is:
+
+   $a \times b = (1 + \frac{\log 5}{\log 2}) \times \log 2 = \log 2 + \log 5 = \log 10$
+
+10) Since $\log 10 = 1$, the final answer is 1.
+
+Therefore, the value of $a \times b$ is 1.
+
+문제 9:
+Let's approach this step by step:
+
+1) First, let's calculate $\int_{-2}^0 f(x) dx$. 
+
+   $\int_{-2}^0 f(x) dx = \int_{-2}^0 (3x^2-16x-20) dx$
+                        = $[x^3-8x^2-20x]_{-2}^0$
+                        = $(0^3-8(0)^2-20(0)) - ((-2)^3-8(-2)^2-20(-2))$
+                        = $0 - (-8-32+40)$
+                        = $0 - 0$
+                        = $0$
+
+2) Now, let's set up the equation based on the given condition:
+
+   $\int_{-2}^a f(x) dx = \int_{-2}^0 f(x) dx$
+
+   From step 1, we know that $\int_{-2}^0 f(x) dx = 0$, so:
+
+   $\int_{-2}^a f(x) dx = 0$
+
+3) Let's solve this equation:
+
+   $\int_{-2}^a f(x) dx = \int_{-2}^a (3x^2-16x-20) dx$
+                        = $[x^3-8x^2-20x]_{-2}^a$
+                        = $(a^3-8a^2-20a) - ((-2)^3-8(-2)^2-20(-2))$
+                        = $a^3-8a^2-20a - (-8-32+40)$
+                        = $a^3-8a^2-20a - 0$
+                        = $a^3-8a^2-20a$
+
+   So, $a^3-8a^2-20a = 0$
+
+4) Factoring this equation:
+
+   $a(a^2-8a-20) = 0$
+   $a(a-10)(a+2) = 0$
+
+   The solutions are $a = 0$, $a = 10$, and $a = -2$.
+
+5) The question asks for the positive value of $a$, so the answer is $a = 10$.
+
+Therefore, the positive value of $a$ is 10.
+
+문제 10:
+Okay, let's approach this step by step:
+
+1) The function is in the form $f(x) = a \cos bx + 3$. We know that the cosine function has a maximum value of 1, which occurs when its argument is a multiple of $2\pi$.
+
+2) If the maximum value of $f(x)$ is 13 at $x = \frac{\pi}{3}$, then:
+
+   $13 = a \cos (b \cdot \frac{\pi}{3}) + 3$
+
+3) For this to be the maximum value, $\cos (b \cdot \frac{\pi}{3})$ must equal 1. This happens when:
+
+   $b \cdot \frac{\pi}{3} = 2\pi k$, where $k$ is an integer.
+
+4) Solving for $b$:
+
+   $b = 6k$
+
+   Since $b$ is a natural number, the smallest possible value for $b$ is 6 (when $k=1$).
+
+5) Substituting $b=6$ and the maximum value of 13 into the original equation:
+
+   $13 = a \cos (6 \cdot \frac{\pi}{3}) + 3$
+   $13 = a \cdot 1 + 3$
+   $a = 10$
+
+6) Therefore, the minimum value of $a+b$ for the pair of natural numbers $(a, b)$ is:
+
+   $a + b = 10 + 6 = 16$
+
+So, the answer is 16.
+
+문제 11:
+Let's approach this step by step:
+
+1) The position of the point is given by $x = t^3 - \frac{3}{2} t^2 - 6t$. To find the velocity, we need to differentiate this with respect to time:
+
+   $v = \frac{dx}{dt} = 3t^2 - 3t - 6$
+
+2) The acceleration is the rate of change of velocity with respect to time. So, we differentiate the velocity equation:
+
+   $a = \frac{dv}{dt} = 6t - 3$
+
+3) The direction of motion changes when the velocity is zero. So, let's find the time when the velocity is zero:
+
+   $3t^2 - 3t - 6 = 0$
+   
+   $(3t + 2)(t - 3) = 0$
+   
+   $t = -\frac{2}{3}$ or $t = 3$
+
+   Since $t \geq 0$, we discard the negative solution. So, the direction changes at $t = 3$.
+
+4) Now, let's find the acceleration at $t = 3$:
+
+   $a = 6t - 3 = 6(3) - 3 = 15$
+
+Therefore, the acceleration of point P at the time when its direction of motion changes after departure is 15.
+
+문제 12:
+Let's approach this step by step:
+
+1) We are given that $a_1 = 2$ and $b_1 = 2$. We also know that $\{b_n\}$ is an arithmetic sequence.
+
+2) Let's denote the common difference of the arithmetic sequence $\{b_n\}$ as $d$. Then, $b_2 = b_1 + d = 2 + d$.
+
+3) Now, let's look at the given condition:
+
+   $\sum_{k=1}^n \frac{a_k}{b_{k+1}} = \frac{1}{2} n^2$
+
+   For $n = 1$, this gives:
+
+   $\frac{a_1}{b_2} = \frac{1}{2}$
+
+   Substituting the values:
+
+   $\frac{2}{2+d} = \frac{1}{2}$
+
+   Solving this, we get $d = 2$.
+
+4) Now that we know $d = 2$, we can find the general term of $\{b_n\}$:
+
+   $b_n = b_1 + (n-1)d = 2 + 2(n-1) = 2n$
+
+5) Let's now find the general term of $\{a_n\}$. For $n = 2$, the given condition gives:
+
+   $\frac{a_1}{b_2} + \frac{a_2}{b_3} = 2$
+
+   Substituting the values:
+
+   $\frac{2}{4} + \frac{a_2}{6} = 2$
+
+   Solving this, we get $a_2 = 10$.
+
+6) Similarly, for $n = 3$, we get:
+
+   $\frac{2}{4} + \frac{10}{6} + \frac{a_3}{8} = \frac{9}{2}$
+
+   Solving this, we get $a_3 = 18$.
+
+7) Continuing this pattern, we can find that $a_4 = 26$ and $a_5 = 34$.
+
+8) Therefore, $\sum_{k=1}^5 a_k = 2 + 10 + 18 + 26 + 34 = 90$.
+
+Thus, the value of $\sum_{k=1}^5 a_k$ is 90.
+
+문제 13:
+Let's approach this step by step:
+
+1) Since $f(x)$ is a cubic function with leading coefficient 1, it can be written as $f(x) = x^3 + ax^2 + bx + c$.
+
+2) Given that $f(1) = f(2) = 0$, we can write:
+
+   $1 + a + b + c = 0$
+   $8 + 4a + 2b + c = 0$
+
+3) Subtracting the first equation from the second:
+
+   $7 + 3a + b = 0$
+
+4) We also know that $f'(0) = -7$. The derivative of $f(x)$ is $f'(x) = 3x^2 + 2ax + b$. So:
+
+   $f'(0) = b = -7$
+
+5) Substituting $b = -7$ into the equation from step 3:
+
+   $7 + 3a - 7 = 0$
+   $3a = 0$
+   $a = 0$
+
+6) Substituting $a = 0$ and $b = -7$ into the equation from step 2:
+
+   $1 + 0 - 7 + c = 0$
+   $c = 6$
+
+7) Therefore, $f(x) = x^3 - 7x + 6$.
+
+8) Now, let's find the coordinates of Q. The line OP has equation $y = f(3)x/3$. Substituting $f(3) = 3^3 - 7*3 + 6 = 12$, we get $y = 4x$.
+
+9) To find Q, we solve $f(x) = 4x$:
+
+   $x^3 - 7x + 6 = 4x$
+   $x^3 - 11x + 6 = 0$
+
+   This is a cubic equation. One solution is obviously $x = 1$ (since we know $f(1) = 0$). Factoring out $(x - 1)$, we get:
+
+   $(x - 1)(x^2 + x - 6) = 0$
+
+   Solving the quadratic, we get $x = 2$ or $x = -3$. Since we know $f(2) = 0$, the point Q must be $(2, 8)$.
+
+10) Area A is the area under the curve $f(x)$ from $x = 0$ to $x = 2$. This can be found by integrating:
+
+    $A = \int_0^2 (x^3 - 7x + 6) dx = [\frac{1}{4}x^4 - \frac{7}{2}x^2 + 6x]_0^2 = 4 - 14 + 12 - 0 = 2$
+
+11) Area B is the area of the triangle PQO. The base of this triangle is $PQ = 3 - 2 = 1$, and its height is $f(3) = 12$. So:
+
+    $B = \frac{1}{2} * 1 * 12 = 6$
+
+12) Therefore, $B - A = 6 - 2 = 4$.
+
+문제 14:
+Let's approach this step by step:
+
+1) First, let's find the ratio of $\overline{AD}$ to $\overline{AC}$. We know that $\overline{AD}:\overline{DB}=3:2$, so $\overline{AD}=\frac{3}{5}\overline{AB}$.
+
+2) Now, let's find the ratio of $\overline{AE}$ to $\overline{AC}$. We know that the ratio of the areas of triangles ADE and ABC is $9:35$. Since these triangles share the same height (the perpendicular from A to BC), their areas are proportional to their bases. So, $\overline{AE}=\frac{9}{35}\overline{AC}$.
+
+3) Next, let's use the given ratio of sines. $\sin A: \sin C=8:5$ implies that $\frac{\overline{BC}}{\overline{AB}}=\frac{8}{5}$ (from the sine law).
+
+4) Now, let's consider the circumcircle of triangle ABC. If its radius is 7, then $\overline{AB}=\overline{AC}=14\sin\frac{A}{2}$ (from the formula for the length of a chord).
+
+5) For any point P on circle O, triangle PBC will have the maximum area when P is the farthest from BC, i.e., when P is diametrically opposite to D on circle O. In this case, $\overline{AP}=2\overline{AD}=\frac{6}{5}\overline{AB}$.
+
+6) The area of triangle PBC will be $\frac{1}{2}\overline{PB}\cdot\overline{PC}\sin B$. We can find $\overline{PB}$ and $\overline{PC}$ using the Pythagorean theorem:
+
+   $\overline{PB}^2=\overline{AB}^2+\overline{AP}^2-2\overline{AB}\cdot\overline{AP}\cos A$
+   $\overline{PC}^2=\overline{AC}^2+\overline{AP}^2-2\overline{AC}\cdot\overline{AP}\cos A$
+
+7) We can find $\cos A$ from the given ratio of sines: $\cos A=\sqrt{1-\sin^2 A}=\sqrt{1-\left(\frac{8}{\sqrt{89}}\right)^2}=\frac{5}{\sqrt{89}}$.
+
+8) Substituting all known values:
+
+   $\overline{PB}^2=(14\sin\frac{A}{2})^2+(\frac{6}{5}\cdot14\sin\frac{A}{2})^2-2\cdot14\sin\frac{A}{2}\cdot\frac{6}{5}\cdot14\sin\frac{A}{2}\cdot\frac{5}{\sqrt{89}}$
+   $\overline{PC}^2=(14\sin\frac{A}{2})^2+(\frac{6}{5}\cdot14\sin\frac{A}{2})^2-2\cdot14\sin\frac{A}{2}\cdot\frac{6}{5}\cdot14\sin\frac{A}{2}\cdot\frac{5}{\sqrt{89}}$
+
+9) The maximum area of triangle PBC is:
+
+   $\frac{1}{2}\sqrt{\overline{PB}^2}\cdot\sqrt{\overline{PC}^2}\cdot\frac{5}{8}$
+
+   (where $\sin B=\frac{5}{8}$ from the given ratio of sines)
+
+10) This can be calculated by substituting the value of $\sin\frac{A}{2}$, which can be found from the given information, but the exact numerical calculation is beyond the scope of this problem.
+
+문제 15:
+Let's approach this step by step:
+
+1) For $g(x)$ to be differentiable at $x=0$, the left-hand derivative must equal the right-hand derivative at this point.
+
+   $\lim_{x \to 0^-} g'(x) = \lim_{x \to 0^-} (3x^2 + 2ax + 15) = 15$
+
+   $\lim_{x \to 0^+} g'(x) = \lim_{x \to 0^+} f'(x) = f'(0) = 15$
+
+   Therefore, $f'(0) = 15$.
+
+2) Now, let's consider the equation $g'(x) \times g'(x-4) = 0$. This equation has 4 distinct real roots if and only if both $g'(x) = 0$ and $g'(x-4) = 0$ have 2 distinct real roots each.
+
+3) For $x \leq 0$, $g'(x) = 3x^2 + 2ax + 15$. This has 2 distinct real roots if and only if its discriminant is positive, i.e., $(2a)^2 - 4(3)(15) > 0$, which simplifies to $a^2 > 45$.
+
+4) For $x > 0$, $g'(x) = f'(x)$. Since $f(x)$ has a negative leading coefficient, $f'(x)$ is a linear function with a negative slope. For $f'(x) = 0$ to have 2 distinct real roots, one root must be at $x=0$ (which we already know from step 1), and the other root must be at $x=4$ (because $g'(x-4) = 0$ must also have 2 distinct real roots).
+
+   Therefore, $f'(x) = -3(x-2)$, and thus $f(x) = -\frac{3}{2}x^2 + 6x + c$ for some constant $c$.
+
+5) To find $c$, we use the fact that $g(x)$ is continuous at $x=0$:
+
+   $\lim_{x \to 0^-} g(x) = \lim_{x \to 0^-} (x^3 + ax^2 + 15x + 7) = 7$
+
+   $\lim_{x \to 0^+} g(x) = \lim_{x \to 0^+} f(x) = c$
+
+   Therefore, $c = 7$, and $f(x) = -\frac{3}{2}x^2 + 6x + 7$.
+
+6) Finally, we can calculate $g(-2) + g(2)$:
+
+   $g(-2) = (-2)^3 + a(-2)^2 + 15(-2) + 7 = -8 + 4a - 30 + 7 = 4a - 31$
+
+   $g(2) = f(2) = -\frac{3}{2}(2)^2 + 6(2) + 7 = -6 + 12 + 7 = 13$
+
+   Therefore, $g(-2) + g(2) = (4a - 31) + 13 = 4a - 18$.
+
+So, the value of $g(-2) + g(2)$ is $4a - 18$, where $a$ is a constant satisfying $a^2 > 45$ and $a \neq 3\sqrt{5}$.
+
+문제 16:
+Okay, let's approach this step by step:
+
+1) First, let's use the change of base formula for logarithms. This formula states that:
+
+   $\log_a(x) = \frac{\log_b(x)}{\log_b(a)}$
+
+   Here, we'll use base 2 for both sides of the equation. So, the right side of the equation becomes:
+
+   $\log_4(3x-5) = \frac{\log_2(3x-5)}{\log_2(4)}$
+
+2) We know that $\log_2(4) = 2$, because $2^2 = 4$. So, our equation now looks like:
+
+   $\log_2(x-3) = \frac{\log_2(3x-5)}{2}$
+
+3) Multiply both sides by 2:
+
+   $2\log_2(x-3) = \log_2(3x-5)$
+
+4) Now, we can use the logarithm property that states: $\log_a(x^n) = n\log_a(x)$. Applying this to the left side of our equation:
+
+   $\log_2(x-3)^2 = \log_2(3x-5)$
+
+5) This means that:
+
+   $(x-3)^2 = 3x-5$
+
+6) Expand the left side:
+
+   $x^2-6x+9 = 3x-5$
+
+7) Subtract 3x from both sides:
+
+   $x^2-9x+9 = -5$
+
+8) Add 5 to both sides:
+
+   $x^2-9x+14 = 0$
+
+9) This is a quadratic equation. We can solve it using the quadratic formula: $x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$
+
+   Here, $a=1$, $b=-9$, and $c=14$.
+
+10) Substituting these values:
+
+    $x = \frac{9 \pm \sqrt{(-9)^2-4(1)(14)}}{2(1)}$
+
+    $x = \frac{9 \pm \sqrt{81-56}}{2}$
+
+    $x = \frac{9 \pm \sqrt{25}}{2}$
+
+    $x = \frac{9 \pm 5}{2}$
+
+11) This gives us two solutions:
+
+    $x = \frac{9 + 5}{2} = \frac{14}{2} = 7$
+
+    $x = \frac{9 - 5}{2} = \frac{4}{2} = 2$
+
+Therefore, the real numbers that satisfy the equation are 7 and 2.
+
+문제 17:
+Okay, let's approach this step by step:
+
+1) We are given that $f'(x) = 9x^2 + 4x$. This means that $f(x)$ is the antiderivative of $9x^2 + 4x$.
+
+2) To find the antiderivative, we integrate $9x^2 + 4x$ with respect to $x$:
+
+   $\int (9x^2 + 4x) dx = 3x^3 + 2x^2 + C$
+
+   where $C$ is a constant of integration.
+
+3) So, $f(x) = 3x^3 + 2x^2 + C$
+
+4) We are also given that $f(1) = 6$. We can use this to find the value of $C$:
+
+   $f(1) = 3(1)^3 + 2(1)^2 + C = 6$
+   $3 + 2 + C = 6$
+   $C = 1$
+
+5) Therefore, $f(x) = 3x^3 + 2x^2 + 1$
+
+6) Now, we can find $f(2)$ by plugging in $x = 2$ into this function:
+
+   $f(2) = 3(2)^3 + 2(2)^2 + 1$
+   $= 3(8) + 2(4) + 1$
+   $= 24 + 8 + 1$
+   $= 33$
+
+Therefore, the value of $f(2)$ is 33.
+
+문제 18:
+Okay, let's approach this step by step:
+
+1) First, let's understand what the given condition means. For any natural number $n$, the sum of the $n$th term and the $(n+4)$th term is always 12.
+
+2) Now, let's write out the first 16 terms of the sequence, grouped in pairs that sum to 12:
+
+   $(a_1 + a_5) + (a_2 + a_6) + (a_3 + a_7) + (a_4 + a_8) + (a_9 + a_{13}) + (a_{10} + a_{14}) + (a_{11} + a_{15}) + (a_{12} + a_{16})$
+
+3) Each pair in parentheses sums to 12, and there are 8 pairs. So the sum of these 16 terms is:
+
+   $12 \times 8 = 96$
+
+4) But this is the same as $\sum_{n=1}^{16} a_n$, because we've just regrouped the terms of the sum.
+
+Therefore, $\sum_{n=1}^{16} a_n = 96$.
+
+문제 19:
+Okay, let's approach this step by step:
+
+1) To find the maximum value of a cubic function, we need to find the critical points by setting the derivative equal to zero.
+
+2) The derivative of $f(x)$ is:
+
+   $f'(x) = 6x^2 - 6ax - 12a^2$
+
+3) Set $f'(x) = 0$:
+
+   $6x^2 - 6ax - 12a^2 = 0$
+
+4) Divide by 6:
+
+   $x^2 - ax - 2a^2 = 0$
+
+5) This is a quadratic equation. We can solve it using the quadratic formula:
+
+   $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+
+   Here, $a = 1$, $b = -a$, and $c = -2a^2$
+
+6) Substituting these values:
+
+   $x = \frac{a \pm \sqrt{a^2 + 8a^2}}{2} = \frac{a \pm 3a}{2}$
+
+7) So the critical points are:
+
+   $x_1 = \frac{a + 3a}{2} = 2a$
+   $x_2 = \frac{a - 3a}{2} = -a$
+
+8) The maximum value will occur at one of these points. We're told that the maximum value is $\frac{7}{27}$, so:
+
+   $f(2a) = \frac{7}{27}$ or $f(-a) = \frac{7}{27}$
+
+9) Let's try $f(2a)$:
+
+   $f(2a) = 2(2a)^3 - 3a(2a)^2 - 12a^2(2a)$
+         = $16a^3 - 12a^3 - 24a^3$
+         = $-20a^3$
+
+10) Setting this equal to $\frac{7}{27}$:
+
+    $-20a^3 = \frac{7}{27}$
+    $a^3 = -\frac{7}{540}$
+    $a = -\frac{1}{6}$
+
+    But we're told that $a$ is positive, so this can't be right.
+
+11) So it must be that $f(-a) = \frac{7}{27}$:
+
+    $f(-a) = 2(-a)^3 - 3a(-a)^2 - 12a^2(-a)$
+           = $-2a^3 - 3a^3 + 12a^3$
+           = $7a^3$
+
+12) Setting this equal to $\frac{7}{27}$:
+
+    $7a^3 = \frac{7}{27}$
+    $a^3 = \frac{1}{27}$
+    $a = \frac{1}{3}$
+
+13) Now that we know $a$, we can find $f(3)$:
+
+    $f(3) = 2(3)^3 - 3(\frac{1}{3})(3)^2 - 12(\frac{1}{3})^2(3)$
+          = $54 - 9 - 4$
+          = $41$
+
+Therefore, $f(3) = 41$.
+
+문제 20:
+Okay, let's approach this step by step:
+
+1) First, let's find the value of $k$. We know that at the intersection point, the y-values of the curve and the line are equal. So:
+
+   $\left(\frac{1}{5}\right)^{k-3} = k$
+
+   Taking the natural log of both sides:
+
+   $(k-3)\ln\left(\frac{1}{5}\right) = \ln(k)$
+
+   $(k-3)(-\ln(5)) = \ln(k)$
+
+   $-k\ln(5) + 3\ln(5) = \ln(k)$
+
+   $e^{-k\ln(5) + 3\ln(5)} = k$
+
+   $e^{-k\ln(5)} \cdot e^{3\ln(5)} = k$
+
+   $5^{-k} \cdot 5^3 = k$
+
+   $5^{3-k} = k$
+
+   $3-k = \log_5(k)$
+
+   $3 = k + \log_5(k)$
+
+   This is a transcendental equation and cannot be solved algebraically. However, we can approximate the value of $k$ numerically. It turns out that $k \approx 1.1926$.
+
+2) Now, let's consider the function $f(x)$. We are given that for all $x > k$, $f(x) = \left(\frac{1}{5}\right)^{x-3}$. We are also given that $f(f(x)) = 3x$ for all real numbers $x$.
+
+3) We need to find the value of $f\left(\frac{1}{k^3 \times 5^{3k}}\right)$. Let's call this value $x$:
+
+   $x = \frac{1}{k^3 \times 5^{3k}}$
+
+4) Now, if we can show that $x > k$, then we can use the first condition of $f(x)$ to find $f(x)$.
+
+5) Let's compare $x$ and $k$:
+
+   $x = \frac{1}{k^3 \times 5^{3k}} = \frac{1}{k^3 \times (5^3)^k} = \frac{1}{k^3 \times k^k} = \frac{1}{k^{3+k}}$
+
+   Now, $k \approx 1.1926$, so $3+k \approx 4.1926$. Therefore, $k^{3+k} \approx 1.1926^{4.1926} \approx 2.1589$. 
+
+   So, $x \approx \frac{1}{2.1589} \approx 0.4633$.
+
+   Since $0.4633 < 1.1926$, we have $x < k$.
+
+6) Since $x < k$, we cannot use the first condition of $f(x)$ to find $f(x)$. Instead, we need to use the second condition: $f(f(x)) = 3x$.
+
+7) Let $y = f(x)$. Then $f(y) = 3x$. But $y = f(x) = f\left(\frac{1}{k^3 \times 5^{3k}}\right)$, which is what we're trying to find.
+
+8) So, $f\left(f\left(\frac{1}{k^3 \times 5^{3k}}\right)\right) = 3\left(\frac{1}{k^3 \times 5^{3k}}\right)$
+
+   $f(y) = \frac{3}{k^3 \times 5^{3k}}$
+
+9) Unfortunately, without more information about $f(x)$ for $x \leq k$, we cannot determine the value of $y = f\left(\frac{1}{k^3 \times 5^{3k}}\right)$.
+
+Therefore, with the given information, we cannot determine the exact value of $f\left(\frac{1}{k^3 \times
+
+문제 21:
+Let's approach this step by step:
+
+1) First, let's understand what the given condition means. For the limit to exist for all real $\alpha$, the denominator $f(x)$ should never be zero for any real $x$. This is because if $f(x) = 0$ for some $x$, then the limit will not exist at that point.
+
+2) Now, $f(x) = x^3 + a x^2 + b x + 4$. For this to never be zero, it should not have any real roots. A cubic equation has no real roots if and only if its discriminant is negative.
+
+3) The discriminant of a cubic equation $ax^3 + bx^2 + cx + d = 0$ is given by:
+
+   $\Delta = 18abcd - 4b^3d + b^2c^2 - 4ac^3 - 27a^2d^2$
+
+4) In our case, $a=1$, $c=b$, and $d=4$. Substituting these:
+
+   $\Delta = 18b \cdot 4 - 4a^3 \cdot 4 + a^2b^2 - 4b^3 - 27 \cdot 4^2$
+   
+   $= 72b - 64a^3 + a^2b^2 - 4b^3 - 432$
+
+5) For no real roots, we need $\Delta < 0$ for all real $a$ and $b$. This is a complex inequality to solve, but we can see that the maximum value of $f(1)$ will occur when $\Delta$ is as close to zero as possible while still being negative.
+
+6) Now, $f(1) = 1 + a + b + 4 = a + b + 5$. To maximize this, we need to maximize $a + b$.
+
+7) One way to make $\Delta$ close to zero is to make $a$ and $b$ large positive numbers. However, if we make $b$ too large, the $-4b^3$ term will dominate and make $\Delta$ positive. Similarly, if we make $a$ too large, the $-64a^3$ term will dominate.
+
+8) A balanced approach is to make $a$ and $b$ equal. Let's set $a = b = n$. Then:
+
+   $\Delta = 72n - 64n^3 + n^4 - 4n^3 - 432$
+   
+   $= n^4 - 68n^3 + 72n - 432$
+
+9) We want the largest $n$ such that this is still negative. By trial and error or by calculus, we can find that the largest such integer is 3.
+
+10) Therefore, the maximum value of $f(1)$ is when $a = b = 3$, which gives:
+
+    $f(1) = 3 + 3 + 5 = 11$
+
+Thus, the maximum value of $f(1)$ is 11.
+
+문제 22:
+Let's approach this step by step:
+
+1) From condition (b), we know that $|a_3| = |a_5|$. This means that the sequence repeats after every 2 terms from the 3rd term onwards.
+
+2) Now, let's consider the possible cases for $a_3$ and $a_4$:
+
+   Case 1: If $a_3 = 0$, then $a_4 = 0$ (because $\frac{1}{2} \times 0 = 0$), and the sequence becomes 0 from then on.
+   
+   Case 2: If $|a_3|$ is even and non-zero, then $|a_4| = \frac{1}{2}|a_3|$, which is also even. This means $|a_5| = \frac{1}{2}|a_4| = \frac{1}{4}|a_3|$, which contradicts $|a_3| = |a_5|$.
+   
+   Case 3: If $|a_3|$ is odd, then $|a_4| = |a_3| - 3$, which is even. Then $|a_5| = \frac{1}{2}|a_4| = \frac{1}{2}(|a_3| - 3)$. For $|a_3| = |a_5|$, we need $|a_3| = 6$.
+
+3) So, the only possible case is Case 3, with $a_3 = \pm 6$. Let's consider both possibilities:
+
+   If $a_3 = 6$, then $a_2 = 9$ (because $6 = 9 - 3$), and $a_1 = 18$ (because $9 = \frac{1}{2} \times 18$).
+   
+   If $a_3 = -6$, then $a_2 = -9$ (because $-6 = -9 + 3$), and $a_1 = -18$ (because $-9 = \frac{1}{2} \times (-18)$).
+
+4) Therefore, the only possible values for $|a_1|$ are 18.
+
+The sum of all possible values of $|a_1|$ is 18.
+
+문제 23:
+Okay, let's approach this step by step:
+
+1) First, let's recall the limit: $\lim_{x \rightarrow 0} \frac{\sin x}{x} = 1$. This is a standard limit that you should memorize.
+
+2) Now, let's look at our problem. We have $\lim_{x \rightarrow 0} \frac{3x^2}{\sin^2 x}$. The numerator is $3x^2$, and the denominator is $\sin^2 x$.
+
+3) Let's focus on the denominator. We can rewrite $\sin^2 x$ as $(\sin x)^2$. This is important because we can now use the standard limit mentioned in step 1.
+
+4) If we divide both the numerator and denominator by $x^2$, we get:
+
+   $\lim_{x \rightarrow 0} \frac{3x^2}{\sin^2 x} = \lim_{x \rightarrow 0} \frac{3x^2}{x^2(\frac{\sin x}{x})^2}$
+
+5) As $x$ approaches 0, $\frac{\sin x}{x}$ approaches 1 (from step 1). So, $(\frac{\sin x}{x})^2$ approaches $1^2 = 1$.
+
+6) Therefore, as $x$ approaches 0, the denominator $x^2(\frac{\sin x}{x})^2$ approaches $x^2 \cdot 1 = x^2$.
+
+7) Now, we have:
+
+   $\lim_{x \rightarrow 0} \frac{3x^2}{\sin^2 x} = \lim_{x \rightarrow 0} \frac{3x^2}{x^2} = \lim_{x \rightarrow 0} 3 = 3$
+
+8) Therefore, $\lim_{x \rightarrow 0} \frac{3x^2}{\sin^2 x} = 3$.
+
+문제 24:
+Okay, let's approach this step by step:
+
+1) The integral $\int_0^{10} \frac{x+2}{x+1} dx$ can be solved using the substitution method. Let's substitute $u = x + 1$. Then, $du = dx$.
+
+2) When $x = 0$, $u = 1$, and when $x = 10$, $u = 11$. So, the new limits of integration are from 1 to 11.
+
+3) Now, we can rewrite the integral in terms of $u$:
+
+   $\int_1^{11} \frac{u+1}{u} du$
+
+4) This can be split into two integrals:
+
+   $\int_1^{11} \frac{u}{u} du + \int_1^{11} \frac{1}{u} du$
+
+5) The first integral simplifies to:
+
+   $\int_1^{11} 1 du = u|_1^{11} = 11 - 1 = 10$
+
+6) The second integral is the natural logarithm:
+
+   $\int_1^{11} \frac{1}{u} du = \ln|u| |_1^{11} = \ln(11) - \ln(1) = \ln(11)$
+
+7) Adding these together:
+
+   $10 + \ln(11)$
+
+Therefore, the value of the integral is $10 + \ln(11)$.
+
+문제 25:
+Let's approach this step by step:
+
+1) First, let's understand what the given limit means:
+
+   $\lim_{n \rightarrow \infty} \frac{n a_n}{n^2+3}=1$
+
+   This means that as n gets very large, $\frac{n a_n}{n^2+3}$ gets closer and closer to 1.
+
+2) We can rewrite this as:
+
+   $\lim_{n \rightarrow \infty} \frac{a_n}{n+\frac{3}{n}}=1$
+
+   This is because $\frac{n a_n}{n^2+3} = \frac{a_n}{\frac{n^2+3}{n}} = \frac{a_n}{n+\frac{3}{n}}$.
+
+3) Now, as n gets very large, $\frac{3}{n}$ gets very close to 0. So, we can say:
+
+   $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} (n+\frac{3}{n}) = \lim_{n \rightarrow \infty} n$
+
+4) Now, let's look at the limit we need to find:
+
+   $\lim_{n \rightarrow \infty}\left(\sqrt{a_n^2+n}-a_n\right)$
+
+5) Substituting the limit of $a_n$ that we found:
+
+   $\lim_{n \rightarrow \infty}\left(\sqrt{n^2+n}-n\right)$
+
+6) We can factor out n:
+
+   $\lim_{n \rightarrow \infty}\left(n\sqrt{1+\frac{1}{n}}-n\right)$
+
+7) As n gets very large, $\frac{1}{n}$ gets very close to 0. So, $\sqrt{1+\frac{1}{n}}$ gets very close to $\sqrt{1}$, which is 1.
+
+8) Therefore:
+
+   $\lim_{n \rightarrow \infty}\left(n\sqrt{1+\frac{1}{n}}-n\right) = \lim_{n \rightarrow \infty}(n-n) = 0$
+
+So, the value of $\lim_{n \rightarrow \infty}\left(\sqrt{a_n^2+n}-a_n\right)$ is 0.
+
+문제 26:
+Okay, let's approach this step by step:
+
+1) The volume of a solid with square cross-sections perpendicular to the x-axis can be calculated using the formula:
+
+   $V = \int_{a}^{b} A(x) dx$
+
+   where $A(x)$ is the area of the cross-section at $x$, and $a$ and $b$ are the start and end points of the solid on the x-axis.
+
+2) In this case, $a=1$ and $b=e$. The area of each square cross-section is the square of the height of the curve at that point. So,
+
+   $A(x) = \left(\sqrt{\frac{x+1}{x(x+\ln x)}}\right)^2 = \frac{x+1}{x(x+\ln x)}$
+
+3) Therefore, the volume is:
+
+   $V = \int_{1}^{e} \frac{x+1}{x(x+\ln x)} dx$
+
+4) This is a complicated integral. One way to solve it is to use the substitution $u = \ln x$. Then $du = \frac{1}{x} dx$ or $dx = x du$. When $x=1$, $u=\ln 1=0$, and when $x=e$, $u=\ln e=1$.
+
+5) Making this substitution:
+
+   $V = \int_{0}^{1} \frac{e^u+1}{e^u(e^u+u)} e^u du = \int_{0}^{1} \frac{e^u+1}{e^u+u} du$
+
+6) This can be further simplified by splitting the fraction:
+
+   $V = \int_{0}^{1} \left(1 - \frac{u}{e^u+u}\right) du$
+
+7) The first part is straightforward to integrate. For the second part, we can use the substitution $v = e^u + u$, $dv = (e^u + 1) du$:
+
+   $V = \left[u - \ln(e^u+u)\right]_{0}^{1}$
+
+8) Evaluating:
+
+   $V = (1 - \ln(e+1)) - (0 - \ln(e^0+0)) = 1 - \ln(e+1) + \ln(1) = 1 - \ln(e+1)$
+
+Therefore, the volume of the solid is $1 - \ln(e+1)$.
+
+문제 27:
+Let's approach this step by step:
+
+1) First, let's understand what we're given. We have a cubic function $f(x)$ with leading coefficient 1, which means it's of the form $f(x) = x^3 + ax^2 + bx + c$ for some constants $a$, $b$, and $c$.
+
+2) We're also given $g(x) = f(e^x) + e^x$. This means that $g(x)$ is a composition of $f(x)$ and $e^x$, plus $e^x$.
+
+3) The tangent to the curve $y=g(x)$ at the point $(0, g(0))$ is the $x$-axis. This means that $g'(0) = 0$.
+
+4) We're asked to find $h'(8)$, where $h(x)$ is the inverse function of $g(x)$.
+
+5) Now, let's find $g'(x)$:
+   
+   $g(x) = f(e^x) + e^x$
+   
+   $g'(x) = f'(e^x) \cdot e^x + e^x$
+   
+   Since $f(x)$ is a cubic with leading coefficient 1, $f'(x)$ is a quadratic with leading coefficient 3. So, $f'(x) = 3x^2 + 2ax + b$.
+   
+   Therefore, $g'(x) = (3e^{2x} + 2ae^x + b) \cdot e^x + e^x = 3e^{3x} + 2ae^{2x} + be^x + e^x$
+
+6) We know that $g'(0) = 0$. Let's use this:
+   
+   $g'(0) = 3e^0 + 2ae^0 + be^0 + e^0 = 3 + 2a + b + 1 = 0$
+   
+   This means $2a + b = -4$.
+
+7) Now, let's consider the inverse function. If $y = g(x)$ and $x = h(y)$, then:
+   
+   $h'(y) = \frac{1}{g'(h(y))}$
+
+8) We want to find $h'(8)$. This means we need to find $h(8)$ first. But $h(8) = x$ such that $g(x) = 8$.
+   
+   $g(x) = f(e^x) + e^x = e^{3x} + ae^{2x} + be^x + c + e^x = 8$
+   
+   We don't know $a$, $b$, and $c$, but we do know that $2a + b = -4$. Let's substitute this:
+   
+   $e^{3x} + a(e^{2x} + 2e^x) - 4e^x + c = 8$
+   
+   This is a difficult equation to solve, but let's call the solution $x_0$.
+
+9) Now, we can find $h'(8)$:
+   
+   $h'(8) = \frac{1}{g'(x_0)} = \frac{1}{3e^{3x_0} + 2ae^{2x_0} + be^{x_0} + e^{x_0}}$
+   
+   Substituting $2a + b = -4$:
+   
+   $h'(8) = \frac{1}{3e^{3x_0} + 2a(e^{2x_0} + 2e^{x_0}) - 3e^{x_0}}$
+
+10) Unfortunately, without knowing the specific values of $a$, $b$, and $c$, we can't calculate the exact value of $h'(8)$. The answer will depend on these constants.
+
+문제 28:
+Let's approach this step by step:
+
+1) First, let's find the equation of the tangent line at the point $(t, f(t))$. The slope of the tangent line is given by $f'(t)$, and the point of tangency is $(t, f(t))$. So, the equation of the tangent line is:
+
+   $y - f(t) = f'(t)(x - t)$
+
+2) Now, let's find the x-coordinate of the point where this tangent line intersects the y-axis. At this point, $x = 0$, so:
+
+   $y - f(t) = f'(t)(0 - t)$
+   $y = f(t) - tf'(t)$
+
+3) The area $g(t)$ is the area under the curve $y = f(x)$ from $x = 0$ to $x = t$, minus the area of the triangle formed by the tangent line, the y-axis, and the line $x = t$. The area of this triangle is $\frac{1}{2}t(f(t) - tf'(t))$. So:
+
+   $g(t) = \int_0^t f(x)dx - \frac{1}{2}t(f(t) - tf'(t))$
+
+4) To find $g'(t)$, we can use the Fundamental Theorem of Calculus and the chain rule:
+
+   $g'(t) = f(t) - \frac{1}{2}(f(t) - tf'(t)) - \frac{1}{2}t(f'(t) - f'(t) - tf''(t))$
+   
+   $= f(t) - \frac{1}{2}f(t) + \frac{1}{2}tf'(t) - \frac{1}{2}tf'(t) + \frac{1}{2}t^2f''(t)$
+   
+   $= \frac{1}{2}f(t) + \frac{1}{2}t^2f''(t)$
+
+5) Now, let's find $f(1)$ and $f''(1)$:
+
+   $f'(x) = -x + e^{1-x^2}$
+   
+   $f''(x) = -1 - 2xe^{1-x^2}$
+   
+   $f''(1) = -1 - 2e^0 = -3$
+
+   To find $f(1)$, we need to integrate $f'(x)$:
+   
+   $f(x) = -\frac{1}{2}x^2 - e^{1-x^2} + C$
+   
+   We don't know the value of $C$, but it doesn't matter for this problem because it will cancel out.
+
+6) Finally, we can calculate $g(1) + g'(1)$:
+
+   $g(1) + g'(1) = \int_0^1 f(x)dx - \frac{1}{2}(f(1) - f'(1)) + \frac{1}{2}f(1) + \frac{1}{2}f''(1)$
+   
+   $= \int_0^1 (-\frac{1}{2}x^2 - e^{1-x^2} + C)dx - \frac{1}{2}(-\frac{1}{2} - e^0 + C - (-1 + e^0)) + \frac{1}{2}(-\frac{1}{2} - e^0 + C) + \frac{1}{2}(-3)$
+   
+   $= [-\frac{1}{6}x^3 + e^{1-x^2} + Cx]_0^1 - \frac{1}{2}(-\frac{1}{2} - 1 + C - (0)) + \frac{1}{2}(-\frac{1}{2} - 1 + C) - \frac{3}{2}$
+   
+   $= (-\frac{1}{6} + e^
+
+문제 29:
+Let's approach this step by step:
+
+1) From the given conditions, we can deduce that:
+
+   $\sum_{n=1}^{\infty} |a_n| = \frac{1}{2} (\frac{40}{3} + \frac{20}{3}) = 10$
+   $\sum_{n=1}^{\infty} a_n = \frac{1}{2} (\frac{40}{3} - \frac{20}{3}) = \frac{10}{3}$
+
+2) For a geometric sequence $\{a_n\}$ with first term $a$ and common ratio $r$, we know that:
+
+   $\sum_{n=1}^{\infty} |a_n| = \frac{|a|}{1-|r|}$ if $|r| < 1$
+   $\sum_{n=1}^{\infty} a_n = \frac{a}{1-r}$ if $|r| < 1$
+
+3) From (1) and (2), we get:
+
+   $\frac{|a|}{1-|r|} = 10$
+   $\frac{a}{1-r} = \frac{10}{3}$
+
+4) The second equation implies that $a$ and $r$ have the same sign (because their sum is positive). So, $|a| = a$ and $|r| = r$.
+
+5) Solving these equations, we get:
+
+   $a = 2$ and $r = \frac{1}{2}$
+
+6) Now, let's look at the inequality:
+
+   $\lim_{n \rightarrow \infty} \sum_{k=1}^{2n} ((-1)^{\frac{k(k+1)}{2}} \times a_{m+k}) > \frac{1}{700}$
+
+7) Note that $(-1)^{\frac{k(k+1)}{2}}$ alternates between 1 and -1 as $k$ increases. So, the sum is essentially the difference between the sum of odd terms and even terms of the sequence starting from $a_{m+1}$.
+
+8) The sum of a geometric series with first term $a$, common ratio $r$, and $n$ terms is given by:
+
+   $S_n = \frac{a(1-r^n)}{1-r}$
+
+9) In our case, for odd terms starting from $a_{m+1}$, the sum is:
+
+   $S_{odd} = \frac{a_{m+1}(1-r^n)}{1-r^2} = \frac{2 \cdot (\frac{1}{2})^m(1-(\frac{1}{2})^n)}{1-(\frac{1}{2})^2} = \frac{8}{3} \cdot (\frac{1}{2})^m(1-(\frac{1}{2})^n)$
+
+   Similarly, for even terms:
+
+   $S_{even} = \frac{a_{m+2}(1-r^{n-1})}{1-r^2} = \frac{2 \cdot (\frac{1}{2})^{m+1}(1-(\frac{1}{2})^{n-1})}{1-(\frac{1}{2})^2} = \frac{4}{3} \cdot (\frac{1}{2})^m(1-(\frac{1}{2})^{n-1})$
+
+10) The difference is:
+
+    $S_{odd} - S_{even} = \frac{4}{3} \cdot (\frac{1}{2})^m(2-(\frac{1}{2})^{n-1}-(\frac{1}{2})^n)$
+
+11) As $n \rightarrow \infty$, $(\frac{1}{2})^{n-1}$ and $(\frac{1}{2})^n$ approach 0. So, the limit is:
+
+    $\lim_{n \rightarrow \infty} (S_{odd} - S_{even}) = \frac{8}{3} \
+
+문제 30:
+Let's approach this step by step:
+
+1) From condition (a), we have:
+   
+   $f(0) = \sin(b + \sin 0) = 0$
+   
+   This implies $b = 0$ or $b = \pi$.
+
+   Also, $f(2\pi) = \sin(2\pi a + b + \sin 2\pi) = 2\pi a + b$
+   
+   This is only possible if $b = 0$.
+
+2) Now, $f(x) = \sin(ax + \sin x)$
+
+   $f'(x) = a\cos(ax + \sin x) + \cos x \cos(ax + \sin x)$
+   
+   $f'(x) = (a + \cos x)\cos(ax + \sin x)$
+
+3) From condition (b), $f'(0) = f'(4\pi)$ and $4\pi$ is the smallest positive value for which this is true.
+
+   $f'(0) = (a + 1)\cos(\sin 0) = a + 1$
+   
+   $f'(4\pi) = (a + \cos 4\pi)\cos(4\pi a + \sin 4\pi) = a + 1$
+
+4) For a local maximum at $x = \alpha$, we need $f'(\alpha) = 0$.
+
+   $(a + \cos \alpha)\cos(a\alpha + \sin \alpha) = 0$
+
+   This can happen in two ways:
+   
+   i) $a + \cos \alpha = 0$, i.e., $\cos \alpha = -a$
+   
+   ii) $\cos(a\alpha + \sin \alpha) = 0$, i.e., $a\alpha + \sin \alpha = \frac{\pi}{2} + k\pi$, where $k$ is an integer.
+
+5) Case (i) is not possible because $1 \leq a \leq 2$ and $-1 \leq \cos \alpha \leq 1$.
+
+6) For case (ii), in the interval $(0, 4\pi)$, as $a$ varies from 1 to 2, the number of solutions (i.e., the number of local maxima) can be either 3 or 4. 
+
+   If $n = 3$, then $\alpha_1$ would be close to $\frac{\pi}{2a}$.
+   
+   If $n = 4$, then $\alpha_1$ would be close to $\frac{\pi}{4a}$.
+
+7) Given $n\alpha_1 - ab = \frac{q}{p}\pi$, and considering $b = 0$ from step 1, we have $n\alpha_1 = \frac{q}{p}\pi$.
+
+   If $n = 3$, then $3 \cdot \frac{\pi}{2a} \approx \frac{q}{p}\pi$, which implies $\frac{q}{p} \approx \frac{3}{2a}$. This is not possible with coprime integers $p$ and $q$ because $a > 1$.
+
+   If $n = 4$, then $4 \cdot \frac{\pi}{4a} = \frac{q}{p}\pi$, which implies $\frac{q}{p} = \frac{1}{a}$. This is possible with coprime integers $p$ and $q$ if $a = \frac{p}{q}$.
+
+8) Therefore, $n = 4$, and $a = \frac{p}{q}$ where $p$ and $q$ are coprime natural numbers and $1 \leq a \leq 2$.
+
+   The question asks for the value of $p + q$. However, there isn't enough information to determine unique values for $p$ and $q$. The problem would have a unique answer if additional constraints were given.
+
+문제번호	정오	배점	과목
+1	True	2	수학1
+2	True	2	수학2
+3	True	3	수학1
+4	True	3	수학2
+5	True	3	수학2
+6	True	3	수학1
+7	True	3	수학2
+8	True	3	수학1
+9	True	4	수학2
+10	True	4	수학2
+11	False	4	수학2
+12	False	4	수학1
+13	False	4	수학2
+14	False	4	수학1
+15	False	4	수학2
+16	False	3	수학1
+17	True	3	수학2
+18	True	3	수학1
+19	True	3	수학2
+20	False	4	수학2
+21	False	4	수학2
+22	False	4	수학1
+23	True	2	미적분
+24	True	3	미적분
+25	False	3	미적분
+26	False	3	미적분
+27	False	3	미적분
+28	False	4	미적분
+29	False	4	미적분
+30	False	4	미적분
+
+[전체 통계]
+정답 개수: 15/30
+총점: 44 / 100
+정답률: 44.00%
+
+[과목별 통계]
+(수학1)
+정답 개수: 5/9
+총점: 14 / 29
+정답률: 48.28%
+(수학2)
+정답 개수: 8/13
+총점: 25 / 45
+정답률: 55.56%
+(미적분)
+정답 개수: 2/8
+총점: 5 / 26
+정답률: 19.23%
