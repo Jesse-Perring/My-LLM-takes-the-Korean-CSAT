@@ -36,7 +36,7 @@ import os
 # ===================================================
 
 MODEL_NAME = "Mixtral8x22B"
-PROMPTING_METHOD = "Reflexion"
+PROMPTING_METHOD = "activeprompt"
 DATA_FILENAME = "202511_en.json"
 
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../data/json'))

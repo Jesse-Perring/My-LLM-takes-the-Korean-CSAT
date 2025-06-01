@@ -69,7 +69,7 @@ def generate_explanation(problem: str, solution: str, model_func: Callable) -> s
         return solution  # 실패시 원래 풀이를 반환
 
 # n: API 호출 횟수 (Self-Consistency가 생성할 답변의 수)
-def run_self_consistency(problem: Dict[str, Any], model_func: Callable, n: int) -> str:
+def run_selfconsistency(problem: Dict[str, Any], model_func: Callable, n: int) -> str:
     """
     Self-Consistency 방식으로 문제 해결
     - 여러 번 풀이를 생성하고, 최빈값(가장 많이 나온 정답)을 선택
