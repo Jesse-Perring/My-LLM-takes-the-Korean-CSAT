@@ -1,7 +1,7 @@
 import re
 from typing import Callable
 
-def prompt_chaining(problem: dict, model_func: Callable):
+def run_promptchaining(problem: dict, model_func: Callable):
     """
     프롬프트 체이닝
     """
