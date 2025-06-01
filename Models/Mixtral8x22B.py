@@ -34,7 +34,7 @@ def call_model(prompt):
                     "content": prompt
                 }
             ],
-            max_tokens=1024,
+            max_tokens=2048,
             temperature=0.2,
             top_p=0.95,
             n=1

@@ -8,49 +8,74 @@ def generate_thoughts(problem: dict, path_so_far: List[str], model_func: Callabl
         f"Problem Number: {problem.get('problem_number', '')}\n"
         f"Problem: {problem.get('problem', '')}\n"
         f"Current reasoning path: {path_so_far}\n"
-        f"Think of {B} possible next steps to solve this problem."
+        f"Think of {B} possible next steps to solve this problem. List each step on a new line."
     )
     response = model_func(prompt)
-    # LLM이 numbered list 또는 줄바꿈으로 사고를 반환한다고 가정
     thoughts = [line.strip('- ').strip() for line in response.strip().split('\n') if line.strip()]
     return thoughts[:B]
 
-def evaluate_thought(problem: dict, thought: str, model_func: Callable) -> bool:
+def rank_thoughts(problem: dict, path_so_far: List[str], thoughts: List[str], model_func: Callable) -> List[int]:
     """
-    LLM을 이용해 해당 사고(thought)가 좋은 다음 단계인지 평가 (Yes/No)
+    LLM에게 thoughts를 1~3위로 순위 매기게 함. 반환값: [0,1,2] (0=best, 1=2nd, 2=worst)
     """
+    thoughts_str = "\n".join([f"{i+1}. {t}" for i, t in enumerate(thoughts)])
     prompt = (
         f"Problem Number: {problem.get('problem_number', '')}\n"
         f"Problem: {problem.get('problem', '')}\n"
-        f"Thought: {thought}\n"
-        "Is this a good next step? Answer Yes or No and explain briefly. Answer only with 'Yes' or 'No'.\n"
-        "If you think this thought is relevant and useful for solving the problem, answer 'Yes'. Otherwise, answer 'No'."
+        f"Current reasoning path: {path_so_far}\n"
+        f"Candidate next steps:\n{thoughts_str}\n"
+        "Rank these 3 candidate steps from best (1st) to worst (3rd) for solving the problem. "
+        "Reply ONLY with a ranking in the format: 1,2,3 (where 1 is the best, 3 is the worst)."
     )
     response = model_func(prompt)
-    # 'Yes'가 포함되어 있으면 True, 아니면 False (간단한 파싱)
-    return response.strip().lower().startswith('yes')
+    # 예: "2,1,3" → [1,0,2]
+    ranking = []
+    for tok in response.strip().split(','):
+        try:
+            idx = int(tok.strip()) - 1
+            if 0 <= idx < len(thoughts):
+                ranking.append(idx)
+        except Exception:
+            continue
+    # ranking: [best_idx, 2nd_idx, worst_idx]
+    if len(ranking) != 3:
+        # fallback: 그대로 순서
+        ranking = [0, 1, 2]
+    return ranking
 
-def run_tot(problem: dict, model_func: Callable, B=3, D=3) -> str:
+def run_tot(problem: dict, model_func: Callable, max_depth=4) -> str:
     """
-    ToT 방식으로 문제 해결 경로 탐색 → 최종 풀이 및 정답만 반환 (템플릿 없이)
-    problem: 문제 정보를 담은 dict (예: {'problem': '문제 내용', ...})
+    Adaptive Tree of Thoughts: 각 단계에서 3개 후보 생성, LLM이 순위 매김.
+    1등 thought는 3개, 2등 thought는 1개, 3등 thought는 확장X. depth=4까지.
     """
-    # 초기 상태: 빈 사고 경로
-    frontier = [ [] ]  # 각 원소는 사고 경로(list of thoughts)
-    for depth in range(D):
-        next_frontier = []
-        for path in frontier:
-            thoughts = generate_thoughts(problem, path, model_func, B)
-            for thought in thoughts:
-                if evaluate_thought(problem, thought, model_func):
-                    next_frontier.append(path + [thought])
-        # (옵션) pruning/정렬 등은 여기서 추가 가능
-        frontier = next_frontier
-        if not frontier:
-            break  # 더 이상 확장 불가
-    # 가장 유망한 사고 흐름 선택 (여기서는 첫 번째, 추후 scoring/pruning 가능)
-    best_path = frontier[0] if frontier else []
-    # LLM에게 문제 번호와 문제 내용만 전달
+    # 각 path는 (사고 경로 list, 현재까지의 순위 score)로 관리
+    paths = [([], 0)]  # (path_so_far, score)
+    for depth in range(max_depth):
+        next_paths = []
+        for path_so_far, score in paths:
+            # 1. 후보 사고 3개 생성
+            thoughts = generate_thoughts(problem, path_so_far, model_func, 3)
+            if not thoughts:
+                continue
+            # 2. LLM에게 순위 매기기
+            ranking = rank_thoughts(problem, path_so_far, thoughts, model_func)
+            # 3. 분기: 1등은 3개, 2등은 1개, 3등은 확장X
+            # 1등 thought 확장 (B=3)
+            best_idx = ranking[0]
+            for _ in range(3):
+                next_paths.append((path_so_far + [thoughts[best_idx]], score + 3))
+            # 2등 thought 확장 (B=1)
+            second_idx = ranking[1]
+            next_paths.append((path_so_far + [thoughts[second_idx]], score + 1))
+            # 3등 thought는 확장하지 않음
+        # pruning: 너무 많아지지 않게 상위 10개만 유지
+        next_paths = sorted(next_paths, key=lambda x: -x[1])[:10]
+        if not next_paths:
+            break
+        paths = next_paths
+
+    # 가장 높은 score의 path 선택
+    best_path = paths[0][0] if paths else []
     solution_prompt = (
         f"Problem Number: {problem.get('problem_number', '')}\n"
         f"Problem: {problem.get('problem', '')}\n"

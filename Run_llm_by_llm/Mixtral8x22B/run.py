@@ -15,6 +15,7 @@ import Utils.result_writer as result_writer
 import os
 
 # ===== 프롬프트 기법 옵션 (아래 이름을 PROMPTING_METHOD에 사용) =====
+# Role             : 역할 기반 프롬프트 
 # ZeroShot         : 아무 예시 없이 문제만 던짐 (베이스라인 실험용)
 # FewShot          : 유사 예제 몇 개 보여주고 문제 던짐 (패턴 학습 유도)
 # CoT              : Chain-of-Thought, 단계별 사고 유도 (수능 풀이 과정 구조화)
@@ -35,7 +36,7 @@ import os
 # ===================================================
 
 MODEL_NAME = "Mixtral8x22B"
-PROMPTING_METHOD = "ZeroShot"
+PROMPTING_METHOD = "Reflexion"
 DATA_FILENAME = "202511_en.json"
 
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../data/json'))
@@ -58,10 +59,10 @@ def main() -> None:
 
     # 모델 함수: call_model(prompt:str) -> str
     model_func = dynamic_import(f"Models.{MODEL_NAME}", "call_model")
-    # 프롬프트 기법 함수: run_tot(problem:dict, model_func:Callable, ...) -> str
+    # 프롬프트 기법 함수: run_zeroshot(problem:dict, model_func:Callable) -> str
     prompt_func = dynamic_import(f"Core.Prompting.{PROMPTING_METHOD}", f"run_{PROMPTING_METHOD.lower()}")
 
-    for problem in problem_loader.crop_problems(problems):
+    for idx, problem in enumerate(problem_loader.crop_problems(problems), 1):
         # prompt_func: (problem:dict, model_func:Callable) -> str (풀이+정답)
         # 의미: 문제와 모델을 받아 LLM이 실제로 답변을 생성하는  함수
         model_output = prompt_func(problem, model_func)
@@ -74,6 +75,9 @@ def main() -> None:
 
         # 문제별 채점 결과를 표준화된 구조로 누적
         result_writer.append_result(results, per_problem_results, problem, is_correct)
+
+        # 진행률 로그 출력
+        print(f"[{idx}/{len(problems)}] 문제 {problem.get('problem_number', idx)} 처리 완료 (정오: {is_correct})")
 
     # 모든 결과를 읽기 편한 텍스트 라인으로 변환
     text_lines = result_writer.write_result_lines(per_problem_results, results, problems, model_outputs)

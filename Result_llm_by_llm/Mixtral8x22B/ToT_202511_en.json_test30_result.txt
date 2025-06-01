@@ -1,6 +1,36 @@
 [모델 답변]
 문제 30:
-[API ERROR] Request failed
+Given the function $f(x) = \sin(ax + b + \sin x)$ and the conditions (a) $f(0) = 0$, $f(2\pi) = 2\pi a + b$; (b) the smallest positive $t$ such that $f'(0) = f'(t)$ is $4\pi$, we aim to find the value of $p+q$ where $n\alpha_1 - ab = \frac{q}{p}\pi$ and $p, q$ are coprime natural numbers.
+
+1. **Finding the values of $a$ and $b$:**
+
+Given $f(0) = 0$, we have $\sin(b) = 0$. This implies $b = k\pi$ for some integer $k$.
+
+Given $f(2\pi) = 2\pi a + b$, we have $\sin(2\pi a + b + \sin(2\pi)) = \sin(2\pi a + b) = 2\pi a + b$. Since $b = k\pi$, we have $\sin(2\pi a + k\pi) = 2\pi a + k\pi$. This implies $2\pi a + k\pi = \frac{\pi}{2} + 2m\pi$ for some integer $m$.
+
+Solving for $a$, we get $a = \frac{1}{4} + m + \frac{k}{2}$. Given $1 \leq a \leq 2$, we find that $a = \frac{3}{2}$ and $b = -\frac{\pi}{2}$.
+
+2. **Finding the condition for a local maximum:**
+
+The derivative of $f(x)$ is $f'(x) = a\cos(ax + b + \sin x) + \cos x\cos(ax + b + \sin x)$. Setting $f'(\alpha) = 0$ gives us the condition for a local maximum at $x = \alpha$.
+
+3. **Finding the value of $a$:**
+
+Given the smallest positive $t$ such that $f'(0) = f'(t)$ is $4\pi$, we set $f'(0) = f'(4\pi)$ and solve for $a$. This gives us $a = \frac{3}{2}$.
+
+4. **Finding the set $A$ and its number of elements $n$:**
+
+With $a = \frac{3}{2}$ and $b = -\frac{\pi}{2}$, we have $f'(x) = \frac{3}{2}\cos(\frac{3}{2}x - \frac{\pi}{2} + \sin x) + \cos x\cos(\frac{3}{2}x - \frac{\pi}{2} + \sin x)$. Setting $f'(\alpha) = 0$ and solving for $\alpha$ in the open interval $(0, 4\pi)$ gives us the set $A$ of all values of $\alpha$ where $f(x)$ has a local maximum.
+
+The set $A$ is $\{2\pi, 4\pi, 6\pi, 8\pi\}$. The number of elements in $A$ is $n = 4$. The smallest element of $A$ is $\alpha_1 = 2\pi$.
+
+5. **Finding the value of $p+q$:**
+
+Given $n\alpha_1 - ab = \frac{q}{p}\pi$, we substitute $n = 4$, $\alpha_1 = 2\pi$, $a = \frac{3}{2}$, and $b = -\frac{\pi}{2}$ to get $4(2\pi) - \frac{3}{2}(-\frac{\pi}{2}) = \frac{q}{p}\pi$. Simplifying, we find $p = 1$ and $q = 35$.
+
+Therefore, the value of $p+q$ is $36$.
+
+Answer: $36$
 
 문제번호	정오	배점	과목
 30	False	4	미적분
