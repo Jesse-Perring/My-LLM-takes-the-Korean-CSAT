@@ -1,0 +1,170 @@
+[모델 답변]
+문제 1:
+A: We have that $\sqrt[3]{5} \times 25^{\frac{1}{3}} = \sqrt[3]{5} \times \sqrt[3]{25} = \sqrt[3]{5 \times 25} = \sqrt[3]{125} = \boxed{5}.$
+Final Answer: The final answer is 5. I hope it is correct.
+
+문제 2:
+A: We have that \begin{align*}
+\lim_{h \rightarrow 0} \frac{f(2+h)-f(2)}{h}&=\lim_{h \rightarrow 0} \frac{(2+h)^3-8(2+h)+7-(2^3-8(2)+7)}{h}\\
+&=\lim_{h \rightarrow 0} \frac{8+12h+6h^2+h^3-16-8h+7-8+16-7}{h}\\
+&=\lim_{h \rightarrow 0} \frac{12h+6h^2+h^3}{h}\\
+&=\lim_{h \rightarrow 0} (12+6h+h^2)\\
+&=\boxed{12}.
+\end{align*}
+Final Answer: The final answer is 12. I hope it is correct.
+
+문제 3:
+A: We have that $a_1=k$, $a_2=k^2$, $a_3=k^3$, and $a_4=k^4$.  Therefore, we have that $$ \frac{a_4}{a_2}+\frac{a_2}{a_1}=\frac{k^4}{k^2}+\frac{k^2}{k}=k^2+k=30. $$  We can factor this equation as $$ (k+6)(k-5)=0, $$ so $k=-6$ or $k=5$.  Since $k$ is positive, we have that $k=\boxed{5}$.
+Final Answer: The final answer is 5. I hope it is correct.
+
+문제 4:
+A: The function is continuous for all real numbers. This means that the two parts of the function must be equal at $x=-2$. So, $5(-2)+a=(-2)^2-a$. This means $-10+a=4-a$. So, $2a=14$. This means $a=7$. The answer is 7.
+
+문제 5:
+Final Answer: The final answer is 8. I hope it is correct.
+
+문제 6:
+Final Answer: The final answer is 5. I hope it is correct.
+
+문제 7:
+A: We have that $$ \int_0^x f(t) dt = 3x^3 + 2x. $$ Taking the derivative of both sides with respect to $x$, we obtain $$ f(x) = 9x^2 + 2. $$ Therefore, $f(1) = 9(1)^2 + 2 = \boxed{11}.$
+Final Answer: The final answer is 11. I hope it is correct.
+
+문제 8:
+A: We have that $a=2 \log \frac{1}{\sqrt{10}}+\log_2 20 = 2 \log 10^{-1/2} + \log_2 20 = -\log 10 + \log_2 20 = -\log 10 + \frac{\log 20}{\log 2} = -\log 10 + \frac{\log 2^2 \cdot 5}{\log 2} = -\log 10 + 2 + \log 5 = \log \frac{100}{10} = \log 10$. Also, $b=\log 2$. Therefore, $a \times b = \log 10 \times \log 2 = \log 20 = \boxed{1}$.
+Final Answer: The final answer is 1. I hope it is correct.
+
+문제 9:
+Final Answer: The final answer is 4. I hope it is correct.
+
+문제 10:
+Final Answer: The final answer is 10. I hope it is correct.
+
+문제 11:
+Final Answer: The final answer is 3. I hope it is correct.
+
+문제 12:
+Final Answer: The final answer is 30. I hope it is correct.
+
+문제 13:
+Final Answer: The final answer is 6. I hope it is correct.
+
+문제 14:
+Solution: Let $r$ be the radius of circle $O$.  Then the area of triangle $ADE$ is $\frac{1}{2}r^2\sin A$, and the area of triangle $ABC$ is $\frac{1}{2}r^2\sin A+\frac{1}{2}(7)^2\sin C$.  Therefore, we have \begin{align*}
+\frac{\frac{1}{2}r^2\sin A}{\frac{1}{2}r^2\sin A+\frac{1}{2}(7)^2\sin C}&=\frac{9}{35}\\
+\Rightarrow\qquad\frac{r^2\sin A}{r^2\sin A+49\sin C}&=\frac{9}{35}\\
+\Rightarrow\qquad35r^2\sin A&=9r^2\sin A+441\sin C\\
+\Rightarrow\qquad26r^2\sin A&=441\sin C\\
+\Rightarrow\qquad\frac{\sin A}{\sin C}&=\frac{441}{26r^2}\\
+\Rightarrow\qquad\frac{8}{5}&=\frac{441}{26r^2}\\
+\Rightarrow\qquad r^2&=\frac{441\cdot5}{26\cdot8}=\frac{315}{16}\\
+\Rightarrow\qquad r&=\frac{\sqrt{315}}{4}=\frac{\sqrt{5\cdot63}}{4}=\frac{\sqrt{5}\cdot\sqrt{9\cdot7}}{4}=\frac{3\sqrt{35}}{4}
+\end{align*}Now, the maximum area of triangle $PBC$ occurs when $P$ is the point on circle $O$ such that $P$, $B$, and $C$ are collinear.  In this case, the area of triangle $PBC$ is $\frac{1}{2}r^2\sin C$.  Therefore, the maximum area of triangle $PBC$ is \begin{align*}
+\frac{1}{2}r^2\sin C&=\frac{1}{2}\left(\frac{3\sqrt{35}}{4}\right)^2\cdot\frac{5}{8}\\
+&=\frac{1}{2}\cdot\frac{9
+
+문제 15:
+Final Answer: The final answer is 35. I hope it is correct.
+
+문제 16:
+A: We have that $$ \log_2(x-3) = \log_4(3x-5) \Rightarrow \log_2(x-3) = \frac{\log_2(3x-5)}{\log_2(4)} = \frac{\log_2(3x-5)}{2} \Rightarrow 2\log_2(x-3) = \log_2(3x-5) \Rightarrow \log_2((x-3)^2) = \log_2(3x-5) \Rightarrow (x-3)^2 = 3x-5 \Rightarrow x^2 - 6x + 9 = 3x - 5 \Rightarrow x^2 - 9x + 14 = 0 \Rightarrow (x-7)(x-2) = 0 \Rightarrow x = 2, 7. $$ However, $x = 2$ does not satisfy the original equation, so the only solution is $\boxed{x = 7}.$
+Final Answer: The final answer is 7. I hope it is correct.
+
+문제 17:
+A: We know that $f'(x) = 9x^2 + 4x$. We can integrate this to get $f(x) = 3x^3 + 2x^2 + C$. We know that $f(1) = 6$, so $3(1)^3 + 2(1)^2 + C = 6$. This means $C = 1$. So $f(x) = 3x^3 + 2x^2 + 1$. Now we can find $f(2) = 3(2)^3 + 2(2)^2 + 1 = 24 + 8 + 1 = 33$. The answer is 33.
+
+문제 18:
+Final Answer: The final answer is 96. I hope it is correct.
+
+문제 19:
+A: The maximum value of $f(x)$ is $\frac{7}{27}$. We can find the value of $a$ by finding the critical points of $f(x)$. The critical points are the values of $x$ where $f'(x) = 0$. We have $f'(x) = 6x^2 - 6ax - 12a^2$. Setting $f'(x) = 0$, we get $6x^2 - 6ax - 12a^2 = 0$. This is a quadratic equation in $x$. We can solve it using the quadratic formula. We have $x = \frac{6a \pm \sqrt{36a^2 + 288a^2}}{12} = \frac{a \pm 2a}{2} = a, 2a$. So, the critical points are $x = a, 2a$. We can find the maximum value of $f(x)$ by plugging in these values of $x$ into $f(x)$. We have $f(a) = 2a^3 - 3a^3 - 12a^3 = -13a^3$ and $f(2a) = 16a^3 - 12a^3 - 48a^3 = -44a^3$. Since the maximum value of $f(x)$ is $\frac{7}{27}$, we have $-13a^3 = \frac{7}{27}$ or $-44a^3 = \frac{7}{27}$. Solving for $a$, we get $a = \frac{1}{3}$ or $a = \frac{1}{6}$. We can find $f(3)$ by plugging in $x = 3$ and $a = \frac{1}{3}$ or $a = \frac{1}{6}$ into $f(x)$. We have $f(3) = 2(3)^3 - 3(\frac{1}{3})(3)^2 - 12(\frac{1}{3})^2(3) = 18$ or $f(3) = 2(3)^3 - 3(\frac{1}{6})(3)^2 - 12(\frac{1}{6})^2(3) = 18$. So, the value of $f(3
+
+문제 20:
+A: We have that $f(x) = \left(\frac{1}{5}\right)^{x-3}$ for $x > k$. We also have that $f(f(x)) = 3x$. Therefore, $f(f(x)) = 3x = f\left(\left(\frac{1}{5}\right)^{x-3}\right)$. This means that $\left(\frac{1}{5}\right)^{x-3} > k$. We also have that $y = x$ and $y = \left(\frac{1}{5}\right)^{x-3}$ intersect at $x = k$. Therefore, $k = \left(\frac{1}{5}\right)^{k-3}$. We can solve for $k$ by taking the natural logarithm of both sides: \begin{align*}
+\ln k &= (k-3)\ln \left(\frac{1}{5}\right)\\
+\Rightarrow\qquad k &= \frac{3\ln 5}{\ln 5 - 1}.
+\end{align*}Now, we have that $f\left(\frac{1}{k^3 \times 5^{3k}}\right) = f\left(\left(\frac{1}{5}\right)^{3k-3}\right) = 3\left(\frac{1}{5}\right)^{3k-3} = 3\left(\frac{1}{5}\right)^{3\left(\frac{3\ln 5}{\ln 5 - 1}\right)-3} = 3\left(\frac{1}{5}\right)^{\frac{9\ln 5}{\ln 5 - 1}-3} = 3\left(\frac{1}{5}\right)^{\frac{9\ln 5 - 3(\ln 5 - 1)}{\ln 5 - 1}} = 3\left(\frac{1}{5}\right)^{\frac{3\ln 5 + 3}{\ln 5 - 1}} = 3\left(\frac{1}{5}\right)^{\frac{3(\ln 5 + 1)}{\ln 5 - 1}} = 3\left(\frac{1}{5}\right)^{\frac{3\ln 5^1
+
+문제 21:
+A: We have that $\lim_{x \rightarrow a} \frac{f(2x+1)}{f(x)} = \lim_{x \rightarrow a} \frac{(2x+1)^3 + a(2x+1)^2 + b(2x+1) + 4}{x^3 + ax^2 + bx + 4} = \lim_{x \rightarrow a} \frac{8x^3 + 12x^2 + 6ax^2 + 2a^2x + a^2 + 2bx + b + 4}{x^3 + ax^2 + bx + 4} = \lim_{x \rightarrow a} \frac{8x^3 + (6a+12)x^2 + (2a^2+2b)x + (a^2+b+4)}{x^3 + ax^2 + bx + 4} = 8 + \frac{(6a+12-8a)x^2 + (2a^2+2b-8b)x + (a^2+b+4-4)}{x^3 + ax^2 + bx + 4}.$ For this limit to exist, we must have $6a+12-8a=0$ and $2a^2+2b-8b=0$. Solving these equations, we obtain $a=3$ and $b=3$. Therefore, $f(x) = x^3 + 3x^2 + 3x + 4$, and $f(1) = 1^3 + 3(1)^2 + 3(1) + 4 = \boxed{11}.$
+Final Answer: The final answer is 11. I hope it is correct.
+
+문제 22:
+Final Answer: The final answer is 12. I hope it is correct.
+
+문제 23:
+A: We have that $\lim_{x \rightarrow 0} \frac{3x^2}{\sin^2 x} = \lim_{x \rightarrow 0} \frac{3x^2}{x^2} = \boxed{3}.$
+Final Answer: The final answer is 3. I hope it is correct.
+
+문제 24:
+A: We can rewrite the integral as $\int_0^{10} \frac{x+1+1}{x+1} dx = \int_0^{10} 1 + \frac{1}{x+1} dx = \int_0^{10} 1 dx + \int_0^{10} \frac{1}{x+1} dx = 10 + \ln|x+1| \Big|_0^{10} = 10 + \ln 11 - \ln 1 = 10 + \ln 11.$
+Final Answer: The final answer is 10 + \ln 11. I hope it is correct.
+
+문제 25:
+Final Answer: The final answer is 3/2. I hope it is correct.
+
+문제 26:
+Final Answer: The final answer is 2. I hope it is correct.
+
+문제 27:
+Final Answer: The final answer is 1/8. I hope it is correct.
+
+문제 28:
+Final Answer: The final answer is 2. I hope it is correct.
+
+문제 29:
+A: We have that $$ \sum_{n=1}^{\infty} (|a_n| + a_n) = \sum_{n=1}^{\infty} |a_n| + \sum_{n=1}^{\infty} a_n = \frac{40}{3} $$ and $$ \sum_{n=1}^{\infty} (|a_n| - a_n) = \sum_{n=1}^{\infty} |a_n| - \sum_{n=1}^{\infty} a_n = \frac{20}{3}. $$ Adding these two equations, we obtain $$ 2 \sum_{n=1}^{\infty} |a_n| = \frac{60}{3} \Rightarrow \sum_{n=1}^{\infty} |a_n| = 10. $$ Subtracting the second equation from the first, we obtain $$ 2 \sum_{n=1}^{\infty} a_n = \frac{20}{3} \Rightarrow \sum_{n=1}^{\infty} a_n = \frac{10}{3}. $$ Now, we have that $$ \sum_{n=1}^{\infty} a_n = \frac{10}{3} = \sum_{n=1}^{\infty} a_{m+n} $$ for all $m$. Therefore, $$ \sum_{n=1}^{\infty} a_{m+n} = \frac{10}{3} $$ for all $m$. Now, we have that $$ \lim_{n \rightarrow \infty} \sum_{k=1}^{2n} ((-1)^{\frac{k(k+1)}{2}} \times a_{m+k}) > \frac{1}{700} $$ for all $m$. We can rewrite this as $$ \lim_{n \rightarrow \infty} \sum_{k=1}^{n} ((-1)^{\frac{(2k-1)(2k)}{2}} \times a_{m+2k-1} + (-1)^{\frac{(2k)(2k+1)}{2}} \times a_{m+2k}) > \frac{1}{700} $$ for all $m$. Since $(-1)^{\frac{(2k-1)(2k)}{2
+
+문제 30:
+Final Answer: The final answer is 7. I hope it is correct.
+
+문제번호	정오	배점	과목
+1	True	2	수학1
+2	False	2	수학2
+3	True	3	수학1
+4	True	3	수학2
+5	False	3	수학2
+6	True	3	수학1
+7	True	3	수학2
+8	True	3	수학1
+9	False	4	수학2
+10	False	4	수학2
+11	False	4	수학2
+12	False	4	수학1
+13	False	4	수학2
+14	False	4	수학1
+15	False	4	수학2
+16	True	3	수학1
+17	True	3	수학2
+18	True	3	수학1
+19	False	3	수학2
+20	False	4	수학2
+21	False	4	수학2
+22	False	4	수학1
+23	True	2	미적분
+24	True	3	미적분
+25	False	3	미적분
+26	False	3	미적분
+27	False	3	미적분
+28	False	4	미적분
+29	False	4	미적분
+30	False	4	미적분
+
+[전체 통계]
+정답 개수: 11/30
+총점: 31 / 100
+정답률: 31.00%
+
+[과목별 통계]
+(수학1)
+정답 개수: 6/9
+총점: 17 / 29
+정답률: 58.62%
+(수학2)
+정답 개수: 3/13
+총점: 9 / 45
+정답률: 20.00%
+(미적분)
+정답 개수: 2/8
+총점: 5 / 26
+정답률: 19.23%

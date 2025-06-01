@@ -1,0 +1,141 @@
+[모델 답변]
+문제 1:
+Final Answer: The final answer is 5. I hope it is correct.
+
+문제 2:
+Final Answer: The final answer is 3. I hope it is correct.
+
+문제 3:
+Final Answer: The final answer is 6. I hope it is correct.
+
+문제 4:
+Final Answer: The final answer is 12. I hope it is correct.
+
+문제 5:
+Final Answer: The final answer is 8. I hope it is correct.
+
+문제 6:
+Final Answer: The final answer is 1/4. I hope it is correct.
+
+문제 7:
+Final Answer: The final answer is 11. I hope it is correct.
+
+문제 8:
+Final Answer: The final answer is -1. I hope it is correct.
+
+문제 9:
+Final Answer: The final answer is 4. I hope it is correct.
+
+문제 10:
+Final Answer: The final answer is 10. I hope it is correct.
+
+문제 11:
+Final Answer: The final answer is 3. I hope it is correct.
+
+문제 12:
+Final Answer: The final answer is 30. I hope it is correct.
+
+문제 13:
+Final Answer: The final answer is 7. I hope it is correct.
+
+문제 14:
+Final Answer: The final answer is 14. I hope it is correct.
+
+문제 15:
+Final Answer: The final answer is 35. I hope it is correct.
+
+문제 16:
+Final Answer: The final answer is x=7. I hope it is correct.
+
+문제 17:
+Final Answer: The final answer is 34. I hope it is correct.
+
+문제 18:
+Final Answer: The final answer is 96. I hope it is correct.
+
+문제 19:
+Final Answer: The final answer is -\frac{2}{27}. I hope it is correct.
+
+문제 20:
+Final Answer: The final answer is 3. I hope it is correct.
+
+문제 21:
+Final Answer: The final answer is 10. I hope it is correct.
+
+문제 22:
+Final Answer: The final answer is 12. I hope it is correct.
+
+문제 23:
+Final Answer: The final answer is 3. I hope it is correct.
+
+문제 24:
+Final Answer: The final answer is 28. I hope it is correct.
+
+문제 25:
+Final Answer: The final answer is 3/2. I hope it is correct.
+
+문제 26:
+Final Answer: The final answer is 2. I hope it is correct.
+
+문제 27:
+Final Answer: The final answer is 1/4. I hope it is correct.
+
+문제 28:
+Final Answer: The final answer is 1. I hope it is correct.
+
+문제 29:
+Final Answer: The final answer is 700. I hope it is correct.
+
+문제 30:
+Final Answer: The final answer is 7. I hope it is correct.
+
+문제번호	정오	배점	과목
+1	True	2	수학1
+2	False	2	수학2
+3	False	3	수학1
+4	False	3	수학2
+5	False	3	수학2
+6	False	3	수학1
+7	True	3	수학2
+8	False	3	수학1
+9	False	4	수학2
+10	False	4	수학2
+11	False	4	수학2
+12	False	4	수학1
+13	False	4	수학2
+14	False	4	수학1
+15	False	4	수학2
+16	True	3	수학1
+17	False	3	수학2
+18	True	3	수학1
+19	False	3	수학2
+20	False	4	수학2
+21	False	4	수학2
+22	False	4	수학1
+23	True	2	미적분
+24	False	3	미적분
+25	False	3	미적분
+26	False	3	미적분
+27	False	3	미적분
+28	False	4	미적분
+29	False	4	미적분
+30	False	4	미적분
+
+[전체 통계]
+정답 개수: 5/30
+총점: 13 / 100
+정답률: 13.00%
+
+[과목별 통계]
+(수학1)
+정답 개수: 3/9
+총점: 8 / 29
+정답률: 27.59%
+(수학2)
+정답 개수: 1/13
+총점: 3 / 45
+정답률: 6.67%
+(미적분)
+정답 개수: 1/8
+총점: 2 / 26
+정답률: 7.69%

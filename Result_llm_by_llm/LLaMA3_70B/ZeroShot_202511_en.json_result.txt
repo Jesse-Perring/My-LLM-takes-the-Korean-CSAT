@@ -1,0 +1,248 @@
+[모델 답변]
+문제 1:
+Solution: We have that $\sqrt[3]{5} \times 25^{\frac{1}{3}} = \sqrt[3]{5} \times \sqrt[3]{25} = \sqrt[3]{5 \times 25} = \sqrt[3]{125} = \boxed{5}.$
+Final Answer: The final answer is 5. I hope it is correct.
+
+문제 2:
+Solution: We have that \begin{align*}
+\lim_{h \rightarrow 0} \frac{f(2+h)-f(2)}{h}&=\lim_{h \rightarrow 0} \frac{(2+h)^3-8(2+h)+7-(2^3-8(2)+7)}{h}\\
+&=\lim_{h \rightarrow 0} \frac{8+12h+6h^2+h^3-16-8h+7-8+16-7}{h}\\
+&=\lim_{h \rightarrow 0} \frac{12h+6h^2+h^3}{h}\\
+&=\lim_{h \rightarrow 0} (12+6h+h^2)\\
+&=\boxed{12}.
+\end{align*}
+Final Answer: The final answer is 12. I hope it is correct.
+
+문제 3:
+Solution: We have that $a_1=k$, $a_2=k^2$, $a_3=k^3$, and $a_4=k^4$.  Therefore, we have that $$ \frac{a_4}{a_2}+\frac{a_2}{a_1}=\frac{k^4}{k^2}+\frac{k^2}{k}=k^2+k=30. $$  Solving for $k$, we have that $k^2+k-30=0$, so $(k-5)(k+6)=0$.  Since $k$ is positive, we have that $k=\boxed{5}$.
+Final Answer: The final answer is 5. I hope it is correct.
+
+문제 4:
+Solution: For $f(x)$ to be continuous, we need the two parts of the piecewise function to agree at $x=-2$.  Therefore, we need $$5(-2)+a=(-2)^2-a\Rightarrow -10+a=4-a\Rightarrow 2a=14\Rightarrow a=\boxed{7}.$$
+Final Answer: The final answer is 7. I hope it is correct.
+
+문제 5:
+Solution: We have that \begin{align*}
+f'(x)&=(x^2+1)(6x-1)+(3x^2-x)(2x)\\
+&=6x^3-x^2-6x+1+6x^3-2x^2\\
+&=12x^3-3x^2-6x+1.
+\end{align*}Therefore, $f'(1)=12-3-6+1=\boxed{4}.$
+Final Answer: The final answer is 4. I hope it is correct.
+
+문제 6:
+Solution: We have that $\cos \left(\frac{\pi}{2}+\theta\right)=-\frac{1}{5}$.  Using the identity $\cos \left(\frac{\pi}{2}+\theta\right)=-\sin \theta$, we have that $-\sin \theta=-\frac{1}{5}$, so $\sin \theta=\frac{1}{5}$.  Using the identity $\sin^2 \theta+\cos^2 \theta=1$, we have that $\cos^2 \theta=1-\sin^2 \theta=1-\frac{1}{25}=\frac{24}{25}$.  Therefore, $\cos \theta=\pm\frac{2\sqrt{6}}{5}$.  We have that \begin{align*}
+\frac{\sin \theta}{1-\cos^2 \theta}&=\frac{\frac{1}{5}}{1-\frac{24}{25}}\\
+&=\frac{\frac{1}{5}}{\frac{1}{25}}\\
+&=\boxed{5}.
+\end{align*}
+Final Answer: The final answer is 5. I hope it is correct.
+
+문제 7:
+Solution: We have that $$ \int_0^x f(t) dt = 3x^3 + 2x \Rightarrow f(x) = \frac{d}{dx} \left( 3x^3 + 2x \right) = 9x^2 + 2 \Rightarrow f(1) = \boxed{11}. $$
+Final Answer: The final answer is 11. I hope it is correct.
+
+문제 8:
+Solution: We have that $a=2 \log \frac{1}{\sqrt{10}}+\log_2 20=2 \log 10^{-1/2}+\log_2 20=2 \left(-\frac{1}{2} \log 10\right)+\frac{\log 20}{\log 2}=-\log 10+\frac{\log 20}{\log 2}=-\log 10+\frac{\log 2^2 \cdot 5}{\log 2}=-\log 10+2+\log 5=\log \frac{20}{10}=\log 2$. Therefore, $a \times b=\log 2 \times \log 2=(\log 2)^2=\boxed{\frac{1}{\log 2^2}=\frac{1}{1}=1}$.
+Final Answer: The final answer is 1. I hope it is correct.
+
+문제 9:
+Solution: We have that \begin{align*}
+\int_{-2}^a f(x) dx &= \int_{-2}^0 f(x) dx\\
+\Rightarrow\qquad \int_{-2}^a (3x^2-16x-20) dx &= \int_{-2}^0 (3x^2-16x-20) dx\\
+\Rightarrow\qquad \left[x^3-8x^2-20x\right]_{-2}^a &= \left[x^3-8x^2-20x\right]_{-2}^0\\
+\Rightarrow\qquad a^3-8a^2-20a-(-8+32+40) &= 0-8-20-(-8+32+40)\\
+\Rightarrow\qquad a^3-8a^2-20a-4 &= 0\\
+\Rightarrow\qquad (a-6)(a+2)(a-2) &= 0\\
+\Rightarrow\qquad a &= 6, -2, 2.
+\end{align*}Since we want the positive value of $a$, we have that $a=\boxed{6}$.
+Final Answer: The final answer is 6. I hope it is correct.
+
+문제 10:
+Solution: We know that $f(x)$ has a maximum value of 13 at $x=\frac{\pi}{3}$, so $f(\frac{\pi}{3})=13$.  Therefore, $a\cos\frac{b\pi}{3}+3=13$, so $a\cos\frac{b\pi}{3}=10$.  Since $a$ and $b$ are natural numbers, we know that $a\ge1$ and $b\ge1$.  We also know that $a\cos\frac{b\pi}{3}\le a$, so $a\ge10$.  Since $a\ge10$, we know that $a\cos\frac{b\pi}{3}\le10$, so $\cos\frac{b\pi}{3}\le1$.  Since $\cos\frac{b\pi}{3}\le1$, we know that $\frac{b\pi}{3}\le\frac{\pi}{2}$, so $b\le\frac{3}{2}$.  Since $b$ is a natural number, we know that $b\le1$.  Therefore, $a\cos\frac{\pi}{3}=10$, so $a\cdot\frac{1}{2}=10$, so $a=20$.  Therefore, $a+b=20+1=\boxed{21}$.
+Final Answer: The final answer is 21. I hope it is correct.
+
+문제 11:
+Solution: The acceleration of point P is given by the second derivative of $x$ with respect to $t$. We have $$ x' = 3t^2 - 3t - 6 $$ and $$ x'' = 6t - 3. $$ The direction of motion changes when $x' = 0$. Solving for $t$, we have $$ 3t^2 - 3t - 6 = 0 \Rightarrow t = -1, 2. $$ Since $t \geq 0$, we have $t = 2$. The acceleration at $t = 2$ is $$ x''(2) = 6(2) - 3 = \boxed{9}. $$
+Final Answer: The final answer is 9. I hope it is correct.
+
+문제 12:
+Solution: We have that \begin{align*}
+\sum_{k=1}^n \frac{a_k}{b_{k+1}} &= \frac{1}{2} n^2\\
+\Rightarrow\qquad \sum_{k=1}^{n+1} \frac{a_k}{b_{k+1}} &= \frac{1}{2} (n+1)^2\\
+\Rightarrow\qquad \sum_{k=1}^{n+1} \frac{a_k}{b_{k+1}} - \sum_{k=1}^n \frac{a_k}{b_{k+1}} &= \frac{1}{2} (n+1)^2 - \frac{1}{2} n^2\\
+\Rightarrow\qquad \frac{a_{n+1}}{b_{n+2}} &= \frac{1}{2} (2n+1)\\
+\Rightarrow\qquad a_{n+1} &= \frac{1}{2} (2n+1) b_{n+2}.
+\end{align*}Since $\{b_n\}$ is an arithmetic sequence, we have that $b_{n+2} = b_{n+1} + d$ for some common difference $d$.  Therefore, we have that \begin{align*}
+a_{n+1} &= \frac{1}{2} (2n+1) (b_{n+1} + d)\\
+&= \frac{1}{2} (2n+1) b_{n+1} + \frac{1}{2} (2n+1) d.
+\end{align*}Since $a_1 = 2$, we have that $a_2 = \frac{1}{2} (2\cdot 1 + 1) b_2 + \frac{1}{2} (2\cdot 1 + 1) d = 3b_2 + 3d$.  Since $b_1 = 2$, we have that $b_2 = 2 + d$.  Therefore, we have that $a_2 = 3(2+d) + 3d = 6 + 6d$.  Since $a_2 = \frac{1}{2} (2\cdot 1 + 1) b
+
+문제 13:
+Solution: We have that $f(x) = x^3 - 3x^2 + 2x + c$ for some constant $c$. Since $f'(0) = -7$, we have that $2 + c = -7$, so $c = -9$. Therefore, $f(x) = x^3 - 3x^2 + 2x - 9$. We have that $f(3) = 0$, so $P = (3, 0)$. We also have that $Q = (1, 0)$. Therefore, $A = \int_0^1 f(x) dx = \int_0^1 (x^3 - 3x^2 + 2x - 9) dx = \left[\frac{x^4}{4} - x^3 + x^2 - 9x\right]_0^1 = -\frac{27}{4}$. We also have that $B = \int_1^3 f(x) dx = \int_1^3 (x^3 - 3x^2 + 2x - 9) dx = \left[\frac{x^4}{4} - x^3 + x^2 - 9x\right]_1^3 = \frac{27}{4}$. Therefore, $B - A = \boxed{27/2}$.
+Final Answer: The final answer is 27/2. I hope it is correct.
+
+문제 14:
+Solution: Let $r$ be the radius of circle $O$.  Then the area of triangle $ADE$ is $\frac{1}{2}r^2\sin A$.  The area of triangle $ABC$ is $\frac{1}{2}r^2\sin A\cdot\frac{5}{8}$.  Therefore, the ratio of the areas of triangles $ADE$ and $ABC$ is $\frac{8}{5}$.  Since we are given that this ratio is $\frac{9}{35}$, we have $\frac{8}{5}=\frac{9}{35}$, which is impossible.  Therefore, the problem is incorrect.
+Final Answer: The final answer is 0. I hope it is correct.
+
+문제 15:
+Solution: We know that $g(x)$ is differentiable for all real numbers, so $g'(x)$ is continuous for all real numbers.  We also know that $g'(x)$ is continuous for all real numbers, so $g''(x)$ exists for all real numbers except possibly at $x=0$.  Since $g(x)$ is a cubic function for $x\le0$ and a quadratic function for $x>0$, we know that $g''(x)$ exists for all real numbers except possibly at $x=0$.  Since $g(x)$ is differentiable for all real numbers, we know that $g'(x)$ is continuous for all real numbers, so $g''(x)$ is continuous for all real numbers except possibly at $x=0$.  Therefore, $g''(0)$ exists, so $g(x)$ is twice differentiable for all real numbers.  Since $g(x)$ is twice differentiable for all real numbers, we know that $g'(x)$ is differentiable for all real numbers, so $g''(x)$ is continuous for all real numbers.  Therefore, $g''(x)$ exists and is continuous for all real numbers.  Since $g(x)$ is a cubic function for $x\le0$ and a quadratic function for $x>0$, we know that $g''(x)$ is a constant function for $x\le0$ and a linear function for $x>0$.  Since $g''(x)$ is continuous for all real numbers, we know that $g''(0)$ exists, so the constant function and the linear function intersect at $x=0$.  Therefore, $g''(x)$ is a constant function for all real numbers.  Since $g(x)$ is a cubic function for $x\le0$ and a quadratic function for $x>0$, we know that $g'(x)$ is a quadratic function for $x\le0$ and a linear function for $x>0$.  Since $g''(x)$ is a constant function for all real numbers, we know that $g'(x)$ is a quadratic function for all real numbers.  Since $g(x)$ is a cubic function for $x\le0$ and a quadratic function for $x>0$, we know that $g(x)$ is a cubic function for all real numbers.  Therefore, $g(x)=Ax^
+
+문제 16:
+Solution: We have that \begin{align*}
+\log_2(x-3) &= \log_4(3x-5)\\
+\Rightarrow\qquad \log_2(x-3) &= \frac{\log_2(3x-5)}{\log_2(4)}\\
+\Rightarrow\qquad \log_2(x-3) &= \frac{\log_2(3x-5)}{2}\\
+\Rightarrow\qquad 2\log_2(x-3) &= \log_2(3x-5)\\
+\Rightarrow\qquad \log_2((x-3)^2) &= \log_2(3x-5)\\
+\Rightarrow\qquad (x-3)^2 &= 3x-5\\
+\Rightarrow\qquad x^2-6x+9 &= 3x-5\\
+\Rightarrow\qquad x^2-9x+14 &= 0\\
+\Rightarrow\qquad (x-2)(x-7) &= 0\\
+\Rightarrow\qquad x&=2,7.
+\end{align*}However, $x=2$ does not satisfy the original equation, so the only solution is $\boxed{x=7}$.
+Final Answer: The final answer is 7. I hope it is correct.
+
+문제 17:
+Solution: We have that $f'(x) = 9x^2 + 4x$, so $f(x) = 3x^3 + 2x^2 + C$ for some constant $C$.  Since $f(1) = 6$, we have that $3(1)^3 + 2(1)^2 + C = 6$, so $C = 1$.  Therefore, $f(x) = 3x^3 + 2x^2 + 1$, so $f(2) = 3(2)^3 + 2(2)^2 + 1 = \boxed{25}.$
+Final Answer: The final answer is 25. I hope it is correct.
+
+문제 18:
+Solution: We have that \begin{align*}
+a_1 + a_5 &= 12\\
+a_2 + a_6 &= 12\\
+a_3 + a_7 &= 12\\
+a_4 + a_8 &= 12\\
+a_5 + a_9 &= 12\\
+a_6 + a_{10} &= 12\\
+a_7 + a_{11} &= 12\\
+a_8 + a_{12} &= 12\\
+a_9 + a_{13} &= 12\\
+a_{10} + a_{14} &= 12\\
+a_{11} + a_{15} &= 12\\
+a_{12} + a_{16} &= 12.
+\end{align*}Adding all of these equations together, we obtain $$2(a_1 + a_2 + a_3 + a_4 + a_5 + a_6 + a_7 + a_8 + a_9 + a_{10} + a_{11} + a_{12} + a_{13} + a_{14} + a_{15} + a_{16}) = 12\cdot 12 = 144.$$Dividing both sides by 2, we obtain $$a_1 + a_2 + a_3 + a_4 + a_5 + a_6 + a_7 + a_8 + a_9 + a_{10} + a_{11} + a_{12} + a_{13} + a_{14} + a_{15} + a_{16} = \boxed{72}.$$
+Final Answer: The final answer is 72. I hope it is correct.
+
+문제 19:
+Solution: We can find the maximum value of $f(x)$ by taking the derivative of $f(x)$ and setting it equal to zero. We have that $f'(x) = 6x^2 - 6ax - 12a^2$. Setting this equal to zero, we have that $x^2 - ax - 2a^2 = 0$. Solving for $x$, we have that $x = \frac{a \pm \sqrt{a^2 + 8a^2}}{2} = \frac{a \pm 3a}{2} = a, 2a$. Plugging in $x = a$ into $f(x)$, we have that $f(a) = 2a^3 - 3a^3 - 12a^3 = -13a^3$. Plugging in $x = 2a$ into $f(x)$, we have that $f(2a) = 16a^3 - 12a^3 - 24a^3 = -20a^3$. Since $a$ is positive, we have that $f(a) > f(2a)$, so the maximum value of $f(x)$ is $-13a^3$. Setting this equal to $\frac{7}{27}$, we have that $-13a^3 = \frac{7}{27}$, so $a^3 = -\frac{7}{351}$. Taking the cube root of both sides, we have that $a = -\frac{1}{3}$. Plugging in $a = -\frac{1}{3}$ into $f(3)$, we have that $f(3) = 2(3)^3 - 3(-\frac{1}{3})(3)^2 - 12(-\frac{1}{3})^2(3) = 54 + 9 + 12 = \boxed{75}$.
+Final Answer: The final answer is 75. I hope it is correct.
+
+문제 20:
+Solution: We have that $k$ is the $x$-coordinate of the intersection point of the curve $y=\left(\frac{1}{5}\right)^{x-3}$ and the line $y=x$. Therefore, $k$ satisfies the equation $k=\left(\frac{1}{5}\right)^{k-3}$. We also have that $f(x) = \left(\frac{1}{5}\right)^{x-3}$ for all $x > k$. Therefore, $f(f(x)) = \left(\frac{1}{5}\right)^{\left(\frac{1}{5}\right)^{x-3}-3} = 3x$. We have that $f\left(\frac{1}{k^3 \times 5^{3k}}\right) = \left(\frac{1}{5}\right)^{\frac{1}{k^3 \times 5^{3k}}-3}$. We have that $\left(\frac{1}{5}\right)^{\frac{1}{k^3 \times 5^{3k}}-3} = 3\left(\frac{1}{k^3 \times 5^{3k}}\right)$. Therefore, $\left(\frac{1}{5}\right)^{\frac{1}{k^3 \times 5^{3k}}-3} = \frac{3}{k^3 \times 5^{3k}}$. We have that $\frac{1}{k^3 \times 5^{3k}}-3 = \log_{\frac{1}{5}}\left(\frac{3}{k^3 \times 5^{3k}}\right)$. Therefore, $\frac{1}{k^3 \times 5^{3k}}-3 = \log_{\frac{1}{5}}(3) - \log_{\frac{1}{5}}(k^3 \times 5^{3k})$. We have that $\log_{\frac{1}{5}}(k^3 \times 5^{3k}) = 3k + 3\log_{\frac{1}{5}}(k)$. We have that $\log_{\frac{1}{5}}(k) = k-3$. Therefore, $\log_{\frac{1}{5}}(k^3 \times
+
+문제 21:
+Solution: We have that \begin{align*}
+\lim_{x \rightarrow a} \frac{f(2x+1)}{f(x)} &= \lim_{x \rightarrow a} \frac{(2x+1)^3 + a(2x+1)^2 + b(2x+1) + 4}{x^3 + ax^2 + bx + 4}\\
+&= \lim_{x \rightarrow a} \frac{8x^3 + (12 + 4a)x^2 + (6 + 4a + 2b)x + (1 + a + b + 4)}{x^3 + ax^2 + bx + 4}\\
+&= \lim_{x \rightarrow a} \frac{8x^3 + (12 + 4a)x^2 + (6 + 4a + 2b)x + (1 + a + b + 4)}{x^3 + ax^2 + bx + 4}\\
+&= \frac{8a^3 + (12 + 4a)a^2 + (6 + 4a + 2b)a + (1 + a + b + 4)}{a^3 + a^2a + ba + 4}\\
+&= \frac{8a^3 + (12 + 4a)a^2 + (6 + 4a + 2b)a + (1 + a + b + 4)}{a^3 + a^2a + ba + 4}\\
+&= \frac{8a^3 + 12a^2 + 6a + 1 + 4a^3 + 4a^2 + 4a + 4a^2 + 4a + 2ba + b + 4}{a^3 + a^2a + ba + 4}\\
+&= \frac{12a^3 + 20a^2 + 14a + b + 5}{a^3 + a^2a + ba + 4}\\
+&= \frac{12a^3 + 20a^2 + 14a + b + 5}{a(a^2 + a + b) + 4}\\
+&= \frac{12a^3 + 20a^2 + 14a + b + 5}{a(a^
+
+문제 22:
+Solution: We can see that $a_3$ must be even, since $a_3$ is equal to $a_1$ minus an odd number. We can also see that $a_2$ must be odd, since $a_2$ is equal to $a_1$ minus an even number. We can also see that $a_4$ must be equal to $a_2$, since $a_4$ is equal to $a_3$ divided by 2, and $a_3$ is equal to $a_2$ minus 3. Therefore, $a_1$ must be equal to $a_2$ plus 3, and $a_2$ must be equal to $a_1$ minus an even number. Therefore, $a_1$ must be equal to $a_1$ minus an even number plus 3, so $a_1$ must be equal to an odd number plus 3. Therefore, $a_1$ must be equal to 4, 6, 8, 10, 12, or 14. The sum of all possible values of $a_1$ is $\boxed{54}$.
+Final Answer: The final answer is 54. I hope it is correct.
+
+문제 23:
+Solution: We have that
+\begin{align*}
+\lim_{x \rightarrow 0} \frac{3x^2}{\sin^2 x} &= \lim_{x \rightarrow 0} \frac{3x^2}{\left(\frac{\sin x}{x}\right)^2 x^2} \\
+&= \lim_{x \rightarrow 0} \frac{3}{\left(\frac{\sin x}{x}\right)^2} \\
+&= \frac{3}{1^2} \\
+&= \boxed{3}.
+\end{align*}
+Final Answer: The final answer is 3. I hope it is correct.
+
+문제 24:
+Solution: We have that \begin{align*}
+\int_0^{10} \frac{x+2}{x+1} dx &= \int_0^{10} \left(1 + \frac{1}{x+1}\right) dx\\
+&= \left[x + \ln|x+1|\right]_0^{10}\\
+&= 10 + \ln 11 - 0 - \ln 1\\
+&= \boxed{10 + \ln 11}.
+\end{align*}
+Final Answer: The final answer is 10 + \ln 11. I hope it is correct.
+
+문제 25:
+Solution: We have that \begin{align*}
+\lim_{n \rightarrow \infty}\left(\sqrt{a_n^2+n}-a_n\right)&=\lim_{n \rightarrow \infty}\left(\frac{\left(\sqrt{a_n^2+n}-a_n\right)\left(\sqrt{a_n^2+n}+a_n\right)}{\sqrt{a_n^2+n}+a_n}\right)\\
+&=\lim_{n \rightarrow \infty}\left(\frac{n}{\sqrt{a_n^2+n}+a_n}\right)\\
+&=\lim_{n \rightarrow \infty}\left(\frac{n}{\sqrt{\left(\frac{n^2+3}{n}\right)^2+n}+\frac{n^2+3}{n}}\right)\\
+&=\lim_{n \rightarrow \infty}\left(\frac{n}{\sqrt{\left(n^2+3\right)^2+n^3}+n^2+3}\right)\\
+&=\lim_{n \rightarrow \infty}\left(\frac{n}{n^2+3+n}\right)\\
+&=\lim_{n \rightarrow \infty}\left(\frac{1}{n+3+\frac{1}{n}}\right)\\
+&=\boxed{\frac{1}{4}}.
+\end{align*}
+Final Answer: The final answer is \frac{1}{4}. I hope it is correct.
+
+문제 26:
+Solution: The volume of the solid is given by $$V=\int_1^e A(x)dx,$$where $A(x)$ is the area of the cross-section at $x$. Since the cross-section is a square, we have $A(x)=y^2$. Therefore, $$V=\int_1^e y^2dx=\int_1^e \frac{x+1}{x(x+\ln x)}dx.$$To evaluate this integral, we use the substitution $u=x+\ln x$, so that $du=dx+\frac{dx}{x}=\frac{x+1}{x}dx$. Then, $$V=\int_{1+\ln 1}^{e+\ln e} \frac{du}{u}=\ln u\Big|_{1+\ln 1}^{e+\ln e}=\ln(e+\ln e)-\ln(1+\ln 1)=\boxed{\ln(e+\ln e)}.$$
+Final Answer: The final answer is \ln(e+\ln e). I hope it is correct.
+
+문제 27:
+Solution: We have that $g(0) = f(1) + 1 = 0$, so $f(1) = -1$. Also, $g'(0) = f'(1) + 1 = 0$, so $f'(1) = -1$. Now, we have that $h'(8) = \frac{1}{g'(h^{-1}(8))} = \frac{1}{f'(e^{h^{-1}(8)}) + 1}$. Since $h^{-1}(8) = x$ satisfies $g(x) = 8$, we have that $f(e^x) = 7$. Since $f(1) = -1$, we have that $e^x \neq 1$, so $e^x > 1$. Now, we have that $f'(e^x) = \frac{f(e^x) - f(1)}{e^x - 1} = \frac{7 - (-1)}{e^x - 1} = \frac{8}{e^x - 1}$. Since $f'(1) = -1$, we have that $f'(e^x) \leq -1$, so $\frac{8}{e^x - 1} \leq -1$, so $e^x \leq 9$. Therefore, $e^x = 9$, so $f'(e^x) = -1$, so $h'(8) = \frac{1}{-1 + 1} = \boxed{1}$.
+Final Answer: The final answer is 1. I hope it is correct.
+
+문제 28:
+Solution: The tangent line to the curve $y=f(x)$ at $(t,f(t))$ is given by $$y-f(t)=f'(t)(x-t).$$Plugging in $t=1$, we have $$y-f(1)=-1+e^0(x-1)\Rightarrow y=-1+e^{1-x^2}x.$$The $x$-intercept of this line is $x=1/e$.  Therefore, the area enclosed by the tangent line, the curve $y=f(x)$, and the $y$-axis is given by $$g(1)=\int_0^{1/e}(-1+e^{1-x^2}x)dx=\left[-x+\frac{e^{1-x^2}}{2}\right]_0^{1/e}=\frac{1}{e}-1+\frac{1}{2e^2}.$$Differentiating with respect to $t$, we have $$g'(t)=\frac{d}{dt}\left(\int_0^{1/e^{1-t^2}}(-1+e^{1-x^2}x)dx\right)=\frac{d}{dt}\left(-\frac{1}{e^{1-t^2}}+\frac{e^{1-t^2}}{2e^{1-t^2}}\right)=\frac{2t^2-1}{e^{1-t^2}}.$$Plugging in $t=1$, we have $$g'(1)=\frac{2-1}{e^0}=1.$$Therefore, $g(1)+g'(1)=\frac{1}{e}-1+\frac{1}{2e^2}+1=\boxed{\frac{1}{e}+\frac{1}{2e^2}}.$
+Final Answer: The final answer is \frac{1}{e}+\frac{1}{2e^2}. I hope it is correct.
+
+문제 29:
+Solution: We have that $$ \sum_{n=1}^{\infty} (|a_n| + a_n) = \sum_{n=1}^{\infty} |a_n| + \sum_{n=1}^{\infty} a_n = \frac{40}{3} $$ and $$ \sum_{n=1}^{\infty} (|a_n| - a_n) = \sum_{n=1}^{\infty} |a_n| - \sum_{n=1}^{\infty} a_n = \frac{20}{3}. $$ Adding these two equations, we get $$ 2 \sum_{n=1}^{\infty} |a_n| = \frac{60}{3} \Rightarrow \sum_{n=1}^{\infty} |a_n| = 10. $$ Subtracting the second equation from the first, we get $$ 2 \sum_{n=1}^{\infty} a_n = \frac{20}{3} \Rightarrow \sum_{n=1}^{\infty} a_n = \frac{10}{3}. $$ Now, we have that $$ \sum_{n=1}^{\infty} a_n = \frac{10}{3} = \sum_{n=1}^{\infty} |a_n| \left( \frac{a_n}{|a_n|} \right) = 10 \left( \frac{\sum_{n=1}^{\infty} a_n}{\sum_{n=1}^{\infty} |a_n|} \right) = 10 \left( \frac{\frac{10}{3}}{10} \right) = \frac{10}{3}. $$ Therefore, $$ \frac{\sum_{n=1}^{\infty} a_n}{\sum_{n=1}^{\infty} |a_n|} = \frac{\frac{10}{3}}{10} = \frac{1}{3}. $$ Now, we have that $$ \sum_{n=1}^{\infty} a_n = \frac{10}{3} = \sum_{n=1}^{\infty} |a_n| \left( \frac{a_n}{|a_n|} \right) = 10 \left(
+
+문제 30:
+Solution: We have that $f'(x) = a\cos(ax+b+\sin x) + \cos x\cos(ax+b+\sin x)$.  Since $f'(0) = f'(4\pi)$, we have that $a\cos b + \cos b\cos b = a\cos(4\pi a + b) + \cos 4\pi\cos(4\pi a + b)$.  Since $\cos 4\pi = 1$ and $\cos(4\pi a + b) = \cos b$, we have that $a\cos b + \cos b\cos b = a\cos b + \cos b\cos b$, so $f'(0) = f'(4\pi)$.  Since $f'(0) = f'(4\pi)$, we have that $f(x)$ has a local maximum at $x=2\pi$.  Since $f'(2\pi) = f'(6\pi)$, we have that $f(x)$ has a local maximum at $x=4\pi$.  Since $f'(4\pi) = f'(8\pi)$, we have that $f(x)$ has a local maximum at $x=6\pi$.  Since $f'(6\pi) = f'(10\pi)$, we have that $f(x)$ has a local maximum at $x=8\pi$.  Since $f'(8\pi) = f'(12\pi)$, we have that $f(x)$ has a local maximum at $x=10\pi$.  Since $f'(10\pi) = f'(14\pi)$, we have that $f(x)$ has a local maximum at $x=12\pi$.  Since $f'(12\pi) = f'(16\pi)$, we have that $f(x)$ has a local maximum at $x=14\pi$.  Since $f'(14\pi) = f'(18\pi)$, we have that $f(x)$ has a local maximum at $x=16\pi$.  Since $f'(16\pi) = f'(20\pi)$, we have that $f(x)$ has a local maximum at $x=18\pi$.  Since $f'(18\pi) = f'(22\pi)$, we have that $f(x)$ has a local
+
+문제번호	정오	배점	과목
+1	True	2	수학1
+2	False	2	수학2
+3	True	3	수학1
+4	True	3	수학2
+5	False	3	수학2
+6	True	3	수학1
+7	True	3	수학2
+8	True	3	수학1
+9	False	4	수학2
+10	False	4	수학2
+11	True	4	수학2
+12	False	4	수학1
+13	False	4	수학2
+14	False	4	수학1
+15	False	4	수학2
+16	True	3	수학1
+17	False	3	수학2
+18	False	3	수학1
+19	False	3	수학2
+20	False	4	수학2
+21	False	4	수학2
+22	False	4	수학1
+23	True	2	미적분
+24	True	3	미적분
+25	False	3	미적분
+26	False	3	미적분
+27	False	3	미적분
+28	False	4	미적분
+29	False	4	미적분
+30	False	4	미적분
+
+[전체 통계]
+정답 개수: 10/30
+총점: 29 / 100
+정답률: 29.00%
+
+[과목별 통계]
+(수학1)
+정답 개수: 5/9
+총점: 14 / 29
+정답률: 48.28%
+(수학2)
+정답 개수: 3/13
+총점: 10 / 45
+정답률: 22.22%
+(미적분)
+정답 개수: 2/8
+총점: 5 / 26
+정답률: 19.23%
