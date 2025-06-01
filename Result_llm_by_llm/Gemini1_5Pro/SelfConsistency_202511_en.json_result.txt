@@ -1,0 +1,950 @@
+[모델 답변]
+문제 1:
+[문제 1] (배점: 2)
+Solution:
+문제는 $\sqrt[3]{5} \times 25^{\frac{1}{3}}$의 값을 구하는 것입니다.
+
+먼저 $25$를 $5^2$로 다시 씁니다. 그러면 식은 $\sqrt[3]{5} \times (5^2)^{\frac{1}{3}}$가 됩니다.
+
+다음으로 지수의 거듭제곱 규칙 $(a^m)^n = a^{mn}$을 사용하여 $(5^2)^{\frac{1}{3}}$을 $5^{2 \times \frac{1}{3}} = 5^{\frac{2}{3}}$로 단순화합니다. 그러면 식은 $\sqrt[3]{5} \times 5^{\frac{2}{3}}$가 됩니다.
+
+이제 $\sqrt[3]{5}$를 $5^{\frac{1}{3}}$로 다시 씁니다. 그러면 식은 $5^{\frac{1}{3}} \times 5^{\frac{2}{3}}$가 됩니다.
+
+지수의 곱셈 규칙 $a^m \times a^n = a^{m+n}$을 사용하여 $5^{\frac{1}{3}} \times 5^{\frac{2}{3}}$을 $5^{\frac{1}{3} + \frac{2}{3}} = 5^{\frac{1+2}{3}} = 5^{\frac{3}{3}} = 5^1 = 5$로 단순화합니다.
+
+따라서 $\sqrt[3]{5} \times 25^{\frac{1}{3}}$의 값은 5입니다.
+
+최종 답: The final answer is $\boxed{5}$
+Answer: 5
+
+
+문제 2:
+[문제 2] (배점: 2)
+Solution:
+The problem asks for the value of $\lim_{h \rightarrow 0} \frac{f(2+h)-f(2)}{h}$, where $f(x) = x^3 - 8x + 7$. This expression is the definition of the derivative of $f(x)$ at $x=2$, denoted as $f'(2)$.
+
+The solution proceeds in two ways:
+
+**Method 1: Using the limit definition of the derivative**
+
+First, we evaluate $f(2)$ and $f(2+h)$:
+
+* $f(2) = 2^3 - 8(2) + 7 = 8 - 16 + 7 = -1$
+* $f(2+h) = (2+h)^3 - 8(2+h) + 7 = (8 + 12h + 6h^2 + h^3) - 16 - 8h + 7 = h^3 + 6h^2 + 4h - 1$
+
+Then, we substitute these values into the limit expression:
+
+$\lim_{h \rightarrow 0} \frac{f(2+h)-f(2)}{h} = \lim_{h \rightarrow 0} \frac{(h^3 + 6h^2 + 4h - 1) - (-1)}{h} = \lim_{h \rightarrow 0} \frac{h^3 + 6h^2 + 4h}{h}$
+
+We can factor out an $h$ from the numerator:
+
+$\lim_{h \rightarrow 0} \frac{h(h^2 + 6h + 4)}{h}$
+
+Now, we can cancel out the $h$ terms:
+
+$\lim_{h \rightarrow 0} (h^2 + 6h + 4)$
+
+Finally, we substitute $h=0$ into the expression:
+
+$0^2 + 6(0) + 4 = 4$
+
+Therefore, the limit is 4.
+
+**Method 2: Using the derivative rules**
+
+We can find the derivative of $f(x)$ using the power rule:
+
+$f'(x) = \frac{d}{dx}(x^3 - 8x + 7) = 3x^2 - 8$
+
+Then, we evaluate the derivative at $x=2$:
+
+$f'(2) = 3(2^2) - 8 = 3(4) - 8 = 12 - 8 = 4$
+
+Both methods yield the same result: the derivative of $f(x)$ at $x=2$ is 4.  Therefore, the limit is 4.
+
+Final Answer: The final answer is $\boxed{4}$
+Answer: 4
+
+
+문제 3:
+[문제 3] (배점: 3)
+Solution:
+This problem involves applying the formula for a geometric sequence and solving a resulting quadratic equation. Here's a breakdown of the solution:
+
+1. **Understanding the Geometric Sequence:** The problem states that the sequence is geometric, meaning each term is obtained by multiplying the previous term by a constant value, called the common ratio.  Here, both the first term ($a_1$) and the common ratio ($r$) are equal to $k$.
+
+2. **Expressing Terms in Terms of *k*:** Using the formula for the nth term of a geometric sequence, $a_n = a_1 * r^{n-1}$, we express $a_1$, $a_2$, and $a_4$ in terms of $k$. Since $a_1 = k$ and $r = k$, we get $a_1 = k$, $a_2 = k * k = k^2$, and $a_4 = k * k^3 = k^4$.
+
+3. **Substituting into the Given Equation:** The problem provides the equation $\frac{a_4}{a_2} + \frac{a_2}{a_1} = 30$. We substitute the expressions we found in step 2 into this equation, resulting in $\frac{k^4}{k^2} + \frac{k^2}{k} = 30$.
+
+4. **Simplifying the Equation:** We simplify the fractions by dividing the terms with the same base.  This simplifies the equation to $k^2 + k = 30$.
+
+5. **Forming the Quadratic Equation:** To solve for *k*, we rearrange the equation into standard quadratic form by subtracting 30 from both sides: $k^2 + k - 30 = 0$.
+
+6. **Solving the Quadratic Equation:** We solve the quadratic equation by factoring.  The equation factors into $(k + 6)(k - 5) = 0$.  This gives us two possible solutions: $k = -6$ and $k = 5$.
+
+7. **Choosing the Correct Solution:** The problem states that *k* is a positive number. Therefore, we discard the negative solution, $k = -6$.  The only valid solution is $k = 5$.
+
+Therefore, the value of *k* is 5.
+Answer: 5
+
+
+문제 4:
+[문제 4] (배점: 3)
+Solution:
+주어진 함수 f(x)는 x = -2를 기준으로 두 개의 다른 함수로 정의되어 있습니다.  이러한 함수가 모든 실수 x에 대해 연속이 되려면, x = -2에서 연속이어야 합니다.  연속의 조건은 x = -2에서 좌극한, 우극한, 그리고 함수값이 모두 같아야 한다는 것입니다.
+
+풀이는 다음과 같은 단계로 진행됩니다.
+
+1. **좌극한 계산:** x가 -2보다 작을 때 f(x) = 5x + a 입니다. 따라서 x가 -2 왼쪽에서 -2로 접근할 때의 극한값(좌극한)은 다음과 같이 계산됩니다.
+   lim(x→-2⁻) f(x) = lim(x→-2⁻) (5x + a) = 5(-2) + a = -10 + a
+
+2. **우극한 계산:** x가 -2보다 크거나 같을 때 f(x) = x² - a 입니다. 따라서 x가 -2 오른쪽에서 -2로 접근할 때의 극한값(우극한)은 다음과 같이 계산됩니다.
+   lim(x→-2⁺) f(x) = lim(x→-2⁺) (x² - a) = (-2)² - a = 4 - a
+
+3. **함수값 계산:** x = -2일 때의 함수값은 f(x) = x² - a를 사용하여 계산합니다.
+   f(-2) = (-2)² - a = 4 - a
+
+4. **연속 조건 적용:** 함수가 x = -2에서 연속이려면 좌극한, 우극한, 그리고 함수값이 모두 같아야 합니다. 따라서 다음과 같은 방정식을 세울 수 있습니다.
+   -10 + a = 4 - a = 4 - a
+
+   좌극한과 우극한이 같아야 하므로,
+   -10 + a = 4 - a
+   2a = 14
+   a = 7
+
+   a = 7일 때, 좌극한, 우극한, 그리고 함수값은 모두 -3이 됩니다. 따라서 f(x)는 x = -2에서 연속입니다.
+
+결론적으로, f(x)가 모든 실수에 대해 연속이 되려면 a = 7 이어야 합니다.
+Answer: 7
+
+
+문제 5:
+[문제 5] (배점: 3)
+Solution:
+주어진 함수는 $f(x) = (x^2+1)(3x^2-x)$ 입니다.  $f'(1)$의 값을 구하기 위해 먼저 함수 $f(x)$를 미분해야 합니다. 이를 위해 곱의 미분 법칙을 사용합니다. 곱의 미분 법칙은 $(uv)' = u'v + uv'$ 입니다.
+
+1. **$u$와 $v$ 정의:**  $u = x^2 + 1$ 이고 $v = 3x^2 - x$ 로 정의합니다.
+
+2. **$u'$와 $v'$ 계산:**  $u$와 $v$를 각각 $x$에 대해 미분합니다.
+   $u' = \frac{d}{dx}(x^2 + 1) = 2x$
+   $v' = \frac{d}{dx}(3x^2 - x) = 6x - 1$
+
+3. **곱의 미분 법칙 적용:**  $f'(x) = u'v + uv'$ 공식에 $u$, $v$, $u'$, $v'$ 값을 대입합니다.
+   $f'(x) = (2x)(3x^2 - x) + (x^2 + 1)(6x - 1)$
+
+4. **$f'(x)$ 간소화:**  전개하여 동류항끼리 모아 $f'(x)$를 간단히 합니다.
+   $f'(x) = 6x^3 - 2x^2 + 6x^3 - x^2 + 6x - 1$
+   $f'(x) = 12x^3 - 3x^2 + 6x - 1$
+
+5. **$f'(1)$ 계산:**  $x = 1$을 $f'(x)$에 대입하여 $f'(1)$의 값을 구합니다.
+   $f'(1) = 12(1)^3 - 3(1)^2 + 6(1) - 1$
+   $f'(1) = 12 - 3 + 6 - 1$
+   $f'(1) = 14$
+
+따라서, $f'(1)$의 값은 14입니다.
+Answer: 14
+
+
+문제 6:
+[문제 6] (배점: 3)
+Solution:
+주어진 문제는 $\cos(\frac{\pi}{2} + \theta) = -\frac{1}{5}$일 때, $\frac{\sin \theta}{1-\cos^2 \theta}$의 값을 구하는 것입니다.
+
+먼저 주어진 조건을 이용하여 $\sin \theta$의 값을 구합니다.  코사인의 덧셈 정리 $\cos(a+b) = \cos a \cos b - \sin a \sin b$를 이용하면, $\cos(\frac{\pi}{2} + \theta) = \cos\frac{\pi}{2}\cos\theta - \sin\frac{\pi}{2}\sin\theta$ 입니다. $\cos\frac{\pi}{2}=0$이고 $\sin\frac{\pi}{2}=1$이므로, $\cos(\frac{\pi}{2} + \theta) = -\sin\theta$가 됩니다. 따라서 $-\sin\theta = -\frac{1}{5}$이므로 $\sin\theta = \frac{1}{5}$ 입니다.
+
+다음으로 구하고자 하는 식 $\frac{\sin \theta}{1-\cos^2 \theta}$을 간단히 합니다. 삼각함수의 기본 공식인 $\sin^2\theta + \cos^2\theta = 1$에서 $1 - \cos^2\theta = \sin^2\theta$임을 알 수 있습니다. 따라서 주어진 식은 $\frac{\sin\theta}{\sin^2\theta} = \frac{1}{\sin\theta}$로 간단히 할 수 있습니다.
+
+마지막으로 $\sin\theta = \frac{1}{5}$를 대입하면, $\frac{1}{\sin\theta} = \frac{1}{\frac{1}{5}} = 5$가 됩니다.
+
+따라서 $\frac{\sin \theta}{1-\cos^2 \theta}$의 값은 5입니다.
+Answer: 5
+
+
+문제 7:
+[문제 7] (배점: 3)
+Solution:
+문제는 주어진 적분식을 만족하는 함수 f(x)의 x=1에서의 값을 구하는 것입니다.  풀이는 미적분학의 기본 정리를 활용하여 진행됩니다.
+
+먼저, 문제에서 모든 실수 x에 대해  ∫₀ˣ f(t) dt = 3x³ + 2x 라는 식이 주어졌습니다.  이 식의 양변을 x에 대해 미분하면 f(x)를 구할 수 있습니다.
+
+미적분학의 기본 정리에 따르면, 정적분의 상한을 변수로 하는 함수의 도함수는 피적분 함수와 같습니다. 즉, d/dx ∫₀ˣ f(t) dt = f(x) 입니다.
+
+우변의 3x³ + 2x 를 x에 대해 미분하면 9x² + 2 가 됩니다.
+
+따라서, f(x) = 9x² + 2 라는 결과를 얻습니다.
+
+이제 f(1)의 값을 구하기 위해 x에 1을 대입합니다.  f(1) = 9(1)² + 2 = 9 + 2 = 11 입니다.
+
+따라서, f(1)의 값은 11입니다.
+Answer: 11
+
+
+문제 8:
+[문제 8] (배점: 3)
+Solution:
+주어진 문제는 두 실수 a와 b의 곱을 구하는 것입니다. 여기서 $a = 2 \log \frac{1}{\sqrt{10}} + \log_2 20$ 이고 $b = \log 2$ 입니다.
+
+**1. a 값 간소화:**
+
+* $a = 2 \log \frac{1}{\sqrt{10}} + \log_2 20$
+
+먼저, $\log \frac{1}{x} = -\log x$ 라는 성질을 이용하여 $\log \frac{1}{\sqrt{10}} = -\log \sqrt{10}$ 으로 바꿔줍니다.
+
+또한, $\sqrt{10} = 10^{\frac{1}{2}}$ 이므로, $\log \sqrt{10} = \log 10^{\frac{1}{2}} = \frac{1}{2} \log 10$ 입니다. 첫 번째 로그의 밑이 10이라고 가정하면, $\log 10 = 1$ 이므로 $\log \sqrt{10} = \frac{1}{2}$ 입니다.
+
+이를 대입하면, $2 \log \frac{1}{\sqrt{10}} = 2 \times (-\frac{1}{2}) = -1$ 이 됩니다.
+
+다음으로 $\log_2 20$ 을 간소화합니다. $20 = 2^2 \times 5$ 로 나타낼 수 있으므로, $\log_2 20 = \log_2 (2^2 \times 5) = \log_2 2^2 + \log_2 5 = 2 + \log_2 5$ 입니다.
+
+따라서, $a = -1 + 2 + \log_2 5 = 1 + \log_2 5$ 입니다.
+
+**2. b 값 확인:**
+
+* $b = \log 2$ (밑이 10이라고 가정)
+
+**3. a * b 계산:**
+
+* $a \times b = (1 + \log_2 5) \times \log 2$
+
+밑변환 공식 $\log_a b = \frac{\log_c b}{\log_c a}$ 을 이용하여 $\log_2 5 = \frac{\log 5}{\log 2}$ 로 바꿔줍니다.
+
+그러면 $a \times b = (1 + \frac{\log 5}{\log 2}) \times \log 2 = \log 2 + \frac{\log 5}{\log 2} \times \log 2 = \log 2 + \log 5$ 입니다.
+
+로그의 성질 $\log a + \log b = \log(ab)$ 를 이용하면 $\log 2 + \log 5 = \log(2 \times 5) = \log 10$ 입니다.
+
+밑이 10이라고 가정했으므로, $\log 10 = 1$ 입니다.
+
+**결론:**
+
+따라서 $a \times b = 1$ 입니다.
+
+
+Final Answer: The final answer is $\boxed{1}$
+Answer: 1
+
+
+문제 9:
+[문제 9] (배점: 4)
+Solution:
+주어진 함수 $f(x) = 3x^2 - 16x - 20$에 대해, $\int_{-2}^a f(x) dx = \int_{-2}^0 f(x) dx$를 만족하는 양수 $a$ 값을 구하는 문제입니다.
+
+1. **-2에서 0까지의 정적분 계산:**
+
+먼저 $\int_{-2}^0 f(x) dx$를 계산합니다.
+
+$\int_{-2}^0 (3x^2 - 16x - 20) dx = [x^3 - 8x^2 - 20x]_{-2}^0 = (0) - ((-8) - 32 + 40) = 0 - 0 = 0$
+
+따라서 $\int_{-2}^0 f(x) dx = 0$ 입니다.
+
+2. **주어진 정보를 바탕으로 방정식 세우기:**
+
+문제에서 $\int_{-2}^a f(x) dx = \int_{-2}^0 f(x) dx$ 라고 했고, $\int_{-2}^0 f(x) dx = 0$ 임을 알았으므로, 다음과 같은 방정식을 세울 수 있습니다.
+
+$\int_{-2}^a (3x^2 - 16x - 20) dx = 0$
+
+3. **-2에서 a까지의 정적분 계산:**
+
+$\int_{-2}^a (3x^2 - 16x - 20) dx = [x^3 - 8x^2 - 20x]_{-2}^a = (a^3 - 8a^2 - 20a) - ((-2)^3 - 8(-2)^2 - 20(-2)) = a^3 - 8a^2 - 20a - 0 = a^3 - 8a^2 - 20a$
+
+4. **a에 대한 방정식 풀기:**
+
+$a^3 - 8a^2 - 20a = 0$ 이라는 방정식을 얻었습니다.
+
+$a$로 묶어내면 $a(a^2 - 8a - 20) = 0$ 입니다.
+
+따라서 $a=0$ 이거나 $a^2 - 8a - 20 = 0$ 입니다.
+
+이차방정식 $a^2 - 8a - 20 = 0$ 을 인수분해하면 $(a-10)(a+2) = 0$ 이므로, $a=10$ 또는 $a=-2$ 입니다.
+
+5. **양수 a 값 구하기:**
+
+문제에서 양수 $a$ 값을 구하라고 했으므로, $a=0$, $a=10$, $a=-2$ 중에서 양수인 $a=10$이 답입니다.
+
+답: 10
+Answer: 10
+
+
+문제 10:
+[문제 10] (배점: 4)
+Solution:
+주어진 함수 $f(x) = a \cos(bx) + 3$은 구간 $[0, 2\pi]$에서 정의되고, $x = \frac{\pi}{3}$에서 최대값 13을 갖습니다. $a$와 $b$가 자연수일 때, $a+b$의 최솟값을 구하는 문제입니다.
+
+1. **최대값 이해하기:**
+함수 $f(x)$의 최대값은 코사인 함수의 범위가 -1에서 1 사이이므로 $a \cos(bx)$의 최대값은 $|a|$입니다. 따라서 $f(x)$의 최대값은 $|a| + 3$입니다. 문제에서 최대값이 13이라고 주어졌으므로,
+
+$|a| + 3 = 13$
+$|a| = 10$
+$a = 10$ 또는 $a = -10$입니다.
+$a$는 자연수이므로 $a = 10$입니다.
+
+2. **최대값의 위치 활용하기:**
+최대값은 $x = \frac{\pi}{3}$에서 발생합니다. $a$가 양수이므로 $\cos(b \cdot \frac{\pi}{3}) = 1$이어야 합니다. 코사인 함수는 그 인자가 $2\pi$의 배수일 때 1이 됩니다. 따라서
+
+$b \cdot \frac{\pi}{3} = 2\pi k$ (단, $k$는 정수)
+$b = 6k$
+
+3. **가장 작은 자연수 $b$ 찾기:**
+$b$는 자연수이므로 $k$의 가장 작은 값은 1입니다. 따라서 $b$의 가장 작은 값은
+
+$b = 6(1) = 6$
+
+4. **$a + b$ 계산하기:**
+$a = 10$이고 $b = 6$이므로
+
+$a + b = 10 + 6 = 16$
+
+따라서 $a+b$의 최솟값은 16입니다.
+Answer: 16
+
+
+문제 11:
+[문제 11] (배점: 4)
+Solution:
+점 P의 운동 방향이 바뀌는 순간의 가속도를 구하는 문제입니다. 주어진 풀이를 바탕으로 자세한 해설을 작성해 보겠습니다.
+
+1. **속도 구하기:** 점 P의 위치가 시간 $t$에 대한 함수 $x(t) = t^3 - \frac{3}{2}t^2 - 6t$로 주어졌습니다. 속도 $v$는 위치의 시간에 대한 미분값이므로, 다음과 같이 계산합니다.
+   $$v = \frac{dx}{dt} = 3t^2 - 3t - 6$$
+
+2. **가속도 구하기:** 가속도 $a$는 속도의 시간에 대한 미분값이므로, 다음과 같이 계산합니다.
+   $$a = \frac{dv}{dt} = 6t - 3$$
+
+3. **운동 방향이 바뀌는 시점 찾기:** 운동 방향이 바뀌는 시점은 속도가 0이고 가속도가 0이 아닌 시점입니다. 따라서 $v=0$인 $t$를 구합니다.
+   $$3t^2 - 3t - 6 = 0$$
+   $$t^2 - t - 2 = 0$$
+   $$(t-2)(t+1) = 0$$
+   이 방정식의 해는 $t=2$와 $t=-1$입니다. 시간은 음수가 될 수 없으므로, $t=2$입니다.  이 시점에서 가속도 $a(2) = 6(2) - 3 = 9 \ne 0$ 이므로, $t=2$에서 운동 방향이 바뀝니다.
+
+4. **$t=2$에서의 가속도 계산:** $t=2$일 때 가속도는 다음과 같습니다.
+   $$a(2) = 6(2) - 3 = 12 - 3 = 9$$
+
+따라서 점 P의 운동 방향이 바뀌는 순간($t=2$)의 가속도는 9입니다.
+
+답: 9
+Answer: 9
+
+
+문제 12:
+[문제 12] (배점: 4)
+Solution:
+The solution correctly derives $b_{k+1} = 2(k+1)$.  The problem states $\sum_{k=1}^n \frac{a_k}{b_{k+1}} = \frac{1}{2}n^2$. Substituting the expression for $b_{k+1}$, we get:
+
+$\sum_{k=1}^n \frac{a_k}{2(k+1)} = \frac{1}{2}n^2$
+
+Multiplying both sides by 2 gives:
+
+$\sum_{k=1}^n \frac{a_k}{k+1} = n^2$
+
+The solution then proceeds to calculate $a_2$ and $a_3$ correctly.  The values are $a_1=2$, $a_2=9$, and $a_3=20$.  The solution attempts to find a general formula for $a_k$ but makes a few incorrect guesses.  The correct formula, as can be verified by plugging in the values for $a_1$, $a_2$, and $a_3$, is $a_k = 2k^2 - k + 1$.
+
+Now, we want to find $\sum_{k=1}^5 a_k$. Using the formula for $a_k$:
+
+$\sum_{k=1}^5 a_k = \sum_{k=1}^5 (2k^2 - k + 1) = 2\sum_{k=1}^5 k^2 - \sum_{k=1}^5 k + \sum_{k=1}^5 1$
+
+We can use the following formulas:
+$\sum_{k=1}^n k = \frac{n(n+1)}{2}$
+$\sum_{k=1}^n k^2 = \frac{n(n+1)(2n+1)}{6}$
+$\sum_{k=1}^n 1 = n$
+
+So, for $n=5$:
+$\sum_{k=1}^5 k = \frac{5(6)}{2} = 15$
+$\sum_{k=1}^5 k^2 = \frac{5(6)(11)}{6} = 55$
+$\sum_{k=1}^5 1 = 5$
+
+Therefore:
+$\sum_{k=1}^5 a_k = 2(55) - 15 + 5 = 110 - 15 + 5 = 100$
+
+Final Answer: The final answer is $\boxed{100}$
+Answer: 55
+
+
+문제 13:
+[문제 13] (배점: 4)
+Solution:
+주어진 문제는 3차 함수 $f(x)$가 최고차항의 계수가 1이고 $f(1)=f(2)=0$, $f'(0)=-7$을 만족할 때, 곡선 $y=f(x)$와 선분 OP로 둘러싸인 두 영역의 넓이 차이를 구하는 문제입니다.
+
+**1. 3차 함수 $f(x)$ 구하기:**
+
+$f(1)=f(2)=0$이므로 $f(x)$는 $(x-1)(x-2)$를 인수로 갖습니다. 최고차항의 계수가 1이므로 $f(x) = (x-1)(x-2)(x-r)$로 쓸 수 있습니다.  $f'(x) = 3x^2 - 2(r+3)x + 3r+2$이고, $f'(0) = 3r+2 = -7$이므로 $r=-3$입니다. 따라서 $f(x) = (x-1)(x-2)(x+3) = x^3 - 7x + 6$입니다.
+
+**2. 점 P의 좌표 구하기:**
+
+$P(3, f(3))$이므로 $f(3) = (3-1)(3-2)(3+3) = 12$입니다. 따라서 $P(3, 12)$입니다.
+
+**3. 선분 OP의 방정식 구하기:**
+
+원점 O(0,0)와 P(3,12)를 지나는 직선의 방정식은 기울기가 $\frac{12-0}{3-0}=4$이고 원점을 지나므로 $y=4x$입니다.
+
+**4. 교점 Q의 좌표 구하기:**
+
+곡선 $y=f(x)$와 직선 $y=4x$의 교점을 구하기 위해 $x^3 - 7x + 6 = 4x$ 즉, $x^3 - 11x + 6 = 0$을 풀어야 합니다. $x=3$이 한 근임을 알고 있으므로 $(x-3)$으로 나누면 $(x-3)(x^2+3x-2)=0$을 얻습니다. $x^2+3x-2=0$의 근은 $x = \frac{-3 \pm \sqrt{17}}{2}$입니다. Q는 O와 P 사이에 있으므로 $x = \frac{-3 + \sqrt{17}}{2}$를 선택합니다. 따라서 $Q(\frac{-3 + \sqrt{17}}{2}, 2(-3 + \sqrt{17}))$입니다.
+
+**5. 넓이 A와 B 계산하기:**
+
+A는 곡선 $y=f(x)$, y축, 선분 OQ로 둘러싸인 영역의 넓이이고, B는 곡선 $y=f(x)$와 선분 PQ로 둘러싸인 영역의 넓이입니다.  $B-A$는 $x=0$부터 $x=3$까지 $f(x) - 4x$를 적분한 값과 같습니다.
+
+$B - A = \int_{0}^{3} (x^3 - 7x + 6 - 4x) dx = \int_{0}^{3} (x^3 - 11x + 6) dx = [\frac{1}{4}x^4 - \frac{11}{2}x^2 + 6x]_{0}^{3} = (\frac{81}{4} - \frac{99}{2} + 18) - 0 = \frac{81 - 198 + 72}{4} = -\frac{45}{4}$
+
+따라서 $B-A = -\frac{45}{4}$입니다.
+
+
+풀이의 핵심은 $B-A$를 계산할 때 복잡한 적분 계산 없이 $f(x)$와 $4x$의 차를 0에서 3까지 적분하는 것으로 간략화할 수 있다는 점입니다. 이는 두 곡선의 교점을 이용하여 적분 구간을 설정하고, 두 곡선으로 둘러싸인 영역의 넓이를 효율적으로 계산하는 방법을 보여줍니다.
+Answer: -45/4
+
+
+문제 14:
+[문제 14] (배점: 4)
+Solution:
+## 풀이 해설 및 간략화
+
+문제는 삼각형 ABC 내부에 점 D와 E가 주어지고, 점 P가 원 O 위에 있을 때 삼각형 PBC의 넓이의 최댓값을 구하는 것입니다. 주어진 조건들을 이용하여 단계적으로 문제를 해결해 나가겠습니다.
+
+**1. 삼각형 ADE와 ABC 넓이의 비율:**
+
+삼각형의 넓이는 (1/2)ab*sin(C)로 표현됩니다. 따라서, 주어진 넓이 비율 9/35를 이용하면 다음과 같습니다.
+
+```
+Area(ADE) / Area(ABC) = (AD/AB) * (AE/AC) = 9/35
+```
+
+AD:DB = 3:2 이므로 AD/AB = 3/5 입니다. 따라서 AE/AC = 3/7 입니다.
+
+**2. 사인 법칙:**
+
+sin(A):sin(C) = 8:5 이고 외접원 반지름 R=7 이므로 사인 법칙에 의해 다음을 얻습니다.
+
+```
+AB = 14sin(C)
+AC = 14sin(B)
+BC = 14sin(A) = (112/5)sin(C)
+```
+
+**3. AB와 AC의 관계:**
+
+AD = AE 이고 AE/AC = 3/7 이므로, AD = (3/5)AB = (3/7)AC 입니다. 따라서 AB = (5/7)AC 입니다.
+
+**4. sin(B)와 sin(C)의 관계:**
+
+위의 관계식들을 이용하면 sin(C) = (5/7)sin(B) 를 얻을 수 있습니다. 또한 sin(A) = (8/5)sin(C) = (8/7)sin(B) 입니다.
+
+**5. 삼각형 PBC 넓이의 최대화 (핵심)**
+
+삼각형 PBC의 넓이는 (1/2) * BC * h 로 표현되며, 여기서 h는 P에서 BC까지의 거리입니다. 이 넓이는 h가 최대일 때 최대가 됩니다.  P가 원 O 위에 있으므로, h의 최댓값은 P가 BC의 수직이등분선과 원 O의 교점일 때 발생합니다. 하지만 이러한 접근은 복잡한 계산을 요구합니다.
+
+**더 간단한 접근:**
+
+삼각형 PBC의 넓이는 (1/2) * PB * PC * sin(∠BPC) 입니다. 원에 내접하는 사각형 ABPC에서 ∠BPC = 180° - ∠A 이므로, sin(∠BPC) = sin(A) 입니다. 따라서 넓이는 (1/2) * PB * PC * sin(A) 입니다.  PB * PC의 최댓값을 찾아야 합니다.
+
+톨레미 정리에 의해 PB*AC + PC*AB = PA*BC 입니다. PA는 원 O의 지름이므로 PA = 2AD = (6/5)AB 입니다.  따라서 PB*AC + PC*AB = (6/5)AB*BC 입니다.
+
+여기서 넓이를 직접적으로 구하기보다는, 주어진 조건들을 활용하여 BC, sin(A) 값을 구하고 PB*PC의 최댓값을 추정하는 전략이 필요합니다.  하지만 문제에서 주어진 정보만으로는 PB*PC의 최댓값을 정확히 구하기 어렵습니다.  문제에 추가적인 정보나 조건이 필요할 것으로 보입니다.
+
+
+**결론:**
+
+제공된 풀이는 삼각형의 넓이, 사인 법칙, 톨레미 정리 등을 이용하여 문제 해결을 시도하고 있지만, PB*PC의 최댓값을 찾는 과정에서 명확한 해결책을 제시하지 못하고 있습니다. 문제에 누락된 정보가 있거나 다른 접근법이 필요할 수 있습니다.  주어진 조건으로 sin(A), sin(B), sin(C)와 변의 길이들을 모두 sin(C)에 대한 식으로 표현할 수 있지만,  PB와 PC를 직접적으로 구할 수 없어 넓이의 최댓값을 계산하기 어렵습니다.  문제 자체에 오류가 있을 가능성도 고려해야 합니다.
+Answer: 1/2
+
+
+문제 15:
+[문제 15] (배점: 4)
+Solution:
+## 해설:
+
+문제는 조건부 함수 g(x)가 모든 실수에서 미분 가능하고, g'(x)g'(x-4)=0 이 4개의 서로 다른 실근을 갖도록 하는 상수 a와 이차함수 f(x)를 찾고, g(-2) + g(2)의 값을 구하는 것입니다.
+
+**1. 미분 가능성 조건 분석:**
+
+g(x)가 모든 실수에서 미분 가능하려면 x=0에서 미분 가능해야 합니다. 즉, x=0에서 연속이고, 좌미분계수와 우미분계수가 같아야 합니다.
+
+* **x=0에서 연속:**
+   좌극한: lim(x->0-) g(x) = 7
+   우극한: lim(x->0+) g(x) = f(0)
+   따라서, f(0) = 7 입니다.
+
+* **x=0에서 미분 가능:**
+   좌미분계수: lim(x->0-) g'(x) = 15
+   우미분계수: lim(x->0+) g'(x) = f'(0)
+   따라서, f'(0) = 15 입니다.
+
+**2. f(x) 결정:**
+
+f(x)는 최고차항의 계수가 음수인 이차함수이므로, f(x) = Ax² + Bx + C (A < 0) 로 나타낼 수 있습니다. f(0) = 7, f'(0) = 15 임을 이용하면:
+
+* f(0) = C = 7
+* f'(x) = 2Ax + B
+* f'(0) = B = 15
+
+따라서, f(x) = Ax² + 15x + 7 입니다.
+
+**3. g'(x) * g'(x-4) = 0 분석:**
+
+이 방정식은 4개의 서로 다른 실근을 갖습니다. 각 부분을 살펴보면:
+
+* x < 0 일 때, g'(x) = 0 에서 3x² + 2ax + 15 = 0
+* x > 0 일 때, g'(x) = 0 에서 2Ax + 15 = 0, 즉 x = -15/2A. A < 0 이므로 이 근은 양수입니다.
+* x - 4 < 0 일 때, g'(x-4) = 0 에서 3(x-4)² + 2a(x-4) + 15 = 0
+* x - 4 > 0 일 때, g'(x-4) = 0 에서 2A(x-4) + 15 = 0, 즉 x = 4 - 15/2A
+
+4개의 서로 다른 실근을 가져야 합니다. 3x² + 2ax + 15 = 0 의 판별식은 (2a)² - 4(3)(15) > 0 이어야 하므로, a² > 45 입니다. a ≠ 3√5 이므로, 3x² + 2ax + 15 = 0 에서 두 개의 서로 다른 음의 근을 갖습니다. 나머지 두 근은 x = -15/2A 와 x = 4 - 15/2A 입니다. 4개의 서로 다른 근을 가져야 하므로, 이 두 근은 서로 다르고 음의 근과도 달라야 합니다.
+
+이차항에서 두 개의 서로 다른 음의 근을 가지므로, 선형 방정식에서 두 개의 서로 다른 양의 근을 가져야 합니다. 따라서 4 - 15/2A > 0 이어야 하고, 이는 8A - 15 < 0, 즉 A < 15/8 을 의미합니다. A < 0 이므로 이 조건은 항상 만족됩니다.
+
+**4. g(-2) + g(2) 계산:**
+
+g(-2) = (-2)³ + a(-2)² + 15(-2) + 7 = -8 + 4a - 30 + 7 = 4a - 31
+g(2) = A(2)² + 15(2) + 7 = 4A + 30 + 7 = 4A + 37
+
+따라서, g(-
+Answer: 2
+
+
+문제 16:
+[문제 16] (배점: 3)
+Solution:
+주어진 방정식은 $\log_2(x-3) = \log_4(3x-5)$ 입니다. 이 방정식을 풀기 위해서는 먼저 로그의 밑을 통일해야 합니다.  밑변환 공식 $\log_a b = \frac{\log_c b}{\log_c a}$를 이용하여 $\log_4(3x-5)$의 밑을 2로 바꿔줍니다.  $\log_4(3x-5) = \frac{\log_2(3x-5)}{\log_2 4} = \frac{\log_2(3x-5)}{2}$ 이므로, 주어진 방정식은 $\log_2(x-3) = \frac{1}{2}\log_2(3x-5)$ 가 됩니다.
+
+양변에 2를 곱하면 $2\log_2(x-3) = \log_2(3x-5)$ 이고, 로그의 성질 $n\log_a b = \log_a b^n$ 을 이용하면 $\log_2(x-3)^2 = \log_2(3x-5)$ 가 됩니다.
+
+이제 양변의 로그의 밑이 같으므로 진수끼리 같아야 합니다. 따라서 $(x-3)^2 = 3x-5$ 입니다. 이 식을 전개하면 $x^2 - 6x + 9 = 3x - 5$ 이고, 정리하면 $x^2 - 9x + 14 = 0$ 이라는 이차방정식을 얻습니다. 이 이차방정식은 $(x-2)(x-7) = 0$ 으로 인수분해되므로, $x=2$ 또는 $x=7$ 입니다.
+
+하지만 로그의 진수는 항상 양수여야 합니다. 따라서 $x-3>0$ 과 $3x-5>0$ 을 만족해야 합니다.
+
+* $x=2$ 인 경우, $\log_2(2-3) = \log_2(-1)$ 이 되는데, 로그의 진수는 음수가 될 수 없으므로 $x=2$ 는 해가 아닙니다.
+* $x=7$ 인 경우, $\log_2(7-3) = \log_2 4 = 2$ 이고 $\log_4(3(7)-5) = \log_4 16 = 2$ 이므로 $x=7$ 은 주어진 방정식을 만족합니다.
+
+따라서 주어진 방정식의 해는 $x=7$ 입니다.
+
+Final Answer: The final answer is $\boxed{7}$
+Answer: 7
+
+
+문제 17:
+[문제 17] (배점: 3)
+Solution:
+주어진 문제는 도함수 $f'(x) = 9x^2 + 4x$와 초기 조건 $f(1) = 6$을 이용하여 $f(2)$의 값을 구하는 것입니다.
+
+풀이 과정은 다음과 같습니다.
+
+1. **$f'(x)$의 부정적분 구하기:** $f(x)$를 구하기 위해 $f'(x)$를 적분합니다.  $f'(x)$는 $9x^2 + 4x$이므로, 부정적분은 다음과 같습니다.
+
+   ∫(9x² + 4x) dx = (9x³/3) + (4x²/2) + C = 3x³ + 2x² + C
+
+   따라서, $f(x) = 3x³ + 2x² + C$ 입니다. 여기서 C는 적분 상수입니다.
+
+2. **초기 조건 $f(1) = 6$을 이용하여 적분 상수 C 구하기:** $f(1) = 6$이라는 조건을 이용하여 적분 상수 C의 값을 구합니다.  $f(x)$에 $x = 1$을 대입하면 다음과 같습니다.
+
+   $f(1) = 3(1)³ + 2(1)² + C = 3 + 2 + C = 5 + C$
+
+   $f(1) = 6$이므로, $6 = 5 + C$ 입니다. 따라서 $C = 1$ 입니다.
+
+3. **$f(x)$ 완성하기:** 이제 $C = 1$임을 알았으므로, $f(x)$를 완성할 수 있습니다.
+
+   $f(x) = 3x³ + 2x² + 1$
+
+4. **$f(2)$ 구하기:** $f(x)$에 $x = 2$를 대입하여 $f(2)$의 값을 구합니다.
+
+   $f(2) = 3(2)³ + 2(2)² + 1 = 3(8) + 2(4) + 1 = 24 + 8 + 1 = 33$
+
+따라서, $f(2) = 33$ 입니다.
+
+
+답: 33
+Answer: 33
+
+
+문제 18:
+[문제 18] (배점: 3)
+Solution:
+주어진 조건은 모든 자연수 $n$에 대해 $a_n + a_{n+4} = 12$라는 것입니다. 우리는 $\sum_{n=1}^{16} a_n$의 값을 구해야 합니다. 즉, $a_1$부터 $a_{16}$까지의 합을 구해야 합니다.
+
+풀이는 주어진 합을 네 개의 그룹으로 나누는 아이디어를 사용합니다. 각 그룹은 주어진 조건 $a_n + a_{n+4} = 12$를 활용하여 합을 쉽게 계산할 수 있도록 구성됩니다.
+
+1. 첫 번째 그룹은 $a_1, a_5, a_9, a_{13}$으로 구성됩니다. 조건에 따라 $a_1 + a_5 = 12$, $a_5 + a_9 = 12$, $a_9 + a_{13} = 12$입니다. 따라서 $a_1 + a_5 + a_9 + a_{13} = (a_1 + a_5) + (a_9 + a_{13}) = 12 + 12 = 24$입니다.
+
+2. 두 번째 그룹은 $a_2, a_6, a_{10}, a_{14}$로 구성됩니다. 마찬가지로, $a_2 + a_6 = 12$, $a_6 + a_{10} = 12$, $a_{10} + a_{14} = 12$이므로 $a_2 + a_6 + a_{10} + a_{14} = (a_2 + a_6) + (a_{10} + a_{14}) = 12 + 12 = 24$입니다.
+
+3. 세 번째 그룹은 $a_3, a_7, a_{11}, a_{15}$로 구성됩니다. 같은 방식으로 $a_3 + a_7 + a_{11} + a_{15} = 24$임을 알 수 있습니다.
+
+4. 네 번째 그룹은 $a_4, a_8, a_{12}, a_{16}$으로 구성됩니다. 같은 방식으로 $a_4 + a_8 + a_{12} + a_{16} = 24$임을 알 수 있습니다.
+
+이제 네 그룹의 합을 모두 더하면 전체 합을 구할 수 있습니다. $\sum_{n=1}^{16} a_n = 24 + 24 + 24 + 24 = 4 \times 24 = 96$입니다.
+
+따라서 $\sum_{n=1}^{16} a_n = 96$입니다.
+
+
+결론적으로, 주어진 조건을 이용하여 항들을 4개씩 그룹화하고 각 그룹의 합이 24임을 이용하여 전체 합을 구했습니다. 이 방법은 주어진 조건의 규칙성을 효과적으로 활용한 풀이입니다.
+Answer: 96
+
+
+문제 19:
+[문제 19] (배점: 3)
+Solution:
+주어진 함수 f(x) = 2x³ - 3ax² - 12a²x 에 대해 최댓값이 7/27이고 a가 양수일 때 f(3)의 값을 구하는 문제입니다.
+
+1. **f(x)의 도함수를 구합니다.**
+   f'(x) = 6x² - 6ax - 12a²
+
+2. **f'(x) = 0으로 놓고 임계점을 찾습니다.**
+   6x² - 6ax - 12a² = 0
+   6으로 나누면 x² - ax - 2a² = 0
+   인수분해하면 (x - 2a)(x + a) = 0
+   따라서 임계점은 x = 2a와 x = -a입니다.
+
+3. **임계점의 종류(최대 또는 최소)를 판별합니다.**
+   f(x)의 x² 항의 계수가 양수(2)이므로 f(x)의 그래프는 양의 무한대와 음의 무한대로 뻗어나가는 3차 함수입니다. 따라서 임계점 x = -a는 극소값에 해당하고 x = 2a는 극대값에 해당합니다. 하지만 문제에서 최댓값이 주어졌으므로 x = -a에서 최댓값을 가져야 합니다. 이는 x = 2a에서의 함숫값이 음수가 나오기 때문입니다.
+
+4. **x = -a를 f(x)에 대입하여 최댓값을 구합니다.**
+   f(-a) = 2(-a)³ - 3a(-a)² - 12a²(-a)
+         = -2a³ - 3a³ + 12a³
+         = 7a³
+
+5. **최댓값을 7/27로 놓고 a 값을 구합니다.**
+   7a³ = 7/27
+   a³ = 1/27
+   a = 1/3
+
+6. **f(3)을 계산합니다.**
+   f(3) = 2(3)³ - 3(1/3)(3)² - 12(1/3)²(3)
+        = 54 - 9 - 4
+        = 41
+
+따라서 f(3) = 41입니다.
+
+
+핵심은 처음에 x=2a에서 극대값을 갖는다고 생각했지만, a가 양수이므로 f(2a)는 음수가 되어 문제에서 주어진 양수 최댓값과 모순됩니다. 따라서 다른 임계점 x=-a에서 최댓값을 가져야 한다는 점을 파악하는 것이 중요합니다. 이를 통해 a값을 구하고 최종적으로 f(3)을 계산할 수 있습니다.
+Answer: 41
+
+
+문제 20:
+[문제 20] (배점: 4)
+Solution:
+The problem asks for $f\left(\frac{1}{k^3 \times 5^{3k}}\right)$.
+
+First, we find the intersection point of $y = (\frac{1}{5})^{x-3}$ and $y=x$.  This gives us $x = (\frac{1}{5})^{x-3}$. Let $k$ be the x-coordinate of the intersection.  Then $k = (\frac{1}{5})^{k-3}$.  This can be rewritten as $k 5^{k-3} = 1$, or $k 5^k = 5^3 = 125$.  We are told that $f(x) = (\frac{1}{5})^{x-3}$ for $x > k$.  Also, $f(f(x)) = 3x$ for all $x$.
+
+We are asked to evaluate $f\left(\frac{1}{k^3 5^{3k}}\right)$.  Notice that $k^3 5^{3k} = (k 5^k)^3 = (5^3)^3 = 5^9$.  Therefore, we want to find $f(\frac{1}{5^9}) = f(5^{-9})$.
+
+Since $k5^k = 125$, and $x 5^x$ is an increasing function, we know that $k<3$.  Also, since $5^{-9} < 1$, it's likely that $5^{-9} < k$.  Therefore, we can't directly use the formula $f(x) = (\frac{1}{5})^{x-3}$.
+
+Instead, let's use the fact that $f(f(x)) = 3x$.  Let $x = 5^{-9}$.  Then $f(f(5^{-9})) = 3 \cdot 5^{-9}$.  Let $y = f(5^{-9})$.  Then $f(y) = 3 \cdot 5^{-9}$.
+
+We want to find $y$.  We know that $k = (\frac{1}{5})^{k-3}$.  Raising both sides to the third power gives $k^3 = (\frac{1}{5})^{3k-9}$.  Thus, $5^{9-3k} = k^3$, or $5^9 = k^3 5^{3k}$.  Therefore, $5^{-9} = \frac{1}{k^3 5^{3k}}$.
+
+So we want to find $f(5^{-9})$.  We have $f(f(5^{-9})) = 3 \cdot 5^{-9}$.  Let $f(5^{-9}) = A$.  Then $f(A) = 3 \cdot 5^{-9}$.  If we assume $A > k$, then $f(A) = (\frac{1}{5})^{A-3} = 3 \cdot 5^{-9}$.  This is difficult to solve.
+
+However, we are given that $f\left(\frac{1}{k^3 5^{3k}}\right) = f(5^{-9})$.  Let $f(5^{-9}) = y$. Then $f(y) = 3 \cdot 5^{-9}$.  We know that $5^{-9} = \frac{1}{k^3 5^{3k}}$.  Since $k 5^k = 5^3$, we have $k^3 5^{3k} = (5^3)^3 = 5^9$.  So $5^{-9} = \frac{1}{5^9}$.
+
+We want $f(\frac{1}{5^9})$.  We have $f(k) = k$.  Also, $f(f(k)) = 3k$.  Since $f(k) = k$, we have $f(k) = k$, so $f(f(k)) = f(k) = k$.  Thus, $k = 3k$, which implies $k=0$.  But this is a contradiction.
+
+Consider $f(5^{-9}) = y$.  Then $f(y) = 3 \cdot 5^{-9}$.  If $y=k$, then $f(k) = k = 3 \cdot 5^{-9}$.  Then $f(5^{-9}) = 3k$.
+
+Final Answer: The final answer is $\boxed{3k}$
+Answer: The final answer is $\boxed{3k}$
+
+
+문제 21:
+[문제 21] (배점: 4)
+Solution:
+주어진 함수는 $f(x) = x^3 + ax^2 + bx + 4$ 이고, 모든 실수 $\alpha$에 대해 $\lim_{x \rightarrow \alpha} \frac{f(2x+1)}{f(x)}$ 가 존재한다. $f(1)$의 최댓값을 구해야 한다.
+
+먼저, $f(\alpha) = 0$ 인 경우 극한값이 존재하려면 $f(2\alpha+1) = 0$ 이어야 한다. $r$을 $f(x)$의 근이라고 하면, $f(r) = 0$ 이고, $f(2r+1) = 0$ 이다. 따라서 $r_1$이 근이면 $r_2 = 2r_1+1$ 도 근이고, $r_3 = 2r_2+1 = 4r_1+3$ 도 근이다. $f(x)$는 3차 다항식이므로 최대 3개의 근을 가진다.
+
+만약 세 근이 모두 같다면, $r_1 = r_2 = r_3$ 이므로 $r_1 = 2r_1+1$ 에서 $r_1 = -1$ 이다. 따라서 $f(-1) = 0$ 이므로 $-1 + a - b + 4 = 0$, 즉 $b = a+3$ 이다. 그러면 $f(x) = x^3 + ax^2 + (a+3)x + 4 = (x+1)(x^2 + (a-1)x + 4)$ 이다.
+
+$f(1)$의 최댓값을 구하기 위해 $a$의 값을 조정해야 한다. $f(1) = 1 + a + b + 4 = 2a+8$ 이므로 $a$가 클수록 $f(1)$ 값이 커진다.
+
+$x^2 + (a-1)x + 4$ 의 판별식 $D = (a-1)^2 - 16$ 이다. $D \ge 0$ 이면 두 실근을 가지고, $D < 0$ 이면 두 허근을 가진다.
+
+$D \ge 0$ 이면 $(a-1)^2 \ge 16$ 이므로 $a-1 \ge 4$ 또는 $a-1 \le -4$ 이다. 따라서 $a \ge 5$ 또는 $a \le -3$ 이다.
+$D < 0$ 이면 $(a-1)^2 < 16$ 이므로 $-4 < a-1 < 4$ 이다. 따라서 $-3 < a < 5$ 이다.
+
+$f(1) = 2a+8$ 을 최대화하기 위해서는 $a$를 최대화해야 한다. $a$는 정수이므로 $a=4$ 이면 $f(1) = 16$ 이고, $a=5$ 이면 $f(1) = 18$ 이다. 따라서 $f(1)$의 최댓값은 18이다.
+
+Final Answer: The final answer is $\boxed{18}$
+Answer: The final answer is $\boxed{18}$
+
+
+문제 22:
+[문제 22] (배점: 4)
+Solution:
+주어진 점화식은 다음과 같습니다.
+$$ a_{n+1} = \begin{cases} a_n - 3 & (|a_n| \text{ 홀수}) \\ \frac{1}{2} a_n & (a_n = 0 \text{ 또는 } |a_n| \text{ 짝수}) \end{cases} $$
+$|a_m| = |a_{m+2}|$를 만족하는 가장 작은 자연수 $m$이 3이라는 조건이 주어졌습니다. 즉, $|a_3| = |a_5|$이고, $|a_1| \ne |a_3|$, $|a_2| \ne |a_4|$입니다.
+
+가능한 $|a_1|$ 값을 찾아봅시다.
+
+**Case 1: $|a_1|$이 홀수**
+$a_2 = a_1 - 3$
+
+* $|a_2|$가 홀수: $a_3 = a_2 - 3 = a_1 - 6$. $a_4 = a_3 - 3 = a_1 - 9$.
+    * $|a_4|$가 홀수: $a_5 = a_4 - 3 = a_1 - 12$. $|a_3| = |a_5|$이므로 $|a_1 - 6| = |a_1 - 12|$. $a_1 - 6 = a_1 - 12$ 또는 $a_1 - 6 = -a_1 + 12$. 첫 번째 식은 모순이고, 두 번째 식에서 $2a_1 = 18$, $a_1 = 9$.
+    * $|a_4|$가 짝수: $a_5 = \frac{1}{2}a_4 = \frac{1}{2}(a_1 - 9)$. $|a_1 - 6| = |\frac{1}{2}(a_1 - 9)|$. $a_1 = 9$를 대입하면 $|3| = |0|$이므로 모순. $a_1 = 7$을 대입하면 $|1| = |-1|$, 즉 $1 = 1$이므로 성립.
+* $|a_2|$가 짝수: $a_3 = \frac{1}{2}a_2 = \frac{1}{2}(a_1 - 3)$.
+
+**Case 2: $|a_1|$이 짝수**
+$a_2 = \frac{1}{2}a_1$
+
+* $|a_2|$가 홀수: $a_3 = a_2 - 3 = \frac{1}{2}a_1 - 3$.
+* $|a_2|$가 짝수: $a_3 = \frac{1}{2}a_2 = \frac{1}{4}a_1$.
+
+$|a_3| = |a_5|$를 이용하여 $a_1$ 값을 찾아봅시다.
+
+$a_1 = 7$일 때, $a_2 = 4$, $a_3 = 2$, $a_4 = 1$, $a_5 = -2$. $|a_3| = 2$, $|a_5| = 2$. 조건을 만족합니다.
+$a_1 = 9$일 때, $a_2 = 6$, $a_3 = 3$, $a_4 = 0$, $a_5 = 0$. $|a_3| = 3$, $|a_5| = 0$. 조건을 만족하지 않습니다.
+$a_1 = 18$일 때, $a_2 = 9$, $a_3 = 6$, $a_4 = 3$, $a_5 = 0$. $|a_3| = 6$, $|a_5| = 0$. 조건을 만족하지 않습니다.
+
+따라서 $|a_1|$의 가능한 값은 7입니다.
+
+최종 답: The final answer is $\boxed{7}$
+Answer: 6
+
+
+문제 23:
+[문제 23] (배점: 2)
+Solution:
+The problem asks us to find the limit of the function $\frac{3x^2}{\sin^2 x}$ as $x$ approaches 0.  The solution correctly utilizes the fundamental trigonometric limit $\lim_{x \rightarrow 0} \frac{\sin x}{x} = 1$.
+
+The solution first rewrites the given expression by factoring out the constant 3 and expressing the remaining fraction as a square:
+
+$\lim_{x \rightarrow 0} \frac{3x^2}{\sin^2 x} = 3 \lim_{x \rightarrow 0} \frac{x^2}{\sin^2 x} = 3 \lim_{x \rightarrow 0} \left(\frac{x}{\sin x}\right)^2$
+
+This manipulation is crucial because it allows us to apply the known limit.  Since $\lim_{x \rightarrow 0} \frac{\sin x}{x} = 1$, the reciprocal is also 1: $\lim_{x \rightarrow 0} \frac{x}{\sin x} = 1$.
+
+The solution then substitutes this result into the squared expression:
+
+$3 \left(\lim_{x \rightarrow 0} \frac{x}{\sin x}\right)^2 = 3(1)^2 = 3$.
+
+Therefore, the limit of the given function as $x$ approaches 0 is 3.  The solution is correct and clearly demonstrates the steps involved in using the fundamental trigonometric limit to evaluate the given limit.
+Answer: 3
+
+
+문제 24:
+[문제 24] (배점: 3)
+Solution:
+주어진 정적분 $\int_0^{10} \frac{x+2}{x+1} dx$을 계산하기 위해, 피적분 함수를 다음과 같이 변형합니다.
+
+$\frac{x+2}{x+1} = \frac{(x+1) + 1}{x+1} = \frac{x+1}{x+1} + \frac{1}{x+1} = 1 + \frac{1}{x+1}$
+
+이제 변형된 피적분 함수를 이용하여 적분을 계산합니다.
+
+$\int_0^{10} \frac{x+2}{x+1} dx = \int_0^{10} \left(1 + \frac{1}{x+1}\right) dx = \int_0^{10} 1 dx + \int_0^{10} \frac{1}{x+1} dx$
+
+첫 번째 적분은 간단하게 계산됩니다.
+
+$\int_0^{10} 1 dx = [x]_0^{10} = 10 - 0 = 10$
+
+두 번째 적분은 다음과 같이 계산됩니다.
+
+$\int_0^{10} \frac{1}{x+1} dx = [\ln|x+1|]_0^{10} = \ln|10+1| - \ln|0+1| = \ln(11) - \ln(1) = \ln(11) - 0 = \ln(11)$
+
+따라서, 주어진 정적분의 값은 다음과 같습니다.
+
+$\int_0^{10} \frac{x+2}{x+1} dx = 10 + \ln(11)$
+
+답: $10 + \ln(11)$
+Answer: $10 + \ln(11)$
+
+
+문제 25:
+[문제 25] (배점: 3)
+Solution:
+주어진 문제는 수열 $\{a_n\}$에 대해 $\lim_{n \rightarrow \infty} \frac{n a_n}{n^2+3}=1$일 때, $\lim_{n \rightarrow \infty}\left(\sqrt{a_n^2+n}-a_n\right)$의 값을 구하는 것입니다.
+
+먼저 주어진 조건을 분석해 보면, $\lim_{n \rightarrow \infty} \frac{n a_n}{n^2+3} = \lim_{n \rightarrow \infty} \frac{a_n}{n + \frac{3}{n}} = 1$ 입니다. $n \rightarrow \infty$일 때 $\frac{3}{n} \rightarrow 0$이므로, $\lim_{n \rightarrow \infty} \frac{a_n}{n} = 1$ 입니다. 이는 $n$이 충분히 클 때 $a_n$이 $n$과 거의 같다는 것을 의미하며, $a_n \sim n$으로 표현할 수 있습니다.
+
+이제 구하고자 하는 극한값 $\lim_{n \rightarrow \infty}\left(\sqrt{a_n^2+n}-a_n\right)$을 계산해 봅시다. 분모의 유리화를 위해 켤레식을 곱하면 다음과 같습니다.
+
+$$ \lim_{n \rightarrow \infty}\left(\sqrt{a_n^2+n}-a_n\right) = \lim_{n \rightarrow \infty} \frac{(\sqrt{a_n^2+n}-a_n)(\sqrt{a_n^2+n}+a_n)}{\sqrt{a_n^2+n}+a_n} = \lim_{n \rightarrow \infty} \frac{a_n^2+n-a_n^2}{\sqrt{a_n^2+n}+a_n} = \lim_{n \rightarrow \infty} \frac{n}{\sqrt{a_n^2+n}+a_n} $$
+
+앞서 $a_n \sim n$임을 알았으므로, $n$이 충분히 클 때 $a_n \approx n$으로 근사할 수 있습니다. 따라서 위의 식은 다음과 같이 쓸 수 있습니다.
+
+$$ \lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+n}+n} = \lim_{n \rightarrow \infty} \frac{n}{n(\sqrt{1+\frac{1}{n}}+1)} = \lim_{n \rightarrow \infty} \frac{1}{\sqrt{1+\frac{1}{n}}+1} $$
+
+$n \rightarrow \infty$일 때 $\frac{1}{n} \rightarrow 0$이므로, 최종적으로 다음과 같은 결과를 얻습니다.
+
+$$ \lim_{n \rightarrow \infty} \frac{1}{\sqrt{1+\frac{1}{n}}+1} = \frac{1}{\sqrt{1+0}+1} = \frac{1}{1+1} = \frac{1}{2} $$
+
+따라서 $\lim_{n \rightarrow \infty}\left(\sqrt{a_n^2+n}-a_n\right) = \frac{1}{2}$ 입니다.
+
+
+Final Answer: The final answer is $\boxed{1/2}$
+Answer: 1/2
+
+
+문제 26:
+[문제 26] (배점: 3)
+Solution:
+이 문제는 주어진 곡선, x축, 그리고 두 직선으로 둘러싸인 영역을 밑면으로 하는 입체의 부피를 구하는 문제입니다. 이 입체는 x축에 수직인 단면이 모두 정사각형입니다.
+
+먼저, 각 단면의 넓이를 구해야 합니다. 단면은 정사각형이고, 한 변의 길이는 곡선 $y = \sqrt{\frac{x+1}{x(x+\ln x)}}$으로 주어집니다. 따라서 정사각형의 넓이는 $y^2 = \frac{x+1}{x(x+\ln x)}$입니다.
+
+입체의 부피는 x축을 따라 단면의 넓이를 적분하여 구할 수 있습니다. 적분 구간은 $x=1$부터 $x=e$까지입니다. 따라서 부피 $V$는 다음과 같습니다.
+
+$V = \int_1^e \frac{x+1}{x(x+\ln x)} dx$
+
+이 적분을 풀기 위해 치환적분을 사용합니다. $u = x + \ln x$로 치환하면, $\frac{du}{dx} = 1 + \frac{1}{x} = \frac{x+1}{x}$이므로 $du = \frac{x+1}{x} dx$입니다.
+
+적분 구간도 변경해야 합니다. $x=1$일 때 $u = 1 + \ln 1 = 1$이고, $x=e$일 때 $u = e + \ln e = e + 1$입니다.
+
+따라서 적분은 다음과 같이 바뀝니다.
+
+$V = \int_1^{e+1} \frac{1}{u} du$
+
+이 적분은 $\ln|u|$의 형태이므로,
+
+$V = [\ln|u|]_1^{e+1} = \ln(e+1) - \ln(1)$
+
+$\ln(1) = 0$이므로,
+
+$V = \ln(e+1)$
+
+따라서, 이 입체의 부피는 $\ln(e+1)$입니다.
+
+
+최종 답: The final answer is $\boxed{ln(e+1)}$
+Answer: $\ln(e+1)$
+
+
+문제 27:
+[문제 27] (배점: 3)
+Solution:
+주어진 문제는 삼차 함수 $f(x)$와 그로 정의된 함수 $g(x)$, 그리고 $g(x)$의 역함수 $h(x)$에 대한 문제입니다. $h'(8)$의 값을 구하는 것이 목표입니다.
+
+**풀이 과정 해설:**
+
+1. **삼차 함수 설정:** 최고차항의 계수가 1인 삼차 함수 $f(x)$를 $f(x) = x^3 + ax^2 + bx + c$로 설정합니다.
+
+2. **g(x) 정의:** $g(x) = f(e^x) + e^x$로 주어졌으므로, $f(x)$를 대입하여 $g(x) = e^{3x} + ae^{2x} + (b+1)e^x + c$를 얻습니다.
+
+3. **(0, g(0))에서의 접선이 x축:** 접선이 x축과 평행하다는 것은 $x=0$에서 $g'(x)=0$임을 의미합니다. $g'(x) = 3e^{3x} + 2ae^{2x} + (b+1)e^x$를 계산하고, $g'(0) = 3 + 2a + b + 1 = 4 + 2a + b = 0$을 얻습니다.
+
+4. **g(0)은 x축 위에 존재:** 접점이 x축 위에 있으므로 $g(0) = 1 + a + b + 1 + c = 2 + a + b + c = 0$입니다.
+
+5. **두 개의 방정식:** 위의 3, 4번 과정에서 $4 + 2a + b = 0$와 $2 + a + b + c = 0$라는 두 개의 방정식을 얻었습니다.
+
+6. **g(x)와 h(x)의 관계:** $h(x)$는 $g(x)$의 역함수이므로 $h(g(x)) = x$입니다. $h'(8)$을 구하기 위해서는 $h'(g(x)) = \frac{1}{g'(x)}$를 이용해야 합니다. 따라서 $g(x) = 8$인 $x$를 찾아야 합니다.
+
+7. **g(x) = 8인 x 찾기:** $g(x) = 8$이 되는 $x$ 값을 찾기 위해 $x = \ln(2)$를 대입해봅니다. $g(\ln(2)) = 8 + 4a + 2b + 2 + c = 10 + 4a + 2b + c$를 얻습니다. 이 값이 8인지는 아직 알 수 없습니다.
+
+8. **방정식 활용:** 5번에서 얻은 두 방정식을 활용하여 $b = -4 - 2a$와 $c = -2 - a - b = 2 + a$를 얻습니다. 이를 $g(\ln(2))$에 대입하면 $g(\ln(2)) = 10 + 4a + 2(-4-2a) + (2+a) = 4 + a$가 됩니다. $g(\ln(2)) = 8$이므로 $4 + a = 8$, 즉 $a = 4$입니다. 따라서 $b = -12$이고 $c = 6$입니다.
+
+9. **g'(ln(2)) 계산:** $g'(x) = 3e^{3x} + 8e^{2x} - 11e^x$이므로, $g'(\ln(2)) = 3(8) + 8(4) - 11(2) = 24 + 32 - 22 = 34$입니다.
+
+10. **h'(8) 계산:** $h'(8) = h'(g(\ln(2))) = \frac{1}{g'(\ln(2))} = \frac{1}{34}$입니다.
+
+따라서 $h'(8) = \frac{1}{34}$입니다.
+
+
+최종 답: The final answer is $\boxed{1/34}$
+Answer: 4
+
+
+문제 28:
+[문제 28] (배점: 4)
+Solution:
+주어진 문제는 미분 가능한 함수 f(x)와 그 도함수 f'(x) = -x + e^(1-x^2)를 기반으로, 접선과 곡선, 그리고 y축으로 둘러싸인 면적 g(t)를 정의하고 g(1) + g'(1)의 값을 구하는 것입니다.
+
+풀이는 다음과 같은 단계로 진행됩니다.
+
+1. **(t, f(t))에서 접선의 방정식 구하기:** 주어진 f'(t)를 기울기로, 점 (t, f(t))를 이용하여 점-기울기 형태의 접선 방정식 y = f'(t)(x - t) + f(t)를 구합니다.
+
+2. **접선의 x절편 구하기:** 접선의 방정식에서 y=0을 대입하여 x절편 a = t + f(t) / (t - e^(1-t^2))를 구합니다.
+
+3. **g(t)를 적분으로 표현하기:** g(t)는 접선, 곡선 y=f(x), 그리고 y축으로 둘러싸인 면적이므로, x=0부터 x=t까지 접선과 곡선 사이의 면적을 적분으로 나타냅니다.  g(t) = ∫₀^t [f'(t)(x - t) + f(t) - f(x)] dx
+
+4. **t=1일 때 g(t) 간소화하기:** t=1일 때 f'(1) = 0이므로 접선은 수평선 y = f(1)이 됩니다. 따라서 x절편 a는 정의되지 않지만, 접선이 y축과 만나지 않으므로 g(1)은 ∫₀^1 [f(1) - f(x)] dx로 간소화됩니다.
+
+5. **g'(t) 구하기:** 라이프니츠 적분 법칙을 사용하여 g'(t)를 구할 수 있지만, f'(1) = 0이라는 조건 때문에 계산이 복잡해집니다. 하지만 t=1에서 접선이 수평선이라는 점을 이용하면 g'(t)는 t의 작은 변화에 따른 g(t)의 변화량으로 근사할 수 있고, 이는 접선의 높이인 f(t)와 dx의 곱으로 나타낼 수 있습니다. 따라서 g'(1) ≈ f(1)입니다.  라이프니츠 법칙을 사용해도 f'(1)=0 때문에 많은 항이 소거되어 g'(1) = f(1)이라는 결과를 얻게 됩니다.
+
+6. **g(1) + g'(1) 계산하기:** g(1) = ∫₀^1 [f(1) - f(x)] dx 와 g'(1) = f(1) 을 이용하여 g(1) + g'(1) = 2f(1) - ∫₀^1 f(x) dx 를 얻습니다. f(x)의 명시적인 형태를 모르므로 더 이상 계산할 수는 없지만,  문제에서 요구하는 g(1) + g'(1)의 값을 f(1)과 f(x)의 적분으로 표현한 것입니다.
+
+결론적으로, 풀이는 접선의 방정식, 적분, 미분 등의 개념을 활용하여 g(1) + g'(1)의 값을  2f(1) - ∫₀^1 f(x) dx 로 나타내었습니다. f(x)의 명시적인 형태를 알 수 없기 때문에 최종적인 수치는 계산할 수 없지만, 주어진 정보를 통해 문제에서 요구하는 값을 표현하는 것이 핵심입니다.
+Answer: 0
+
+
+문제 29:
+[문제 29] (배점: 4)
+Solution:
+주어진 문제는 기하 수열 $\{a_n\}$에 대해 두 개의 무한 급수의 합과 관련된 조건을 만족하는 자연수 $m$의 합을 구하는 문제입니다.
+
+먼저 주어진 두 급수의 합을 이용하여 $\sum_{n=1}^{\infty} |a_n|$과 $\sum_{n=1}^{\infty} a_n$을 구합니다. 두 식을 더하고 빼는 과정을 통해 $\sum_{n=1}^{\infty} |a_n| = 10$ 과 $\sum_{n=1}^{\infty} a_n = \frac{10}{3}$ 을 얻습니다.
+
+다음으로 기하 수열의 일반항 $a_n = ar^{n-1}$을 이용하여 무한 급수의 합 공식을 적용합니다.  $\sum_{n=1}^{\infty} a_n = \frac{a}{1-r} = \frac{10}{3}$ 와 $\sum_{n=1}^{\infty} |a_n| = \frac{|a|}{1-|r|} = 10$ 을 얻습니다.
+
+두 식을 나누어 정리하면 $\frac{a}{|a|} \frac{1-|r|}{1-r} = \frac{1}{3}$ 을 얻습니다.  $a$의 부호에 따라 경우를 나누어 $r$의 값을 구합니다. $a>0$인 경우 $r=-\frac{1}{2}$이고 $a=5$를 얻습니다. $a<0$인 경우 $r=1$ 또는 $r=-2$를 얻는데, 이는 $|r|<1$ 조건에 위배되므로 $a=5$이고 $r=-\frac{1}{2}$인 경우만 유효합니다.
+
+마지막으로 주어진 부등식 $\lim_{n \rightarrow \infty} \sum_{k=1}^{2n} ((-1)^{\frac{k(k+1)}{2}} a_{m+k}) > \frac{1}{700}$ 에 $a=5$와 $r=-\frac{1}{2}$를 대입합니다.  이를 정리하면 $\frac{5}{14} (-\frac{1}{2})^{m-1} > \frac{1}{700}$ 을 얻습니다. 이 부등식을 만족하는 $m$의 값은 $m=1, 2, 3$ 입니다.
+
+따라서 문제에서 요구하는 $m$의 합은 $1+2+3=6$ 입니다.
+
+결론적으로, 주어진 조건을 만족하는 기하 수열은 $a_n = 5(-\frac{1}{2})^{n-1}$ 이고, 부등식을 만족하는 $m$의 값은 1, 2, 3 이므로 $m$의 합은 6입니다.
+
+
+Final Answer: The final answer is $\boxed{6}$
+Answer: The final answer is $\boxed{6}$
+
+
+문제 30:
+[문제 30] (배점: 4)
+Solution:
+주어진 함수는 $f(x) = \sin(ax + b + \sin x)$ 입니다. 조건 (a)에 따라 $f(0) = \sin(b) = 0$ 이므로 $b = k\pi$ (k는 정수) 입니다. 또한 $f(2\pi) = \sin(2\pi a + b) = 2\pi a + b$ 입니다. $\sin x = x$ 를 만족하는 유일한 값은 $x=0$ 이므로 $2\pi a + b = 0$ 입니다. $b = k\pi$ 이므로 $2a + k = 0$ 입니다. $1 \le a \le 2$ 이므로 $-4 \le k \le -2$ 입니다.
+
+$f'(x) = \cos(ax + b + \sin x)(a + \cos x)$ 입니다. 조건 (b)에 따라 $f'(0) = f'(4\pi)$ 이고 $4\pi$ 가 이를 만족하는 최소의 양수입니다. $f'(0) = \cos(b)(a+1) = (-1)^k(a+1)$ 이고 $f'(4\pi) = \cos(4\pi a + b)(a+1)$ 입니다. 따라서 $(-1)^k = \cos(4\pi a + b)$ 입니다. $2a + k = 0$ 이므로 $4\pi a + 2k\pi = 0$ 이고 $4\pi a + k\pi = -k\pi$ 입니다. 따라서 $(-1)^k = \cos(-k\pi) = (-1)^k$ 입니다.
+
+$k=-2$ 이면 $a=1$ 이고 $b=-2\pi$ 입니다. 따라서 $f(x) = \sin(x - 2\pi + \sin x) = \sin(x + \sin x)$ 입니다. $f'(x) = \cos(x + \sin x)(1 + \cos x) = 0$ 이므로 $\cos(x + \sin x) = 0$ 또는 $1 + \cos x = 0$ 입니다. $1 + \cos x = 0$ 이면 $x = \pi, 3\pi$ 입니다. $\cos(x + \sin x) = 0$ 이면 $x + \sin x = (2n+1)\frac{\pi}{2}$ 입니다. $0 < x < 4\pi$ 구간에서 $n=0, 1, 2, 3$ 에 해당하는 해가 존재합니다. 따라서 $n=0$ 일 때 $x + \sin x = \frac{\pi}{2}$ 이고 $x \approx 0.739$ 입니다. $n=1$ 일 때 $x + \sin x = \frac{3\pi}{2}$ 이고 $x \approx 4.068$ 입니다. $n=2$ 일 때 $x + \sin x = \frac{5\pi}{2}$ 이고 $x \approx 7.979$ 입니다. $n=3$ 일 때 $x + \sin x = \frac{7\pi}{2}$ 이고 $x \approx 10.88$ 입니다.
+
+극댓값을 가지는 점의 개수는 $n=4$ 이고 가장 작은 값은 $\alpha_1 \approx 0.739$ 입니다. $n\alpha_1 - ab = 4(0.739) - (1)(-2\pi) \approx 2.956 + 2\pi \approx 9.239$ 입니다. $f''(x)$ 를 계산하여 극댓값을 가지는 점을 확인해야 합니다. $x=\pi, 3\pi$ 에서 $f(x)=0$ 이고 $f''(x) = 0$ 이므로 변곡점입니다. $x + \sin x = \frac{\pi}{2}, \frac{5\pi}{2}$ 에서 극댓값을 가지고 $x + \sin x = \frac{3\pi}{2}, \frac{7\pi}{2}$ 에서 극솟값을 가집니다. 따라서 $n=2$ 이고 $\alpha_1 \approx 0.739$ 입니다. $2\alpha_1 - ab \approx 1.478 + 2\pi \approx 7.76$ 입니다. $n\alpha_1 - ab = 2(0.739)
+Answer: -2
+
+
+문제번호	정오	배점	과목
+1	True	2	수학1
+2	True	2	수학2
+3	True	3	수학1
+4	True	3	수학2
+5	True	3	수학2
+6	True	3	수학1
+7	True	3	수학2
+8	True	3	수학1
+9	True	4	수학2
+10	True	4	수학2
+11	True	4	수학2
+12	False	4	수학1
+13	False	4	수학2
+14	False	4	수학1
+15	False	4	수학2
+16	True	3	수학1
+17	True	3	수학2
+18	True	3	수학1
+19	True	3	수학2
+20	False	4	수학2
+21	False	4	수학2
+22	False	4	수학1
+23	True	2	미적분
+24	True	3	미적분
+25	True	3	미적분
+26	True	3	미적분
+27	False	3	미적분
+28	False	4	미적분
+29	False	4	미적분
+30	False	4	미적분
+
+[전체 통계]
+정답 개수: 19/30
+총점: 57 / 100
+정답률: 57.00%
+
+[과목별 통계]
+(수학1)
+정답 개수: 6/9
+총점: 17 / 29
+정답률: 58.62%
+(수학2)
+정답 개수: 9/13
+총점: 29 / 45
+정답률: 64.44%
+(미적분)
+정답 개수: 4/8
+총점: 11 / 26
+정답률: 42.31%
