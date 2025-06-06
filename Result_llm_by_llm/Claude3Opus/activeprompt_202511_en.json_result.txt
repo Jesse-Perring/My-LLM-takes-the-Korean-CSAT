@@ -1164,7 +1164,7 @@ In conclusion, while we can make some progress in understanding the behavior of 
 22	False	4	수학1
 23	True	2	미적분
 24	True	3	미적분
-25	True	3	미적분
+25	False	3	미적분
 26	True	3	미적분
 27	False	3	미적분
 28	False	4	미적분
@@ -1173,7 +1173,7 @@ In conclusion, while we can make some progress in understanding the behavior of 
 
 [전체 통계]
 정답 개수: 18/30
-총점: 54 / 100
+총점: 51 / 100
 정답률: 54.00%
 
 [과목별 통계]
@@ -1186,6 +1186,6 @@ In conclusion, while we can make some progress in understanding the behavior of 
 총점: 29 / 45
 정답률: 64.44%
 (미적분)
-정답 개수: 4/8
-총점: 11 / 26
+정답 개수: 3/8
+총점: 08 / 26
 정답률: 42.31%
